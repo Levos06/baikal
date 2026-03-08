@@ -60,11 +60,9 @@ class GCN_Final(torch.nn.Module):
     def forward(self, x, edge_index):
         x = self.conv1(x, edge_index)
         x = F.gelu(x)
-        # Dropout removed
         
         x = self.conv2(x, edge_index)
         x = F.gelu(x)
-        # Dropout removed
         
         x = self.conv3(x, edge_index)
         return x
@@ -183,7 +181,6 @@ def train(num_events_train=50000, num_events_val=10000, epochs=15, batch_size=51
         train_prec = precision_score(all_train_labels, all_train_preds, zero_division=0)
         train_rec = recall_score(all_train_labels, all_train_preds, zero_division=0)
         
-        # Fixed: Pass criterion to use same weights for validation
         val_loss, val_prec, val_rec = evaluate(model, val_loader, device, criterion, threshold=THRESHOLD)
         
         history['train_loss'].append(avg_train_loss)
@@ -227,5 +224,4 @@ def train(num_events_train=50000, num_events_val=10000, epochs=15, batch_size=51
     print(f"Plots saved to {plots_dir}")
 
 if __name__ == "__main__":
-    print("Final script started!", flush=True)
     train()

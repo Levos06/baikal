@@ -41,9 +41,10 @@ class BaikalTemporalGraphDataset(Dataset):
             
             return Data(x=x, edge_index=edge_index, y=y)
 
-class GCN_Final(torch.nn.Module):
+class GCN_Large(torch.nn.Module):
     def __init__(self, in_channels, hidden_channels, out_channels):
         super().__init__()
+        # Увеличиваем глубину до 3 слоев и ширину до 512
         self.conv1 = GCNConv(in_channels, hidden_channels)
         self.conv2 = GCNConv(hidden_channels, hidden_channels)
         self.conv3 = GCNConv(hidden_channels, out_channels)
@@ -78,20 +79,24 @@ def evaluate(model, loader, device, criterion):
     p_at_r9 = get_precision_at_recall(all_labels, all_probs, 0.9)
     return avg_loss, prec, rec, p_at_r9
 
-def train(num_train=200000, num_val=20000, epochs=300, batch_size=512):
-    out_dir = "2026-03-07_investigation_of_2026-02-28_results"
-    os.makedirs(os.path.join(out_dir, 'plots'), exist_ok=True)
-    os.makedirs(os.path.join(out_dir, 'checkpoints'), exist_ok=True)
+def train(num_train=150000, num_val=20000, epochs=100, batch_size=512):
+    # Новые пути для результатов
+    project_dir = "2026-03-08_capacity_expansion"
+    plots_dir = os.path.join(project_dir, 'plots')
+    checkpoints_dir = os.path.join(project_dir, 'checkpoints')
+    os.makedirs(plots_dir, exist_ok=True)
+    os.makedirs(checkpoints_dir, exist_ok=True)
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print(f"Device: {device} | Model: 3 layers, 512 channels | Events: {num_train}")
+    
     train_loader = DataLoader(BaikalTemporalGraphDataset(FILE_PATH, 0, num_train, k=2), batch_size=batch_size, shuffle=True, num_workers=4)
     val_loader = DataLoader(BaikalTemporalGraphDataset(FILE_PATH, num_train, num_val, k=2), batch_size=batch_size, num_workers=4)
-    
     train_eval_loader = DataLoader(BaikalTemporalGraphDataset(FILE_PATH, 0, num_val, k=2), batch_size=batch_size, num_workers=4)
 
-    model = GCN_Final(5, 128, 2).to(device)
+    model = GCN_Large(5, 512, 2).to(device) # 512 hidden channels
     optimizer = torch.optim.Adam(model.parameters(), lr=5e-4)
-    weights = torch.tensor([1.0, 1.0]).to(device)
+    weights = torch.tensor([1.0, 1.0]).to(device) # Equal weights
     criterion = torch.nn.CrossEntropyLoss(weight=weights)
     
     history = {
@@ -101,14 +106,15 @@ def train(num_train=200000, num_val=20000, epochs=300, batch_size=512):
         't_p9': [], 'v_p9': []
     }
     
-    print(f"Starting OVERFIT experiment: {num_train} events, {epochs} epochs, k=2", flush=True)
+    print(f"Starting CAPACITY EXPANSION training...", flush=True)
     for epoch in range(1, epochs + 1):
         model.train()
         for batch in train_loader:
             batch = batch.to(device)
             optimizer.zero_grad()
             loss = criterion(model(batch.x, batch.edge_index), batch.y)
-            loss.backward(); optimizer.step()
+            loss.backward()
+            optimizer.step()
             
         t_loss, t_prec, t_rec, t_p9 = evaluate(model, train_eval_loader, device, criterion)
         v_loss, v_prec, v_rec, v_p9 = evaluate(model, val_loader, device, criterion)
@@ -120,15 +126,15 @@ def train(num_train=200000, num_val=20000, epochs=300, batch_size=512):
         
         print(f"Epoch {epoch:03d} | T-Loss: {t_loss:.4f} | V-Loss: {v_loss:.4f} | T-Prec: {t_prec:.4f} | V-Prec: {v_prec:.4f} | T-Rec: {t_rec:.4f} | V-Rec: {v_rec:.4f} | T-P@R0.9: {t_p9:.4f} | V-P@R0.9: {v_p9:.4f}", flush=True)
         
-        if epoch % 10 == 0:
-            torch.save(model.state_dict(), os.path.join(out_dir, 'checkpoints', 'model_overfit.pt'))
+        if epoch % 5 == 0:
+            torch.save(model.state_dict(), os.path.join(checkpoints_dir, 'model_capacity_large.pt'))
             plt.figure(figsize=(18, 5))
             plt.subplot(1,4,1); plt.plot(history['t_loss'], label='T'); plt.plot(history['v_loss'], label='V'); plt.title('Loss'); plt.legend()
             plt.subplot(1,4,2); plt.plot(history['t_prec'], label='T'); plt.plot(history['v_prec'], label='V'); plt.title('Precision'); plt.legend()
             plt.subplot(1,4,3); plt.plot(history['t_rec'], label='T'); plt.plot(history['v_rec'], label='V'); plt.title('Recall'); plt.legend()
             plt.subplot(1,4,4); plt.plot(history['t_p9'], label='T'); plt.plot(history['v_p9'], label='V'); plt.title('P@R0.9'); plt.legend()
             plt.tight_layout()
-            plt.savefig(os.path.join(out_dir, 'plots', 'metrics_overfit.png'))
+            plt.savefig(os.path.join(plots_dir, 'metrics_capacity.png'))
             plt.close()
 
 if __name__ == "__main__":
