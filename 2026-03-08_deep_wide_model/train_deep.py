@@ -44,7 +44,6 @@ class BaikalTemporalGraphDataset(Dataset):
 class GCN_DeepWide(torch.nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
-        # 4 слоя: 5 -> 512 -> 2048 -> 512 -> 2
         self.conv1 = GCNConv(in_channels, 512)
         self.conv2 = GCNConv(512, 2048)
         self.conv3 = GCNConv(2048, 512)
@@ -81,23 +80,22 @@ def evaluate(model, loader, device, criterion):
     p_at_r9 = get_precision_at_recall(all_labels, all_probs, 0.9)
     return avg_loss, prec, rec, p_at_r9
 
-def train(num_train=150000, num_val=20000, epochs=300, batch_size=512):
+def train(num_train=300000, num_val=30000, epochs=600, batch_size=512):
     project_dir = "2026-03-08_deep_wide_model"
     plots_dir = os.path.join(project_dir, 'plots')
     checkpoints_dir = os.path.join(project_dir, 'checkpoints')
     os.makedirs(plots_dir, exist_ok=True)
     os.makedirs(checkpoints_dir, exist_ok=True)
     
-    # Можно задать устройство через переменную окружения CUDA_VISIBLE_DEVICES
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    print(f"Device: {device} | Experiment: Deep & Wide | Events: {num_train}")
+    print(f"Device: {device} | Experiment: Deep & Wide LONG | Events: {num_train}")
     
     train_loader = DataLoader(BaikalTemporalGraphDataset(FILE_PATH, 0, num_train, k=2), batch_size=batch_size, shuffle=True, num_workers=4)
     val_loader = DataLoader(BaikalTemporalGraphDataset(FILE_PATH, num_train, num_val, k=2), batch_size=batch_size, num_workers=4)
     train_eval_loader = DataLoader(BaikalTemporalGraphDataset(FILE_PATH, 0, num_val, k=2), batch_size=batch_size, num_workers=4)
 
     model = GCN_DeepWide(5, 2).to(device)
-    optimizer = torch.optim.Adam(model.parameters(), lr=3e-4) # Уменьшенный LR
+    optimizer = torch.optim.Adam(model.parameters(), lr=3e-4)
     weights = torch.tensor([1.0, 1.0]).to(device)
     criterion = torch.nn.CrossEntropyLoss(weight=weights)
     
@@ -121,14 +119,14 @@ def train(num_train=150000, num_val=20000, epochs=300, batch_size=512):
         
         print(f"Epoch {epoch:03d} | T-Loss: {t_loss:.4f} | V-Loss: {v_loss:.4f} | V-P@R0.9: {v_p9:.4f}", flush=True)
         
-        if epoch % 10 == 0:
-            torch.save(model.state_dict(), os.path.join(checkpoints_dir, 'model_deep_wide.pt'))
+        if epoch % 20 == 0:
+            torch.save(model.state_dict(), os.path.join(checkpoints_dir, 'model_deep_wide_v2.pt'))
             plt.figure(figsize=(18, 5))
             plt.subplot(1,4,1); plt.plot(history['t_loss'], label='T'); plt.plot(history['v_loss'], label='V'); plt.title('Loss'); plt.legend()
             plt.subplot(1,4,2); plt.plot(history['t_prec'], label='T'); plt.plot(history['v_prec'], label='V'); plt.title('Precision'); plt.legend()
             plt.subplot(1,4,3); plt.plot(history['t_rec'], label='T'); plt.plot(history['v_rec'], label='V'); plt.title('Recall'); plt.legend()
             plt.subplot(1,4,4); plt.plot(history['t_p9'], label='T'); plt.plot(history['v_p9'], label='V'); plt.title('P@R0.9'); plt.legend()
-            plt.tight_layout(); plt.savefig(os.path.join(plots_dir, 'metrics_deep_wide.png')); plt.close()
+            plt.tight_layout(); plt.savefig(os.path.join(plots_dir, 'metrics_deep_wide_v2.png')); plt.close()
 
 if __name__ == "__main__":
     train()
