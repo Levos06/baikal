@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .gemini/
 *.log
+venv/
+data_processed/
+**/checkpoints/
+**/plots/
+**/adj_matrices/

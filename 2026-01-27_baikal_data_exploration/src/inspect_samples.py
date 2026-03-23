@@ -1,22 +1,39 @@
 import h5py
 import numpy as np
-from collections import Counter
 
-path = "/home3/ivkhar/Baikal/data/normed/baikal_mc2020_multi_split_0924mid_eq_norm.h5"
+FILE_PATH = "/home3/ivkhar/Baikal/data/normed/baikal_mc2020_multi_split_0924mid_eq_norm.h5"
 
-with h5py.File(path, "r") as f:
-    print("Scanning ALL event IDs for prefixes...")
-    ev_ids_ds = f["train/ev_ids/data"]
-    total = len(ev_ids_ds)
-    chunk_size = 1000000
-    prefixes = Counter()
-    
-    for i in range(0, total, chunk_size):
-        data = ev_ids_ds[i : i + chunk_size]
-        for x in data:
-            s = x.decode('utf-8') if isinstance(x, bytes) else str(x)
-            prefixes[s[:5]] += 1
+def inspect():
+    with h5py.File(FILE_PATH, 'r') as f:
+        print(f"Dataset structure: {list(f['train'].keys())}")
+        
+        starts = f['train/ev_starts/data'][:5]
+        data = f['train/data/data']
+        labels = f['train/labels/data']
+        
+        for i in range(len(starts)-1):
+            s, e = starts[i], starts[i+1]
+            ev_data = data[s:e]
+            ev_labels = labels[s:e]
             
-    print(f"\nUnique prefixes found in ALL {total} events:")
-    for p, count in prefixes.most_common():
-        print(f"'{p}': {count}")
+            print(f"\n--- Event {i} (Hits: {e-s}) ---")
+            print(f"Labels summary: Signal={np.sum(ev_labels!=0)}, Background={np.sum(ev_labels==0)}")
+            
+            # Названия признаков (известные нам): Charge, Time, X, Y, Z
+            print("First 5 hits (features):")
+            print("  Charge |  Time  |   X    |   Y    |   Z")
+            for hit_idx in range(min(5, len(ev_data))):
+                print("  " + " | ".join([f"{v:7.2f}" for v in ev_data[hit_idx]]))
+            
+            # Проверка на аномалии
+            if np.any(np.isnan(ev_data)) or np.any(np.isinf(ev_data)):
+                print("!!! WARNING: NaN or Inf found in data!")
+            
+            t_vals = ev_data[:, 1]
+            if np.all(np.diff(t_vals) >= 0):
+                print("Data is sorted by time.")
+            else:
+                print("Data is NOT sorted by time.")
+
+if __name__ == "__main__":
+    inspect()
