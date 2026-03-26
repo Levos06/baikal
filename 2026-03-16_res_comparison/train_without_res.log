@@ -1,0 +1,6 @@
+Device: cuda | FULL DATA COMPARISON | NO RES
+Epoch 001 | Time: 9101.7s | T-Loss: 0.1202 | V-Loss: 0.1202 | T-Prec: 0.6865 | V-Prec: 0.6900 | T-Rec: 0.5276 | V-Rec: 0.5386 | T-P@R0.9: 0.3844 | V-P@R0.9: 0.3943
+Epoch 002 | Time: 9198.0s | T-Loss: 0.1131 | V-Loss: 0.1132 | T-Prec: 0.7282 | V-Prec: 0.7301 | T-Rec: 0.5679 | V-Rec: 0.5777 | T-P@R0.9: 0.3970 | V-P@R0.9: 0.4070
+Epoch 003 | Time: 9158.1s | T-Loss: 0.1093 | V-Loss: 0.1096 | T-Prec: 0.7771 | V-Prec: 0.7769 | T-Rec: 0.5531 | V-Rec: 0.5631 | T-P@R0.9: 0.4025 | V-P@R0.9: 0.4111
+Epoch 004 | Time: 9179.7s | T-Loss: 0.1067 | V-Loss: 0.1068 | T-Prec: 0.7690 | V-Prec: 0.7687 | T-Rec: 0.5878 | V-Rec: 0.5974 | T-P@R0.9: 0.4112 | V-P@R0.9: 0.4213
+Epoch 005 | Time: 9109.4s | T-Loss: 0.1055 | V-Loss: 0.1057 | T-Prec: 0.7747 | V-Prec: 0.7738 | T-Rec: 0.5927 | V-Rec: 0.6019 | T-P@R0.9: 0.4152 | V-P@R0.9: 0.4254

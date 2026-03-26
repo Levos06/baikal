@@ -1,0 +1,43 @@
+Starting ASYMMETRIC FINE Study on cuda...
+
+--- Testing ASYMMETRIC FINE T_CUT_half = 0.1 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Asymmetric Fine T_CUT_half=0.1: 0.8121
+
+--- Testing ASYMMETRIC FINE T_CUT_half = 0.2 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Asymmetric Fine T_CUT_half=0.2: 0.6676
+
+--- Testing ASYMMETRIC FINE T_CUT_half = 0.3 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Asymmetric Fine T_CUT_half=0.3: 0.5745
+
+--- Testing ASYMMETRIC FINE T_CUT_half = 0.4 ns ---
+Epoch 1 completed

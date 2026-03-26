@@ -1,0 +1,6 @@
+Device: cuda | FULL DATA COMPARISON | WITH RES
+Epoch 001 | Time: 8339.6s | T-Loss: 0.0624 | V-Loss: 0.0628 | T-Prec: 0.8926 | V-Prec: 0.8920 | T-Rec: 0.7990 | V-Rec: 0.8015 | T-P@R0.9: 0.7339 | V-P@R0.9: 0.7397
+Epoch 002 | Time: 9286.4s | T-Loss: 0.0583 | V-Loss: 0.0590 | T-Prec: 0.9013 | V-Prec: 0.9005 | T-Rec: 0.8142 | V-Rec: 0.8167 | T-P@R0.9: 0.7750 | V-P@R0.9: 0.7790
+Epoch 003 | Time: 9241.0s | T-Loss: 0.0563 | V-Loss: 0.0571 | T-Prec: 0.9039 | V-Prec: 0.9027 | T-Rec: 0.8243 | V-Rec: 0.8263 | T-P@R0.9: 0.7931 | V-P@R0.9: 0.7964
+Epoch 004 | Time: 9222.6s | T-Loss: 0.0550 | V-Loss: 0.0559 | T-Prec: 0.9086 | V-Prec: 0.9063 | T-Rec: 0.8262 | V-Rec: 0.8275 | T-P@R0.9: 0.8049 | V-P@R0.9: 0.8050
+Epoch 005 | Time: 9272.7s | T-Loss: 0.0540 | V-Loss: 0.0552 | T-Prec: 0.9050 | V-Prec: 0.9028 | T-Rec: 0.8356 | V-Rec: 0.8357 | T-P@R0.9: 0.8129 | V-P@R0.9: 0.8116

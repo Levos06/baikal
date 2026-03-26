@@ -1,0 +1,1578 @@
+Device: cuda | LEARNABLE C_WATER | FULL MLP TRAIN FROM SCRATCH
+Epoch 0001 | Time: 100.4s | C_Water: 0.225012
+  Train: Loss 0.0982 | Prec 0.8571 | Rec 0.6152 | P@R0.9 0.4627
+  Val  : Loss 0.0851 | Prec 0.8269 | Rec 0.5724 | P@R0.9 0.3698
+Epoch 0002 | Time: 105.9s | C_Water: 0.225021
+  Train: Loss 0.0881 | Prec 0.8138 | Rec 0.7156 | P@R0.9 0.5136
+  Val  : Loss 0.0782 | Prec 0.7759 | Rec 0.6903 | P@R0.9 0.4329
+Epoch 0003 | Time: 108.3s | C_Water: 0.225031
+  Train: Loss 0.0738 | Prec 0.8822 | Rec 0.6694 | P@R0.9 0.5588
+  Val  : Loss 0.0722 | Prec 0.8701 | Rec 0.6314 | P@R0.9 0.4786
+Epoch 0004 | Time: 112.4s | C_Water: 0.225042
+  Train: Loss 0.0724 | Prec 0.8430 | Rec 0.7785 | P@R0.9 0.6309
+  Val  : Loss 0.0684 | Prec 0.8119 | Rec 0.7397 | P@R0.9 0.5087
+Epoch 0005 | Time: 104.7s | C_Water: 0.225051
+  Train: Loss 0.0692 | Prec 0.8724 | Rec 0.7647 | P@R0.9 0.6530
+  Val  : Loss 0.0642 | Prec 0.8437 | Rec 0.7314 | P@R0.9 0.5428
+Epoch 0006 | Time: 115.1s | C_Water: 0.225062
+  Train: Loss 0.0651 | Prec 0.8611 | Rec 0.8058 | P@R0.9 0.6978
+  Val  : Loss 0.0655 | Prec 0.8232 | Rec 0.7547 | P@R0.9 0.5335
+Epoch 0007 | Time: 102.9s | C_Water: 0.225072
+  Train: Loss 0.0640 | Prec 0.8718 | Rec 0.7976 | P@R0.9 0.7048
+  Val  : Loss 0.0615 | Prec 0.8447 | Rec 0.7559 | P@R0.9 0.5713
+Epoch 0008 | Time: 112.9s | C_Water: 0.225081
+  Train: Loss 0.0616 | Prec 0.8864 | Rec 0.7800 | P@R0.9 0.6947
+  Val  : Loss 0.0596 | Prec 0.8640 | Rec 0.7456 | P@R0.9 0.5930
+Epoch 0009 | Time: 110.3s | C_Water: 0.225090
+  Train: Loss 0.0611 | Prec 0.8975 | Rec 0.7967 | P@R0.9 0.7428
+  Val  : Loss 0.0587 | Prec 0.8650 | Rec 0.7533 | P@R0.9 0.5994
+Epoch 0010 | Time: 118.7s | C_Water: 0.225099
+  Train: Loss 0.0603 | Prec 0.8805 | Rec 0.8122 | P@R0.9 0.7359
+  Val  : Loss 0.0577 | Prec 0.8520 | Rec 0.7775 | P@R0.9 0.6149
+Epoch 0011 | Time: 110.9s | C_Water: 0.225106
+  Train: Loss 0.0587 | Prec 0.8943 | Rec 0.7868 | P@R0.9 0.7187
+  Val  : Loss 0.0576 | Prec 0.8776 | Rec 0.7534 | P@R0.9 0.6166
+Epoch 0012 | Time: 96.9s | C_Water: 0.225115
+  Train: Loss 0.0591 | Prec 0.8979 | Rec 0.8014 | P@R0.9 0.7475
+  Val  : Loss 0.0565 | Prec 0.8696 | Rec 0.7667 | P@R0.9 0.6298
+Epoch 0013 | Time: 115.9s | C_Water: 0.225122
+  Train: Loss 0.0576 | Prec 0.8787 | Rec 0.8276 | P@R0.9 0.7656
+  Val  : Loss 0.0569 | Prec 0.8477 | Rec 0.7913 | P@R0.9 0.6308
+Epoch 0014 | Time: 117.9s | C_Water: 0.225130
+  Train: Loss 0.0567 | Prec 0.9070 | Rec 0.7994 | P@R0.9 0.7604
+  Val  : Loss 0.0538 | Prec 0.8847 | Rec 0.7685 | P@R0.9 0.6564
+Epoch 0015 | Time: 121.3s | C_Water: 0.225138
+  Train: Loss 0.0548 | Prec 0.8910 | Rec 0.8342 | P@R0.9 0.7886
+  Val  : Loss 0.0543 | Prec 0.8602 | Rec 0.7939 | P@R0.9 0.6647
+Epoch 0016 | Time: 131.4s | C_Water: 0.225146
+  Train: Loss 0.0542 | Prec 0.9031 | Rec 0.8152 | P@R0.9 0.7855
+  Val  : Loss 0.0540 | Prec 0.8762 | Rec 0.7796 | P@R0.9 0.6625
+Epoch 0017 | Time: 112.5s | C_Water: 0.225154
+  Train: Loss 0.0559 | Prec 0.8978 | Rec 0.8206 | P@R0.9 0.7803
+  Val  : Loss 0.0531 | Prec 0.8709 | Rec 0.7903 | P@R0.9 0.6714
+Epoch 0018 | Time: 126.1s | C_Water: 0.225161
+  Train: Loss 0.0559 | Prec 0.9127 | Rec 0.8189 | P@R0.9 0.8108
+  Val  : Loss 0.0528 | Prec 0.8827 | Rec 0.7804 | P@R0.9 0.6798
+Epoch 0019 | Time: 123.3s | C_Water: 0.225169
+  Train: Loss 0.0520 | Prec 0.9033 | Rec 0.8143 | P@R0.9 0.7823
+  Val  : Loss 0.0517 | Prec 0.8797 | Rec 0.7904 | P@R0.9 0.6886
+Epoch 0020 | Time: 107.1s | C_Water: 0.225177
+  Train: Loss 0.0533 | Prec 0.8946 | Rec 0.8362 | P@R0.9 0.8043
+  Val  : Loss 0.0522 | Prec 0.8621 | Rec 0.8061 | P@R0.9 0.6869
+Epoch 0021 | Time: 116.8s | C_Water: 0.225184
+  Train: Loss 0.0550 | Prec 0.9149 | Rec 0.8222 | P@R0.9 0.8191
+  Val  : Loss 0.0508 | Prec 0.8839 | Rec 0.7903 | P@R0.9 0.6978
+Epoch 0022 | Time: 111.9s | C_Water: 0.225192
+  Train: Loss 0.0510 | Prec 0.8959 | Rec 0.8320 | P@R0.9 0.7934
+  Val  : Loss 0.0505 | Prec 0.8718 | Rec 0.8064 | P@R0.9 0.7035
+Epoch 0023 | Time: 122.1s | C_Water: 0.225198
+  Train: Loss 0.0528 | Prec 0.8986 | Rec 0.8341 | P@R0.9 0.8065
+  Val  : Loss 0.0513 | Prec 0.8710 | Rec 0.8054 | P@R0.9 0.6966
+Epoch 0024 | Time: 104.5s | C_Water: 0.225206
+  Train: Loss 0.0530 | Prec 0.9159 | Rec 0.8218 | P@R0.9 0.8164
+  Val  : Loss 0.0502 | Prec 0.8943 | Rec 0.7838 | P@R0.9 0.7114
+Epoch 0025 | Time: 120.4s | C_Water: 0.225212
+  Train: Loss 0.0497 | Prec 0.9039 | Rec 0.8430 | P@R0.9 0.8315
+  Val  : Loss 0.0500 | Prec 0.8800 | Rec 0.8046 | P@R0.9 0.7138
+Epoch 0026 | Time: 124.7s | C_Water: 0.225219
+  Train: Loss 0.0517 | Prec 0.9175 | Rec 0.8225 | P@R0.9 0.8205
+  Val  : Loss 0.0499 | Prec 0.8930 | Rec 0.7897 | P@R0.9 0.7143
+Epoch 0027 | Time: 117.2s | C_Water: 0.225226
+  Train: Loss 0.0532 | Prec 0.9111 | Rec 0.8387 | P@R0.9 0.8329
+  Val  : Loss 0.0504 | Prec 0.8796 | Rec 0.8022 | P@R0.9 0.7098
+Epoch 0028 | Time: 103.1s | C_Water: 0.225233
+  Train: Loss 0.0492 | Prec 0.9096 | Rec 0.8462 | P@R0.9 0.8376
+  Val  : Loss 0.0489 | Prec 0.8795 | Rec 0.8111 | P@R0.9 0.7237
+Epoch 0029 | Time: 119.0s | C_Water: 0.225239
+  Train: Loss 0.0506 | Prec 0.9073 | Rec 0.8336 | P@R0.9 0.8150
+  Val  : Loss 0.0484 | Prec 0.8839 | Rec 0.8086 | P@R0.9 0.7309
+Epoch 0030 | Time: 113.9s | C_Water: 0.225245
+  Train: Loss 0.0519 | Prec 0.9084 | Rec 0.8346 | P@R0.9 0.8263
+  Val  : Loss 0.0490 | Prec 0.8852 | Rec 0.8055 | P@R0.9 0.7252
+Epoch 0031 | Time: 117.5s | C_Water: 0.225251
+  Train: Loss 0.0509 | Prec 0.9111 | Rec 0.8416 | P@R0.9 0.8377
+  Val  : Loss 0.0487 | Prec 0.8816 | Rec 0.8097 | P@R0.9 0.7307
+Epoch 0032 | Time: 111.6s | C_Water: 0.225257
+  Train: Loss 0.0492 | Prec 0.8899 | Rec 0.8660 | P@R0.9 0.8416
+  Val  : Loss 0.0492 | Prec 0.8549 | Rec 0.8362 | P@R0.9 0.7352
+Epoch 0033 | Time: 109.9s | C_Water: 0.225262
+  Train: Loss 0.0485 | Prec 0.9023 | Rec 0.8425 | P@R0.9 0.8211
+  Val  : Loss 0.0482 | Prec 0.8767 | Rec 0.8191 | P@R0.9 0.7395
+Epoch 0034 | Time: 109.6s | C_Water: 0.225268
+  Train: Loss 0.0507 | Prec 0.9223 | Rec 0.8342 | P@R0.9 0.8527
+  Val  : Loss 0.0481 | Prec 0.9000 | Rec 0.7932 | P@R0.9 0.7397
+Epoch 0035 | Time: 112.6s | C_Water: 0.225273
+  Train: Loss 0.0508 | Prec 0.9180 | Rec 0.8283 | P@R0.9 0.8324
+  Val  : Loss 0.0475 | Prec 0.8950 | Rec 0.8024 | P@R0.9 0.7409
+Epoch 0036 | Time: 102.0s | C_Water: 0.225279
+  Train: Loss 0.0491 | Prec 0.9096 | Rec 0.8518 | P@R0.9 0.8495
+  Val  : Loss 0.0489 | Prec 0.8751 | Rec 0.8178 | P@R0.9 0.7312
+Epoch 0037 | Time: 125.9s | C_Water: 0.225284
+  Train: Loss 0.0479 | Prec 0.9066 | Rec 0.8501 | P@R0.9 0.8405
+  Val  : Loss 0.0478 | Prec 0.8789 | Rec 0.8182 | P@R0.9 0.7420
+Epoch 0038 | Time: 112.3s | C_Water: 0.225288
+  Train: Loss 0.0501 | Prec 0.9022 | Rec 0.8544 | P@R0.9 0.8451
+  Val  : Loss 0.0476 | Prec 0.8747 | Rec 0.8230 | P@R0.9 0.7463
+Epoch 0039 | Time: 122.1s | C_Water: 0.225293
+  Train: Loss 0.0477 | Prec 0.8976 | Rec 0.8549 | P@R0.9 0.8384
+  Val  : Loss 0.0483 | Prec 0.8702 | Rec 0.8259 | P@R0.9 0.7371
+Epoch 0040 | Time: 113.5s | C_Water: 0.225297
+  Train: Loss 0.0468 | Prec 0.8966 | Rec 0.8488 | P@R0.9 0.8216
+  Val  : Loss 0.0464 | Prec 0.8742 | Rec 0.8321 | P@R0.9 0.7573
+Epoch 0041 | Time: 117.7s | C_Water: 0.225301
+  Train: Loss 0.0471 | Prec 0.9170 | Rec 0.8374 | P@R0.9 0.8429
+  Val  : Loss 0.0469 | Prec 0.8909 | Rec 0.8092 | P@R0.9 0.7483
+Epoch 0042 | Time: 121.1s | C_Water: 0.225305
+  Train: Loss 0.0451 | Prec 0.9201 | Rec 0.8482 | P@R0.9 0.8593
+  Val  : Loss 0.0479 | Prec 0.8886 | Rec 0.8092 | P@R0.9 0.7429
+Epoch 0043 | Time: 115.5s | C_Water: 0.225309
+  Train: Loss 0.0495 | Prec 0.8998 | Rec 0.8586 | P@R0.9 0.8469
+  Val  : Loss 0.0473 | Prec 0.8704 | Rec 0.8320 | P@R0.9 0.7481
+Epoch 0044 | Time: 115.6s | C_Water: 0.225313
+  Train: Loss 0.0460 | Prec 0.9110 | Rec 0.8519 | P@R0.9 0.8520
+  Val  : Loss 0.0458 | Prec 0.8841 | Rec 0.8259 | P@R0.9 0.7636
+Epoch 0045 | Time: 105.8s | C_Water: 0.225317
+  Train: Loss 0.0493 | Prec 0.9036 | Rec 0.8643 | P@R0.9 0.8622
+  Val  : Loss 0.0470 | Prec 0.8712 | Rec 0.8311 | P@R0.9 0.7535
+Epoch 0046 | Time: 113.0s | C_Water: 0.225320
+  Train: Loss 0.0452 | Prec 0.9106 | Rec 0.8579 | P@R0.9 0.8610
+  Val  : Loss 0.0469 | Prec 0.8806 | Rec 0.8224 | P@R0.9 0.7526
+Epoch 0047 | Time: 110.1s | C_Water: 0.225323
+  Train: Loss 0.0491 | Prec 0.9140 | Rec 0.8567 | P@R0.9 0.8629
+  Val  : Loss 0.0463 | Prec 0.8830 | Rec 0.8222 | P@R0.9 0.7602
+Epoch 0048 | Time: 107.6s | C_Water: 0.225327
+  Train: Loss 0.0459 | Prec 0.9069 | Rec 0.8560 | P@R0.9 0.8520
+  Val  : Loss 0.0464 | Prec 0.8795 | Rec 0.8262 | P@R0.9 0.7592
+Epoch 0049 | Time: 115.1s | C_Water: 0.225330
+  Train: Loss 0.0453 | Prec 0.8993 | Rec 0.8682 | P@R0.9 0.8555
+  Val  : Loss 0.0462 | Prec 0.8701 | Rec 0.8393 | P@R0.9 0.7678
+Epoch 0050 | Time: 119.9s | C_Water: 0.225333
+  Train: Loss 0.0457 | Prec 0.9245 | Rec 0.8457 | P@R0.9 0.8691
+  Val  : Loss 0.0464 | Prec 0.9012 | Rec 0.8067 | P@R0.9 0.7642
+Epoch 0051 | Time: 109.2s | C_Water: 0.225337
+  Train: Loss 0.0441 | Prec 0.9203 | Rec 0.8484 | P@R0.9 0.8627
+  Val  : Loss 0.0459 | Prec 0.8966 | Rec 0.8119 | P@R0.9 0.7658
+Epoch 0052 | Time: 125.7s | C_Water: 0.225338
+  Train: Loss 0.0469 | Prec 0.9071 | Rec 0.8631 | P@R0.9 0.8645
+  Val  : Loss 0.0461 | Prec 0.8752 | Rec 0.8337 | P@R0.9 0.7682
+Epoch 0053 | Time: 116.9s | C_Water: 0.225342
+  Train: Loss 0.0471 | Prec 0.8938 | Rec 0.8671 | P@R0.9 0.8522
+  Val  : Loss 0.0464 | Prec 0.8677 | Rec 0.8416 | P@R0.9 0.7672
+Epoch 0054 | Time: 128.7s | C_Water: 0.225344
+  Train: Loss 0.0440 | Prec 0.9098 | Rec 0.8552 | P@R0.9 0.8567
+  Val  : Loss 0.0449 | Prec 0.8842 | Rec 0.8290 | P@R0.9 0.7767
+Epoch 0055 | Time: 102.9s | C_Water: 0.225347
+  Train: Loss 0.0442 | Prec 0.9128 | Rec 0.8563 | P@R0.9 0.8584
+  Val  : Loss 0.0454 | Prec 0.8841 | Rec 0.8298 | P@R0.9 0.7737
+Epoch 0056 | Time: 116.9s | C_Water: 0.225349
+  Train: Loss 0.0462 | Prec 0.9011 | Rec 0.8733 | P@R0.9 0.8680
+  Val  : Loss 0.0455 | Prec 0.8684 | Rec 0.8451 | P@R0.9 0.7780
+Epoch 0057 | Time: 115.4s | C_Water: 0.225351
+  Train: Loss 0.0450 | Prec 0.8918 | Rec 0.8799 | P@R0.9 0.8656
+  Val  : Loss 0.0462 | Prec 0.8602 | Rec 0.8510 | P@R0.9 0.7730
+Epoch 0058 | Time: 118.0s | C_Water: 0.225353
+  Train: Loss 0.0461 | Prec 0.9106 | Rec 0.8557 | P@R0.9 0.8576
+  Val  : Loss 0.0450 | Prec 0.8879 | Rec 0.8269 | P@R0.9 0.7744
+Epoch 0059 | Time: 132.5s | C_Water: 0.225356
+  Train: Loss 0.0447 | Prec 0.9174 | Rec 0.8673 | P@R0.9 0.8817
+  Val  : Loss 0.0441 | Prec 0.8872 | Rec 0.8332 | P@R0.9 0.7840
+Epoch 0060 | Time: 131.7s | C_Water: 0.225357
+  Train: Loss 0.0426 | Prec 0.9186 | Rec 0.8662 | P@R0.9 0.8824
+  Val  : Loss 0.0442 | Prec 0.8897 | Rec 0.8295 | P@R0.9 0.7830
+Epoch 0061 | Time: 123.2s | C_Water: 0.225359
+  Train: Loss 0.0428 | Prec 0.9059 | Rec 0.8785 | P@R0.9 0.8816
+  Val  : Loss 0.0445 | Prec 0.8735 | Rec 0.8470 | P@R0.9 0.7837
+Epoch 0062 | Time: 124.2s | C_Water: 0.225361
+  Train: Loss 0.0447 | Prec 0.9012 | Rec 0.8684 | P@R0.9 0.8596
+  Val  : Loss 0.0450 | Prec 0.8734 | Rec 0.8435 | P@R0.9 0.7801
+Epoch 0063 | Time: 116.5s | C_Water: 0.225364
+  Train: Loss 0.0469 | Prec 0.9107 | Rec 0.8699 | P@R0.9 0.8750
+  Val  : Loss 0.0439 | Prec 0.8805 | Rec 0.8415 | P@R0.9 0.7888
+Epoch 0064 | Time: 112.0s | C_Water: 0.225366
+  Train: Loss 0.0435 | Prec 0.9137 | Rec 0.8651 | P@R0.9 0.8735
+  Val  : Loss 0.0439 | Prec 0.8894 | Rec 0.8330 | P@R0.9 0.7863
+Epoch 0065 | Time: 107.0s | C_Water: 0.225368
+  Train: Loss 0.0427 | Prec 0.9227 | Rec 0.8597 | P@R0.9 0.8802
+  Val  : Loss 0.0453 | Prec 0.8973 | Rec 0.8162 | P@R0.9 0.7720
+Epoch 0066 | Time: 110.2s | C_Water: 0.225369
+  Train: Loss 0.0454 | Prec 0.9167 | Rec 0.8686 | P@R0.9 0.8825
+  Val  : Loss 0.0442 | Prec 0.8869 | Rec 0.8323 | P@R0.9 0.7855
+Epoch 0067 | Time: 118.0s | C_Water: 0.225371
+  Train: Loss 0.0429 | Prec 0.9152 | Rec 0.8638 | P@R0.9 0.8748
+  Val  : Loss 0.0440 | Prec 0.8886 | Rec 0.8316 | P@R0.9 0.7863
+Epoch 0068 | Time: 103.6s | C_Water: 0.225373
+  Train: Loss 0.0440 | Prec 0.9071 | Rec 0.8600 | P@R0.9 0.8579
+  Val  : Loss 0.0450 | Prec 0.8821 | Rec 0.8352 | P@R0.9 0.7769
+Epoch 0069 | Time: 118.8s | C_Water: 0.225375
+  Train: Loss 0.0440 | Prec 0.9081 | Rec 0.8645 | P@R0.9 0.8641
+  Val  : Loss 0.0443 | Prec 0.8797 | Rec 0.8423 | P@R0.9 0.7870
+Epoch 0070 | Time: 100.4s | C_Water: 0.225377
+  Train: Loss 0.0422 | Prec 0.9174 | Rec 0.8625 | P@R0.9 0.8754
+  Val  : Loss 0.0437 | Prec 0.8873 | Rec 0.8360 | P@R0.9 0.7891
+Epoch 0071 | Time: 117.1s | C_Water: 0.225379
+  Train: Loss 0.0448 | Prec 0.9160 | Rec 0.8688 | P@R0.9 0.8819
+  Val  : Loss 0.0446 | Prec 0.8859 | Rec 0.8330 | P@R0.9 0.7811
+Epoch 0072 | Time: 129.4s | C_Water: 0.225380
+  Train: Loss 0.0435 | Prec 0.9177 | Rec 0.8679 | P@R0.9 0.8822
+  Val  : Loss 0.0443 | Prec 0.8892 | Rec 0.8323 | P@R0.9 0.7848
+Epoch 0073 | Time: 123.9s | C_Water: 0.225382
+  Train: Loss 0.0450 | Prec 0.9178 | Rec 0.8629 | P@R0.9 0.8779
+  Val  : Loss 0.0428 | Prec 0.8917 | Rec 0.8372 | P@R0.9 0.7984
+Epoch 0074 | Time: 104.6s | C_Water: 0.225384
+  Train: Loss 0.0446 | Prec 0.9152 | Rec 0.8658 | P@R0.9 0.8772
+  Val  : Loss 0.0427 | Prec 0.8876 | Rec 0.8413 | P@R0.9 0.7988
+Epoch 0075 | Time: 119.4s | C_Water: 0.225386
+  Train: Loss 0.0433 | Prec 0.9138 | Rec 0.8612 | P@R0.9 0.8682
+  Val  : Loss 0.0428 | Prec 0.8901 | Rec 0.8392 | P@R0.9 0.7978
+Epoch 0076 | Time: 113.0s | C_Water: 0.225388
+  Train: Loss 0.0433 | Prec 0.9193 | Rec 0.8668 | P@R0.9 0.8841
+  Val  : Loss 0.0431 | Prec 0.8911 | Rec 0.8362 | P@R0.9 0.7953
+Epoch 0077 | Time: 118.6s | C_Water: 0.225389
+  Train: Loss 0.0451 | Prec 0.9143 | Rec 0.8685 | P@R0.9 0.8774
+  Val  : Loss 0.0430 | Prec 0.8862 | Rec 0.8431 | P@R0.9 0.7973
+Epoch 0078 | Time: 124.0s | C_Water: 0.225391
+  Train: Loss 0.0424 | Prec 0.9148 | Rec 0.8662 | P@R0.9 0.8781
+  Val  : Loss 0.0432 | Prec 0.8906 | Rec 0.8362 | P@R0.9 0.7926
+Epoch 0079 | Time: 114.2s | C_Water: 0.225392
+  Train: Loss 0.0402 | Prec 0.9080 | Rec 0.8687 | P@R0.9 0.8666
+  Val  : Loss 0.0429 | Prec 0.8857 | Rec 0.8441 | P@R0.9 0.7983
+Epoch 0080 | Time: 111.9s | C_Water: 0.225394
+  Train: Loss 0.0414 | Prec 0.9197 | Rec 0.8666 | P@R0.9 0.8821
+  Val  : Loss 0.0424 | Prec 0.8932 | Rec 0.8366 | P@R0.9 0.8009
+Epoch 0081 | Time: 117.2s | C_Water: 0.225395
+  Train: Loss 0.0414 | Prec 0.9226 | Rec 0.8618 | P@R0.9 0.8808
+  Val  : Loss 0.0429 | Prec 0.8951 | Rec 0.8316 | P@R0.9 0.7990
+Epoch 0082 | Time: 111.4s | C_Water: 0.225397
+  Train: Loss 0.0430 | Prec 0.9251 | Rec 0.8628 | P@R0.9 0.8849
+  Val  : Loss 0.0426 | Prec 0.8994 | Rec 0.8305 | P@R0.9 0.8012
+Epoch 0083 | Time: 119.8s | C_Water: 0.225398
+  Train: Loss 0.0394 | Prec 0.9163 | Rec 0.8859 | P@R0.9 0.9011
+  Val  : Loss 0.0428 | Prec 0.8824 | Rec 0.8491 | P@R0.9 0.8015
+Epoch 0084 | Time: 115.0s | C_Water: 0.225400
+  Train: Loss 0.0436 | Prec 0.9292 | Rec 0.8668 | P@R0.9 0.8980
+  Val  : Loss 0.0425 | Prec 0.8963 | Rec 0.8332 | P@R0.9 0.8021
+Epoch 0085 | Time: 131.8s | C_Water: 0.225401
+  Train: Loss 0.0416 | Prec 0.9142 | Rec 0.8734 | P@R0.9 0.8815
+  Val  : Loss 0.0425 | Prec 0.8861 | Rec 0.8449 | P@R0.9 0.8036
+Epoch 0086 | Time: 117.3s | C_Water: 0.225403
+  Train: Loss 0.0434 | Prec 0.9118 | Rec 0.8773 | P@R0.9 0.8862
+  Val  : Loss 0.0439 | Prec 0.8783 | Rec 0.8483 | P@R0.9 0.7954
+Epoch 0087 | Time: 113.6s | C_Water: 0.225404
+  Train: Loss 0.0429 | Prec 0.9238 | Rec 0.8670 | P@R0.9 0.8878
+  Val  : Loss 0.0428 | Prec 0.8955 | Rec 0.8348 | P@R0.9 0.7994
+Epoch 0088 | Time: 116.9s | C_Water: 0.225406
+  Train: Loss 0.0403 | Prec 0.9138 | Rec 0.8664 | P@R0.9 0.8748
+  Val  : Loss 0.0432 | Prec 0.8899 | Rec 0.8376 | P@R0.9 0.7968
+Epoch 0089 | Time: 122.2s | C_Water: 0.225408
+  Train: Loss 0.0410 | Prec 0.9149 | Rec 0.8790 | P@R0.9 0.8904
+  Val  : Loss 0.0424 | Prec 0.8859 | Rec 0.8487 | P@R0.9 0.8064
+Epoch 0090 | Time: 115.8s | C_Water: 0.225408
+  Train: Loss 0.0416 | Prec 0.9247 | Rec 0.8581 | P@R0.9 0.8780
+  Val  : Loss 0.0432 | Prec 0.8981 | Rec 0.8303 | P@R0.9 0.7950
+Epoch 0091 | Time: 119.9s | C_Water: 0.225410
+  Train: Loss 0.0444 | Prec 0.9213 | Rec 0.8683 | P@R0.9 0.8896
+  Val  : Loss 0.0430 | Prec 0.8962 | Rec 0.8348 | P@R0.9 0.7985
+Epoch 0092 | Time: 105.5s | C_Water: 0.225412
+  Train: Loss 0.0442 | Prec 0.9160 | Rec 0.8553 | P@R0.9 0.8664
+  Val  : Loss 0.0424 | Prec 0.8967 | Rec 0.8357 | P@R0.9 0.8045
+Epoch 0093 | Time: 105.0s | C_Water: 0.225414
+  Train: Loss 0.0422 | Prec 0.9072 | Rec 0.8845 | P@R0.9 0.8866
+  Val  : Loss 0.0428 | Prec 0.8762 | Rec 0.8565 | P@R0.9 0.8065
+Epoch 0094 | Time: 100.1s | C_Water: 0.225415
+  Train: Loss 0.0405 | Prec 0.9259 | Rec 0.8761 | P@R0.9 0.9014
+  Val  : Loss 0.0419 | Prec 0.8948 | Rec 0.8408 | P@R0.9 0.8088
+Epoch 0095 | Time: 112.1s | C_Water: 0.225416
+  Train: Loss 0.0410 | Prec 0.9192 | Rec 0.8777 | P@R0.9 0.8980
+  Val  : Loss 0.0423 | Prec 0.8896 | Rec 0.8425 | P@R0.9 0.8057
+Epoch 0096 | Time: 107.2s | C_Water: 0.225417
+  Train: Loss 0.0428 | Prec 0.9256 | Rec 0.8646 | P@R0.9 0.8896
+  Val  : Loss 0.0418 | Prec 0.9001 | Rec 0.8349 | P@R0.9 0.8109
+Epoch 0097 | Time: 110.1s | C_Water: 0.225419
+  Train: Loss 0.0422 | Prec 0.9164 | Rec 0.8765 | P@R0.9 0.8904
+  Val  : Loss 0.0429 | Prec 0.8883 | Rec 0.8440 | P@R0.9 0.8020
+Epoch 0098 | Time: 117.6s | C_Water: 0.225420
+  Train: Loss 0.0431 | Prec 0.9164 | Rec 0.8828 | P@R0.9 0.8975
+  Val  : Loss 0.0421 | Prec 0.8851 | Rec 0.8514 | P@R0.9 0.8100
+Epoch 0099 | Time: 144.0s | C_Water: 0.225421
+  Train: Loss 0.0400 | Prec 0.9144 | Rec 0.8799 | P@R0.9 0.8933
+  Val  : Loss 0.0413 | Prec 0.8872 | Rec 0.8541 | P@R0.9 0.8154
+Epoch 0100 | Time: 114.7s | C_Water: 0.225423
+  Train: Loss 0.0397 | Prec 0.9178 | Rec 0.8824 | P@R0.9 0.9001
+  Val  : Loss 0.0418 | Prec 0.8905 | Rec 0.8476 | P@R0.9 0.8088
+Epoch 0101 | Time: 102.0s | C_Water: 0.225425
+  Train: Loss 0.0393 | Prec 0.9231 | Rec 0.8711 | P@R0.9 0.8927
+  Val  : Loss 0.0422 | Prec 0.8980 | Rec 0.8373 | P@R0.9 0.8066
+Epoch 0102 | Time: 118.7s | C_Water: 0.225426
+  Train: Loss 0.0412 | Prec 0.9172 | Rec 0.8807 | P@R0.9 0.8963
+  Val  : Loss 0.0415 | Prec 0.8870 | Rec 0.8519 | P@R0.9 0.8167
+Epoch 0103 | Time: 112.0s | C_Water: 0.225427
+  Train: Loss 0.0422 | Prec 0.9140 | Rec 0.8735 | P@R0.9 0.8857
+  Val  : Loss 0.0420 | Prec 0.8878 | Rec 0.8503 | P@R0.9 0.8079
+Epoch 0104 | Time: 153.0s | C_Water: 0.225429
+  Train: Loss 0.0425 | Prec 0.9087 | Rec 0.8784 | P@R0.9 0.8840
+  Val  : Loss 0.0418 | Prec 0.8828 | Rec 0.8553 | P@R0.9 0.8125
+Epoch 0105 | Time: 136.7s | C_Water: 0.225431
+  Train: Loss 0.0416 | Prec 0.9214 | Rec 0.8675 | P@R0.9 0.8878
+  Val  : Loss 0.0420 | Prec 0.8968 | Rec 0.8392 | P@R0.9 0.8084
+Epoch 0106 | Time: 120.4s | C_Water: 0.225431
+  Train: Loss 0.0385 | Prec 0.9266 | Rec 0.8726 | P@R0.9 0.8994
+  Val  : Loss 0.0411 | Prec 0.8978 | Rec 0.8424 | P@R0.9 0.8175
+Epoch 0107 | Time: 117.5s | C_Water: 0.225432
+  Train: Loss 0.0421 | Prec 0.9187 | Rec 0.8840 | P@R0.9 0.9020
+  Val  : Loss 0.0422 | Prec 0.8892 | Rec 0.8480 | P@R0.9 0.8073
+Epoch 0108 | Time: 124.8s | C_Water: 0.225434
+  Train: Loss 0.0419 | Prec 0.9197 | Rec 0.8771 | P@R0.9 0.8978
+  Val  : Loss 0.0414 | Prec 0.8902 | Rec 0.8488 | P@R0.9 0.8161
+Device: cuda | LEARNABLE C_WATER | OPTIMIZED DATA LOADING
+Resuming from 2026-03-25_learnable_c_water/checkpoints/model_learn_c_100.pt (Epoch 101)
+Epoch 0101 | Time: 99.6s | C_Water: 0.225425 | Opt: Multiprocessing
+  Train: Loss 0.0403 | Prec 0.9181 | Rec 0.8834 | P@R0.9 0.9024
+  Val  : Loss 0.0437 | Prec 0.8908 | Rec 0.8574 | P@R0.9 0.8286
+Epoch 0102 | Time: 87.5s | C_Water: 0.225426 | Opt: Multiprocessing
+  Train: Loss 0.0395 | Prec 0.9287 | Rec 0.8721 | P@R0.9 0.9010
+  Val  : Loss 0.0430 | Prec 0.9056 | Rec 0.8441 | P@R0.9 0.8337
+Epoch 0103 | Time: 97.3s | C_Water: 0.225427 | Opt: Multiprocessing
+  Train: Loss 0.0399 | Prec 0.9140 | Rec 0.8794 | P@R0.9 0.8912
+  Val  : Loss 0.0439 | Prec 0.8936 | Rec 0.8557 | P@R0.9 0.8304
+Epoch 0104 | Time: 85.9s | C_Water: 0.225429 | Opt: Multiprocessing
+  Train: Loss 0.0420 | Prec 0.9146 | Rec 0.8743 | P@R0.9 0.8865
+  Val  : Loss 0.0430 | Prec 0.8946 | Rec 0.8566 | P@R0.9 0.8342
+Epoch 0105 | Time: 87.5s | C_Water: 0.225431 | Opt: Multiprocessing
+  Train: Loss 0.0396 | Prec 0.9227 | Rec 0.8742 | P@R0.9 0.8964
+  Val  : Loss 0.0436 | Prec 0.8992 | Rec 0.8489 | P@R0.9 0.8310
+Epoch 0106 | Time: 88.7s | C_Water: 0.225431 | Opt: Multiprocessing
+  Train: Loss 0.0404 | Prec 0.9251 | Rec 0.8722 | P@R0.9 0.8978
+  Val  : Loss 0.0428 | Prec 0.9031 | Rec 0.8493 | P@R0.9 0.8362
+Epoch 0107 | Time: 93.0s | C_Water: 0.225433 | Opt: Multiprocessing
+  Train: Loss 0.0393 | Prec 0.9160 | Rec 0.8936 | P@R0.9 0.9086
+  Val  : Loss 0.0435 | Prec 0.8892 | Rec 0.8599 | P@R0.9 0.8326
+Epoch 0108 | Time: 86.6s | C_Water: 0.225434 | Opt: Multiprocessing
+  Train: Loss 0.0399 | Prec 0.9260 | Rec 0.8660 | P@R0.9 0.8923
+  Val  : Loss 0.0430 | Prec 0.9076 | Rec 0.8424 | P@R0.9 0.8358
+Epoch 0109 | Time: 97.0s | C_Water: 0.225435 | Opt: Multiprocessing
+  Train: Loss 0.0404 | Prec 0.9227 | Rec 0.8842 | P@R0.9 0.9066
+  Val  : Loss 0.0433 | Prec 0.8977 | Rec 0.8537 | P@R0.9 0.8350
+Epoch 0110 | Time: 90.4s | C_Water: 0.225436 | Opt: Multiprocessing
+  Train: Loss 0.0392 | Prec 0.9170 | Rec 0.8877 | P@R0.9 0.9031
+  Val  : Loss 0.0435 | Prec 0.8908 | Rec 0.8599 | P@R0.9 0.8339
+Epoch 0111 | Time: 85.1s | C_Water: 0.225438 | Opt: Multiprocessing
+  Train: Loss 0.0409 | Prec 0.9233 | Rec 0.8844 | P@R0.9 0.9087
+  Val  : Loss 0.0430 | Prec 0.8949 | Rec 0.8574 | P@R0.9 0.8372
+Epoch 0112 | Time: 87.4s | C_Water: 0.225439 | Opt: Multiprocessing
+  Train: Loss 0.0399 | Prec 0.9216 | Rec 0.8765 | P@R0.9 0.8970
+  Val  : Loss 0.0434 | Prec 0.9008 | Rec 0.8493 | P@R0.9 0.8322
+Epoch 0113 | Time: 91.2s | C_Water: 0.225441 | Opt: Multiprocessing
+  Train: Loss 0.0394 | Prec 0.9174 | Rec 0.8814 | P@R0.9 0.8969
+  Val  : Loss 0.0427 | Prec 0.8956 | Rec 0.8592 | P@R0.9 0.8377
+Epoch 0114 | Time: 95.7s | C_Water: 0.225442 | Opt: Multiprocessing
+  Train: Loss 0.0388 | Prec 0.9194 | Rec 0.8811 | P@R0.9 0.8998
+  Val  : Loss 0.0428 | Prec 0.9002 | Rec 0.8550 | P@R0.9 0.8378
+Epoch 0115 | Time: 93.1s | C_Water: 0.225443 | Opt: Multiprocessing
+  Train: Loss 0.0384 | Prec 0.9144 | Rec 0.8773 | P@R0.9 0.8890
+  Val  : Loss 0.0427 | Prec 0.8967 | Rec 0.8576 | P@R0.9 0.8380
+Epoch 0116 | Time: 92.3s | C_Water: 0.225444 | Opt: Multiprocessing
+  Train: Loss 0.0401 | Prec 0.9222 | Rec 0.8798 | P@R0.9 0.9020
+  Val  : Loss 0.0427 | Prec 0.8993 | Rec 0.8542 | P@R0.9 0.8392
+Epoch 0117 | Time: 103.6s | C_Water: 0.225446 | Opt: Multiprocessing
+  Train: Loss 0.0393 | Prec 0.9133 | Rec 0.8831 | P@R0.9 0.8948
+  Val  : Loss 0.0427 | Prec 0.8938 | Rec 0.8613 | P@R0.9 0.8377
+Epoch 0118 | Time: 99.3s | C_Water: 0.225447 | Opt: Multiprocessing
+  Train: Loss 0.0397 | Prec 0.9150 | Rec 0.8809 | P@R0.9 0.8928
+  Val  : Loss 0.0431 | Prec 0.8945 | Rec 0.8573 | P@R0.9 0.8354
+Epoch 0119 | Time: 92.0s | C_Water: 0.225449 | Opt: Multiprocessing
+  Train: Loss 0.0393 | Prec 0.9245 | Rec 0.8771 | P@R0.9 0.9022
+  Val  : Loss 0.0430 | Prec 0.9039 | Rec 0.8485 | P@R0.9 0.8357
+Epoch 0120 | Time: 101.5s | C_Water: 0.225450 | Opt: Multiprocessing
+  Train: Loss 0.0387 | Prec 0.9240 | Rec 0.8754 | P@R0.9 0.9006
+  Val  : Loss 0.0422 | Prec 0.9045 | Rec 0.8530 | P@R0.9 0.8409
+Epoch 0121 | Time: 94.8s | C_Water: 0.225451 | Opt: Multiprocessing
+  Train: Loss 0.0390 | Prec 0.9223 | Rec 0.8842 | P@R0.9 0.9061
+  Val  : Loss 0.0426 | Prec 0.8975 | Rec 0.8562 | P@R0.9 0.8393
+Epoch 0122 | Time: 96.7s | C_Water: 0.225452 | Opt: Multiprocessing
+  Train: Loss 0.0397 | Prec 0.9264 | Rec 0.8810 | P@R0.9 0.9087
+  Val  : Loss 0.0424 | Prec 0.9049 | Rec 0.8494 | P@R0.9 0.8388
+Epoch 0123 | Time: 106.2s | C_Water: 0.225454 | Opt: Multiprocessing
+  Train: Loss 0.0402 | Prec 0.9184 | Rec 0.8786 | P@R0.9 0.8966
+  Val  : Loss 0.0426 | Prec 0.8972 | Rec 0.8568 | P@R0.9 0.8409
+Epoch 0124 | Time: 93.2s | C_Water: 0.225455 | Opt: Multiprocessing
+  Train: Loss 0.0385 | Prec 0.9184 | Rec 0.8832 | P@R0.9 0.8997
+  Val  : Loss 0.0429 | Prec 0.8965 | Rec 0.8577 | P@R0.9 0.8387
+Epoch 0125 | Time: 97.7s | C_Water: 0.225456 | Opt: Multiprocessing
+  Train: Loss 0.0390 | Prec 0.9223 | Rec 0.8874 | P@R0.9 0.9102
+  Val  : Loss 0.0425 | Prec 0.8971 | Rec 0.8583 | P@R0.9 0.8420
+Epoch 0126 | Time: 98.0s | C_Water: 0.225458 | Opt: Multiprocessing
+  Train: Loss 0.0394 | Prec 0.9086 | Rec 0.8897 | P@R0.9 0.8966
+  Val  : Loss 0.0429 | Prec 0.8876 | Rec 0.8672 | P@R0.9 0.8396
+Epoch 0127 | Time: 88.2s | C_Water: 0.225459 | Opt: Multiprocessing
+  Train: Loss 0.0379 | Prec 0.9261 | Rec 0.8722 | P@R0.9 0.8980
+  Val  : Loss 0.0418 | Prec 0.9091 | Rec 0.8492 | P@R0.9 0.8442
+Epoch 0128 | Time: 80.9s | C_Water: 0.225460 | Opt: Multiprocessing
+  Train: Loss 0.0392 | Prec 0.9224 | Rec 0.8788 | P@R0.9 0.9003
+  Val  : Loss 0.0423 | Prec 0.9014 | Rec 0.8546 | P@R0.9 0.8416
+Epoch 0129 | Time: 90.2s | C_Water: 0.225461 | Opt: Multiprocessing
+  Train: Loss 0.0392 | Prec 0.9240 | Rec 0.8829 | P@R0.9 0.9061
+  Val  : Loss 0.0425 | Prec 0.9004 | Rec 0.8556 | P@R0.9 0.8402
+Epoch 0130 | Time: 100.2s | C_Water: 0.225462 | Opt: Multiprocessing
+  Train: Loss 0.0406 | Prec 0.9223 | Rec 0.8757 | P@R0.9 0.8974
+  Val  : Loss 0.0418 | Prec 0.9018 | Rec 0.8553 | P@R0.9 0.8443
+Epoch 0131 | Time: 85.8s | C_Water: 0.225464 | Opt: Multiprocessing
+  Train: Loss 0.0372 | Prec 0.9255 | Rec 0.8802 | P@R0.9 0.9046
+  Val  : Loss 0.0422 | Prec 0.9038 | Rec 0.8521 | P@R0.9 0.8415
+Epoch 0132 | Time: 99.9s | C_Water: 0.225465 | Opt: Multiprocessing
+  Train: Loss 0.0372 | Prec 0.9223 | Rec 0.8935 | P@R0.9 0.9165
+  Val  : Loss 0.0426 | Prec 0.8957 | Rec 0.8605 | P@R0.9 0.8396
+Epoch 0133 | Time: 73.4s | C_Water: 0.225466 | Opt: Multiprocessing
+  Train: Loss 0.0382 | Prec 0.9216 | Rec 0.8819 | P@R0.9 0.9022
+  Val  : Loss 0.0423 | Prec 0.9016 | Rec 0.8557 | P@R0.9 0.8413
+Epoch 0134 | Time: 107.1s | C_Water: 0.225467 | Opt: Multiprocessing
+  Train: Loss 0.0392 | Prec 0.9248 | Rec 0.8788 | P@R0.9 0.9050
+  Val  : Loss 0.0420 | Prec 0.9034 | Rec 0.8540 | P@R0.9 0.8451
+Epoch 0135 | Time: 83.2s | C_Water: 0.225469 | Opt: Multiprocessing
+  Train: Loss 0.0395 | Prec 0.9241 | Rec 0.8737 | P@R0.9 0.8974
+  Val  : Loss 0.0418 | Prec 0.9063 | Rec 0.8526 | P@R0.9 0.8459
+Epoch 0136 | Time: 95.2s | C_Water: 0.225471 | Opt: Multiprocessing
+  Train: Loss 0.0389 | Prec 0.9159 | Rec 0.8843 | P@R0.9 0.8996
+  Val  : Loss 0.0420 | Prec 0.8945 | Rec 0.8635 | P@R0.9 0.8436
+Epoch 0137 | Time: 98.5s | C_Water: 0.225472 | Opt: Multiprocessing
+  Train: Loss 0.0399 | Prec 0.9226 | Rec 0.8792 | P@R0.9 0.9019
+  Val  : Loss 0.0422 | Prec 0.9017 | Rec 0.8563 | P@R0.9 0.8435
+Epoch 0138 | Time: 89.2s | C_Water: 0.225473 | Opt: Multiprocessing
+  Train: Loss 0.0386 | Prec 0.9227 | Rec 0.8862 | P@R0.9 0.9083
+  Val  : Loss 0.0424 | Prec 0.9007 | Rec 0.8562 | P@R0.9 0.8410
+Epoch 0139 | Time: 92.1s | C_Water: 0.225474 | Opt: Multiprocessing
+  Train: Loss 0.0380 | Prec 0.9247 | Rec 0.8855 | P@R0.9 0.9110
+  Val  : Loss 0.0417 | Prec 0.9029 | Rec 0.8573 | P@R0.9 0.8469
+Epoch 0140 | Time: 95.9s | C_Water: 0.225475 | Opt: Multiprocessing
+  Train: Loss 0.0390 | Prec 0.9228 | Rec 0.8807 | P@R0.9 0.9033
+  Val  : Loss 0.0420 | Prec 0.9022 | Rec 0.8553 | P@R0.9 0.8412
+Epoch 0141 | Time: 93.9s | C_Water: 0.225476 | Opt: Multiprocessing
+  Train: Loss 0.0372 | Prec 0.9228 | Rec 0.8818 | P@R0.9 0.9050
+  Val  : Loss 0.0419 | Prec 0.9058 | Rec 0.8543 | P@R0.9 0.8447
+Epoch 0142 | Time: 110.8s | C_Water: 0.225477 | Opt: Multiprocessing
+  Train: Loss 0.0390 | Prec 0.9280 | Rec 0.8816 | P@R0.9 0.9099
+  Val  : Loss 0.0416 | Prec 0.9065 | Rec 0.8529 | P@R0.9 0.8472
+Epoch 0143 | Time: 100.8s | C_Water: 0.225478 | Opt: Multiprocessing
+  Train: Loss 0.0391 | Prec 0.9200 | Rec 0.8913 | P@R0.9 0.9105
+  Val  : Loss 0.0416 | Prec 0.8967 | Rec 0.8644 | P@R0.9 0.8488
+Epoch 0144 | Time: 92.6s | C_Water: 0.225480 | Opt: Multiprocessing
+  Train: Loss 0.0395 | Prec 0.9237 | Rec 0.8839 | P@R0.9 0.9081
+  Val  : Loss 0.0416 | Prec 0.9013 | Rec 0.8594 | P@R0.9 0.8468
+Epoch 0145 | Time: 100.0s | C_Water: 0.225481 | Opt: Multiprocessing
+  Train: Loss 0.0387 | Prec 0.9199 | Rec 0.8797 | P@R0.9 0.8982
+  Val  : Loss 0.0418 | Prec 0.9022 | Rec 0.8569 | P@R0.9 0.8456
+Epoch 0146 | Time: 85.2s | C_Water: 0.225482 | Opt: Multiprocessing
+  Train: Loss 0.0381 | Prec 0.9198 | Rec 0.8851 | P@R0.9 0.9036
+  Val  : Loss 0.0416 | Prec 0.8986 | Rec 0.8625 | P@R0.9 0.8475
+Epoch 0147 | Time: 97.2s | C_Water: 0.225484 | Opt: Multiprocessing
+  Train: Loss 0.0376 | Prec 0.9240 | Rec 0.8887 | P@R0.9 0.9126
+  Val  : Loss 0.0416 | Prec 0.9020 | Rec 0.8583 | P@R0.9 0.8483
+Epoch 0148 | Time: 98.6s | C_Water: 0.225485 | Opt: Multiprocessing
+  Train: Loss 0.0384 | Prec 0.9210 | Rec 0.8827 | P@R0.9 0.9033
+  Val  : Loss 0.0415 | Prec 0.9030 | Rec 0.8607 | P@R0.9 0.8481
+Epoch 0149 | Time: 96.5s | C_Water: 0.225486 | Opt: Multiprocessing
+  Train: Loss 0.0371 | Prec 0.9236 | Rec 0.8858 | P@R0.9 0.9090
+  Val  : Loss 0.0417 | Prec 0.9027 | Rec 0.8554 | P@R0.9 0.8458
+Epoch 0150 | Time: 97.3s | C_Water: 0.225487 | Opt: Multiprocessing
+  Train: Loss 0.0397 | Prec 0.9188 | Rec 0.8808 | P@R0.9 0.8999
+  Val  : Loss 0.0415 | Prec 0.9018 | Rec 0.8597 | P@R0.9 0.8479
+Epoch 0151 | Time: 103.8s | C_Water: 0.225488 | Opt: Multiprocessing
+  Train: Loss 0.0379 | Prec 0.9232 | Rec 0.8837 | P@R0.9 0.9062
+  Val  : Loss 0.0414 | Prec 0.9050 | Rec 0.8579 | P@R0.9 0.8478
+Epoch 0152 | Time: 110.4s | C_Water: 0.225490 | Opt: Multiprocessing
+  Train: Loss 0.0376 | Prec 0.9247 | Rec 0.8809 | P@R0.9 0.9041
+  Val  : Loss 0.0417 | Prec 0.9047 | Rec 0.8552 | P@R0.9 0.8462
+Epoch 0153 | Time: 89.5s | C_Water: 0.225491 | Opt: Multiprocessing
+  Train: Loss 0.0385 | Prec 0.9219 | Rec 0.8879 | P@R0.9 0.9102
+  Val  : Loss 0.0417 | Prec 0.8986 | Rec 0.8621 | P@R0.9 0.8469
+Epoch 0154 | Time: 95.5s | C_Water: 0.225493 | Opt: Multiprocessing
+  Train: Loss 0.0377 | Prec 0.9265 | Rec 0.8772 | P@R0.9 0.9012
+  Val  : Loss 0.0414 | Prec 0.9075 | Rec 0.8537 | P@R0.9 0.8471
+Epoch 0155 | Time: 90.8s | C_Water: 0.225494 | Opt: Multiprocessing
+  Train: Loss 0.0376 | Prec 0.9269 | Rec 0.8863 | P@R0.9 0.9136
+  Val  : Loss 0.0414 | Prec 0.9042 | Rec 0.8583 | P@R0.9 0.8482
+Epoch 0156 | Time: 99.9s | C_Water: 0.225495 | Opt: Multiprocessing
+  Train: Loss 0.0375 | Prec 0.9227 | Rec 0.8868 | P@R0.9 0.9088
+  Val  : Loss 0.0417 | Prec 0.9002 | Rec 0.8602 | P@R0.9 0.8469
+Epoch 0157 | Time: 90.9s | C_Water: 0.225496 | Opt: Multiprocessing
+  Train: Loss 0.0381 | Prec 0.9223 | Rec 0.8815 | P@R0.9 0.9037
+  Val  : Loss 0.0411 | Prec 0.9046 | Rec 0.8583 | P@R0.9 0.8507
+Epoch 0158 | Time: 101.9s | C_Water: 0.225497 | Opt: Multiprocessing
+  Train: Loss 0.0376 | Prec 0.9288 | Rec 0.8819 | P@R0.9 0.9112
+  Val  : Loss 0.0412 | Prec 0.9073 | Rec 0.8549 | P@R0.9 0.8493
+Epoch 0159 | Time: 120.4s | C_Water: 0.225498 | Opt: Multiprocessing
+  Train: Loss 0.0380 | Prec 0.9155 | Rec 0.8908 | P@R0.9 0.9060
+  Val  : Loss 0.0415 | Prec 0.8963 | Rec 0.8670 | P@R0.9 0.8504
+Epoch 0160 | Time: 102.9s | C_Water: 0.225499 | Opt: Multiprocessing
+  Train: Loss 0.0391 | Prec 0.9245 | Rec 0.8787 | P@R0.9 0.9042
+  Val  : Loss 0.0410 | Prec 0.9086 | Rec 0.8551 | P@R0.9 0.8512
+Epoch 0161 | Time: 92.1s | C_Water: 0.225501 | Opt: Multiprocessing
+  Train: Loss 0.0387 | Prec 0.9253 | Rec 0.8884 | P@R0.9 0.9135
+  Val  : Loss 0.0412 | Prec 0.9037 | Rec 0.8592 | P@R0.9 0.8512
+Epoch 0162 | Time: 102.3s | C_Water: 0.225502 | Opt: Multiprocessing
+  Train: Loss 0.0381 | Prec 0.9277 | Rec 0.8840 | P@R0.9 0.9132
+  Val  : Loss 0.0411 | Prec 0.9061 | Rec 0.8569 | P@R0.9 0.8487
+Epoch 0163 | Time: 95.4s | C_Water: 0.225503 | Opt: Multiprocessing
+  Train: Loss 0.0389 | Prec 0.9223 | Rec 0.8891 | P@R0.9 0.9108
+  Val  : Loss 0.0409 | Prec 0.9009 | Rec 0.8637 | P@R0.9 0.8514
+Epoch 0164 | Time: 111.7s | C_Water: 0.225504 | Opt: Multiprocessing
+  Train: Loss 0.0383 | Prec 0.9231 | Rec 0.8848 | P@R0.9 0.9090
+  Val  : Loss 0.0415 | Prec 0.9019 | Rec 0.8600 | P@R0.9 0.8489
+Epoch 0165 | Time: 101.5s | C_Water: 0.225505 | Opt: Multiprocessing
+  Train: Loss 0.0368 | Prec 0.9254 | Rec 0.8804 | P@R0.9 0.9043
+  Val  : Loss 0.0414 | Prec 0.9064 | Rec 0.8554 | P@R0.9 0.8476
+Epoch 0166 | Time: 99.7s | C_Water: 0.225507 | Opt: Multiprocessing
+  Train: Loss 0.0382 | Prec 0.9203 | Rec 0.8823 | P@R0.9 0.9015
+  Val  : Loss 0.0417 | Prec 0.9007 | Rec 0.8609 | P@R0.9 0.8486
+Epoch 0167 | Time: 123.0s | C_Water: 0.225508 | Opt: Multiprocessing
+  Train: Loss 0.0374 | Prec 0.9229 | Rec 0.8959 | P@R0.9 0.9188
+  Val  : Loss 0.0410 | Prec 0.8988 | Rec 0.8670 | P@R0.9 0.8523
+Epoch 0168 | Time: 112.7s | C_Water: 0.225509 | Opt: Multiprocessing
+  Train: Loss 0.0382 | Prec 0.9234 | Rec 0.8919 | P@R0.9 0.9156
+  Val  : Loss 0.0413 | Prec 0.9009 | Rec 0.8625 | P@R0.9 0.8484
+Epoch 0169 | Time: 105.0s | C_Water: 0.225510 | Opt: Multiprocessing
+  Train: Loss 0.0368 | Prec 0.9185 | Rec 0.8920 | P@R0.9 0.9094
+  Val  : Loss 0.0410 | Prec 0.8982 | Rec 0.8669 | P@R0.9 0.8523
+Epoch 0170 | Time: 95.4s | C_Water: 0.225512 | Opt: Multiprocessing
+  Train: Loss 0.0371 | Prec 0.9293 | Rec 0.8803 | P@R0.9 0.9102
+  Val  : Loss 0.0409 | Prec 0.9108 | Rec 0.8532 | P@R0.9 0.8534
+Epoch 0171 | Time: 97.4s | C_Water: 0.225513 | Opt: Multiprocessing
+  Train: Loss 0.0388 | Prec 0.9265 | Rec 0.8885 | P@R0.9 0.9156
+  Val  : Loss 0.0410 | Prec 0.9024 | Rec 0.8620 | P@R0.9 0.8521
+Epoch 0172 | Time: 102.6s | C_Water: 0.225514 | Opt: Multiprocessing
+  Train: Loss 0.0365 | Prec 0.9299 | Rec 0.8837 | P@R0.9 0.9143
+  Val  : Loss 0.0409 | Prec 0.9101 | Rec 0.8554 | P@R0.9 0.8529
+Epoch 0173 | Time: 84.0s | C_Water: 0.225515 | Opt: Multiprocessing
+  Train: Loss 0.0370 | Prec 0.9208 | Rec 0.8880 | P@R0.9 0.9089
+  Val  : Loss 0.0413 | Prec 0.9002 | Rec 0.8635 | P@R0.9 0.8511
+Epoch 0174 | Time: 83.4s | C_Water: 0.225516 | Opt: Multiprocessing
+  Train: Loss 0.0385 | Prec 0.9282 | Rec 0.8862 | P@R0.9 0.9144
+  Val  : Loss 0.0414 | Prec 0.9065 | Rec 0.8570 | P@R0.9 0.8485
+Epoch 0175 | Time: 86.8s | C_Water: 0.225518 | Opt: Multiprocessing
+  Train: Loss 0.0376 | Prec 0.9231 | Rec 0.8882 | P@R0.9 0.9123
+  Val  : Loss 0.0413 | Prec 0.9031 | Rec 0.8600 | P@R0.9 0.8505
+Epoch 0176 | Time: 96.8s | C_Water: 0.225518 | Opt: Multiprocessing
+  Train: Loss 0.0369 | Prec 0.9206 | Rec 0.8909 | P@R0.9 0.9129
+  Val  : Loss 0.0408 | Prec 0.8977 | Rec 0.8693 | P@R0.9 0.8555
+Epoch 0177 | Time: 94.0s | C_Water: 0.225520 | Opt: Multiprocessing
+  Train: Loss 0.0382 | Prec 0.9166 | Rec 0.8889 | P@R0.9 0.9051
+  Val  : Loss 0.0407 | Prec 0.8978 | Rec 0.8690 | P@R0.9 0.8555
+Epoch 0178 | Time: 101.7s | C_Water: 0.225521 | Opt: Multiprocessing
+  Train: Loss 0.0364 | Prec 0.9250 | Rec 0.8890 | P@R0.9 0.9139
+  Val  : Loss 0.0407 | Prec 0.9033 | Rec 0.8637 | P@R0.9 0.8541
+Epoch 0179 | Time: 95.5s | C_Water: 0.225522 | Opt: Multiprocessing
+  Train: Loss 0.0373 | Prec 0.9255 | Rec 0.8813 | P@R0.9 0.9068
+  Val  : Loss 0.0410 | Prec 0.9083 | Rec 0.8571 | P@R0.9 0.8525
+Epoch 0180 | Time: 88.7s | C_Water: 0.225523 | Opt: Multiprocessing
+  Train: Loss 0.0385 | Prec 0.9273 | Rec 0.8794 | P@R0.9 0.9086
+  Val  : Loss 0.0412 | Prec 0.9104 | Rec 0.8530 | P@R0.9 0.8509
+Epoch 0181 | Time: 98.0s | C_Water: 0.225525 | Opt: Multiprocessing
+  Train: Loss 0.0366 | Prec 0.9253 | Rec 0.8890 | P@R0.9 0.9148
+  Val  : Loss 0.0406 | Prec 0.9066 | Rec 0.8620 | P@R0.9 0.8554
+Epoch 0182 | Time: 87.8s | C_Water: 0.225526 | Opt: Multiprocessing
+  Train: Loss 0.0371 | Prec 0.9261 | Rec 0.8855 | P@R0.9 0.9120
+  Val  : Loss 0.0408 | Prec 0.9057 | Rec 0.8599 | P@R0.9 0.8543
+Epoch 0183 | Time: 95.0s | C_Water: 0.225528 | Opt: Multiprocessing
+  Train: Loss 0.0394 | Prec 0.9193 | Rec 0.8973 | P@R0.9 0.9167
+  Val  : Loss 0.0412 | Prec 0.8933 | Rec 0.8712 | P@R0.9 0.8528
+Epoch 0184 | Time: 108.6s | C_Water: 0.225529 | Opt: Multiprocessing
+  Train: Loss 0.0384 | Prec 0.9285 | Rec 0.8843 | P@R0.9 0.9145
+  Val  : Loss 0.0409 | Prec 0.9074 | Rec 0.8567 | P@R0.9 0.8516
+Epoch 0185 | Time: 96.2s | C_Water: 0.225531 | Opt: Multiprocessing
+  Train: Loss 0.0372 | Prec 0.9299 | Rec 0.8903 | P@R0.9 0.9206
+  Val  : Loss 0.0408 | Prec 0.9063 | Rec 0.8597 | P@R0.9 0.8537
+Epoch 0186 | Time: 98.2s | C_Water: 0.225531 | Opt: Multiprocessing
+  Train: Loss 0.0355 | Prec 0.9218 | Rec 0.8949 | P@R0.9 0.9167
+  Val  : Loss 0.0412 | Prec 0.8954 | Rec 0.8691 | P@R0.9 0.8541
+Epoch 0187 | Time: 91.9s | C_Water: 0.225533 | Opt: Multiprocessing
+  Train: Loss 0.0370 | Prec 0.9226 | Rec 0.8897 | P@R0.9 0.9120
+  Val  : Loss 0.0411 | Prec 0.9007 | Rec 0.8642 | P@R0.9 0.8527
+Epoch 0188 | Time: 104.4s | C_Water: 0.225533 | Opt: Multiprocessing
+  Train: Loss 0.0367 | Prec 0.9276 | Rec 0.8937 | P@R0.9 0.9221
+  Val  : Loss 0.0404 | Prec 0.9050 | Rec 0.8640 | P@R0.9 0.8576
+Epoch 0189 | Time: 102.4s | C_Water: 0.225534 | Opt: Multiprocessing
+  Train: Loss 0.0373 | Prec 0.9244 | Rec 0.8905 | P@R0.9 0.9150
+  Val  : Loss 0.0402 | Prec 0.9019 | Rec 0.8674 | P@R0.9 0.8587
+Epoch 0190 | Time: 97.6s | C_Water: 0.225535 | Opt: Multiprocessing
+  Train: Loss 0.0373 | Prec 0.9227 | Rec 0.8920 | P@R0.9 0.9144
+  Val  : Loss 0.0404 | Prec 0.9020 | Rec 0.8659 | P@R0.9 0.8581
+Epoch 0191 | Time: 95.3s | C_Water: 0.225537 | Opt: Multiprocessing
+  Train: Loss 0.0380 | Prec 0.9204 | Rec 0.8900 | P@R0.9 0.9099
+  Val  : Loss 0.0407 | Prec 0.9014 | Rec 0.8647 | P@R0.9 0.8553
+Epoch 0192 | Time: 106.0s | C_Water: 0.225538 | Opt: Multiprocessing
+  Train: Loss 0.0374 | Prec 0.9266 | Rec 0.8839 | P@R0.9 0.9119
+  Val  : Loss 0.0403 | Prec 0.9062 | Rec 0.8599 | P@R0.9 0.8571
+Epoch 0193 | Time: 123.2s | C_Water: 0.225539 | Opt: Multiprocessing
+  Train: Loss 0.0385 | Prec 0.9261 | Rec 0.8766 | P@R0.9 0.9048
+  Val  : Loss 0.0408 | Prec 0.9101 | Rec 0.8548 | P@R0.9 0.8526
+Epoch 0194 | Time: 98.0s | C_Water: 0.225540 | Opt: Multiprocessing
+  Train: Loss 0.0367 | Prec 0.9181 | Rec 0.8920 | P@R0.9 0.9105
+  Val  : Loss 0.0405 | Prec 0.8998 | Rec 0.8696 | P@R0.9 0.8580
+Epoch 0195 | Time: 105.0s | C_Water: 0.225541 | Opt: Multiprocessing
+  Train: Loss 0.0360 | Prec 0.9251 | Rec 0.8826 | P@R0.9 0.9061
+  Val  : Loss 0.0400 | Prec 0.9059 | Rec 0.8638 | P@R0.9 0.8606
+Epoch 0196 | Time: 101.1s | C_Water: 0.225542 | Opt: Multiprocessing
+  Train: Loss 0.0369 | Prec 0.9236 | Rec 0.8925 | P@R0.9 0.9160
+  Val  : Loss 0.0407 | Prec 0.8999 | Rec 0.8666 | P@R0.9 0.8570
+Epoch 0197 | Time: 95.5s | C_Water: 0.225543 | Opt: Multiprocessing
+  Train: Loss 0.0377 | Prec 0.9154 | Rec 0.8945 | P@R0.9 0.9098
+  Val  : Loss 0.0407 | Prec 0.8954 | Rec 0.8724 | P@R0.9 0.8570
+Epoch 0198 | Time: 85.7s | C_Water: 0.225544 | Opt: Multiprocessing
+  Train: Loss 0.0376 | Prec 0.9223 | Rec 0.8904 | P@R0.9 0.9131
+  Val  : Loss 0.0404 | Prec 0.9012 | Rec 0.8659 | P@R0.9 0.8574
+Epoch 0199 | Time: 85.7s | C_Water: 0.225546 | Opt: Multiprocessing
+  Train: Loss 0.0369 | Prec 0.9271 | Rec 0.8968 | P@R0.9 0.9243
+  Val  : Loss 0.0403 | Prec 0.9023 | Rec 0.8673 | P@R0.9 0.8586
+Epoch 0200 | Time: 99.4s | C_Water: 0.225546 | Opt: Multiprocessing
+  Train: Loss 0.0362 | Prec 0.9272 | Rec 0.8932 | P@R0.9 0.9214
+  Val  : Loss 0.0402 | Prec 0.9042 | Rec 0.8644 | P@R0.9 0.8577
+Epoch 0201 | Time: 100.7s | C_Water: 0.225548 | Opt: Multiprocessing
+  Train: Loss 0.0354 | Prec 0.9271 | Rec 0.9009 | P@R0.9 0.9280
+  Val  : Loss 0.0405 | Prec 0.9016 | Rec 0.8678 | P@R0.9 0.8582
+Epoch 0202 | Time: 95.0s | C_Water: 0.225549 | Opt: Multiprocessing
+  Train: Loss 0.0360 | Prec 0.9272 | Rec 0.8842 | P@R0.9 0.9112
+  Val  : Loss 0.0404 | Prec 0.9086 | Rec 0.8604 | P@R0.9 0.8572
+Epoch 0203 | Time: 104.0s | C_Water: 0.225550 | Opt: Multiprocessing
+  Train: Loss 0.0367 | Prec 0.9221 | Rec 0.8928 | P@R0.9 0.9157
+  Val  : Loss 0.0402 | Prec 0.9017 | Rec 0.8675 | P@R0.9 0.8583
+Epoch 0204 | Time: 99.2s | C_Water: 0.225552 | Opt: Multiprocessing
+  Train: Loss 0.0370 | Prec 0.9318 | Rec 0.8864 | P@R0.9 0.9192
+  Val  : Loss 0.0400 | Prec 0.9104 | Rec 0.8608 | P@R0.9 0.8596
+Epoch 0205 | Time: 97.8s | C_Water: 0.225553 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9273 | Rec 0.8852 | P@R0.9 0.9122
+  Val  : Loss 0.0404 | Prec 0.9077 | Rec 0.8610 | P@R0.9 0.8576
+Epoch 0206 | Time: 94.6s | C_Water: 0.225553 | Opt: Multiprocessing
+  Train: Loss 0.0361 | Prec 0.9277 | Rec 0.8864 | P@R0.9 0.9152
+  Val  : Loss 0.0400 | Prec 0.9070 | Rec 0.8644 | P@R0.9 0.8607
+Epoch 0207 | Time: 96.8s | C_Water: 0.225554 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9260 | Rec 0.8864 | P@R0.9 0.9118
+  Val  : Loss 0.0395 | Prec 0.9088 | Rec 0.8631 | P@R0.9 0.8647
+Epoch 0208 | Time: 108.3s | C_Water: 0.225556 | Opt: Multiprocessing
+  Train: Loss 0.0346 | Prec 0.9271 | Rec 0.8928 | P@R0.9 0.9194
+  Val  : Loss 0.0401 | Prec 0.9050 | Rec 0.8664 | P@R0.9 0.8591
+Epoch 0209 | Time: 105.9s | C_Water: 0.225557 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9275 | Rec 0.8891 | P@R0.9 0.9177
+  Val  : Loss 0.0400 | Prec 0.9088 | Rec 0.8624 | P@R0.9 0.8606
+Epoch 0210 | Time: 98.2s | C_Water: 0.225558 | Opt: Multiprocessing
+  Train: Loss 0.0370 | Prec 0.9311 | Rec 0.8851 | P@R0.9 0.9167
+  Val  : Loss 0.0404 | Prec 0.9084 | Rec 0.8599 | P@R0.9 0.8566
+Epoch 0211 | Time: 95.2s | C_Water: 0.225559 | Opt: Multiprocessing
+  Train: Loss 0.0362 | Prec 0.9302 | Rec 0.8934 | P@R0.9 0.9241
+  Val  : Loss 0.0402 | Prec 0.9051 | Rec 0.8628 | P@R0.9 0.8586
+Epoch 0212 | Time: 92.0s | C_Water: 0.225560 | Opt: Multiprocessing
+  Train: Loss 0.0360 | Prec 0.9262 | Rec 0.8871 | P@R0.9 0.9136
+  Val  : Loss 0.0402 | Prec 0.9064 | Rec 0.8631 | P@R0.9 0.8590
+Epoch 0213 | Time: 108.2s | C_Water: 0.225561 | Opt: Multiprocessing
+  Train: Loss 0.0362 | Prec 0.9319 | Rec 0.8871 | P@R0.9 0.9196
+  Val  : Loss 0.0400 | Prec 0.9106 | Rec 0.8605 | P@R0.9 0.8615
+Epoch 0214 | Time: 104.6s | C_Water: 0.225562 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9280 | Rec 0.8923 | P@R0.9 0.9206
+  Val  : Loss 0.0401 | Prec 0.9056 | Rec 0.8641 | P@R0.9 0.8611
+Epoch 0215 | Time: 97.4s | C_Water: 0.225564 | Opt: Multiprocessing
+  Train: Loss 0.0377 | Prec 0.9258 | Rec 0.8907 | P@R0.9 0.9165
+  Val  : Loss 0.0398 | Prec 0.9053 | Rec 0.8667 | P@R0.9 0.8623
+Epoch 0216 | Time: 98.3s | C_Water: 0.225565 | Opt: Multiprocessing
+  Train: Loss 0.0368 | Prec 0.9255 | Rec 0.8878 | P@R0.9 0.9140
+  Val  : Loss 0.0399 | Prec 0.9054 | Rec 0.8665 | P@R0.9 0.8619
+Epoch 0217 | Time: 95.7s | C_Water: 0.225566 | Opt: Multiprocessing
+  Train: Loss 0.0359 | Prec 0.9191 | Rec 0.8935 | P@R0.9 0.9126
+  Val  : Loss 0.0404 | Prec 0.9013 | Rec 0.8694 | P@R0.9 0.8590
+Epoch 0218 | Time: 99.4s | C_Water: 0.225566 | Opt: Multiprocessing
+  Train: Loss 0.0378 | Prec 0.9332 | Rec 0.8833 | P@R0.9 0.9180
+  Val  : Loss 0.0402 | Prec 0.9136 | Rec 0.8563 | P@R0.9 0.8607
+Epoch 0219 | Time: 95.0s | C_Water: 0.225567 | Opt: Multiprocessing
+  Train: Loss 0.0379 | Prec 0.9223 | Rec 0.9006 | P@R0.9 0.9228
+  Val  : Loss 0.0404 | Prec 0.8978 | Rec 0.8721 | P@R0.9 0.8594
+Epoch 0220 | Time: 114.6s | C_Water: 0.225569 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9245 | Rec 0.8859 | P@R0.9 0.9103
+  Val  : Loss 0.0402 | Prec 0.9060 | Rec 0.8640 | P@R0.9 0.8587
+Epoch 0221 | Time: 102.1s | C_Water: 0.225570 | Opt: Multiprocessing
+  Train: Loss 0.0366 | Prec 0.9315 | Rec 0.8896 | P@R0.9 0.9230
+  Val  : Loss 0.0402 | Prec 0.9089 | Rec 0.8611 | P@R0.9 0.8605
+Epoch 0222 | Time: 92.9s | C_Water: 0.225571 | Opt: Multiprocessing
+  Train: Loss 0.0380 | Prec 0.9268 | Rec 0.8906 | P@R0.9 0.9172
+  Val  : Loss 0.0397 | Prec 0.9061 | Rec 0.8678 | P@R0.9 0.8637
+Epoch 0223 | Time: 100.8s | C_Water: 0.225572 | Opt: Multiprocessing
+  Train: Loss 0.0369 | Prec 0.9218 | Rec 0.8965 | P@R0.9 0.9184
+  Val  : Loss 0.0400 | Prec 0.9008 | Rec 0.8715 | P@R0.9 0.8612
+Epoch 0224 | Time: 80.5s | C_Water: 0.225574 | Opt: Multiprocessing
+  Train: Loss 0.0359 | Prec 0.9280 | Rec 0.8852 | P@R0.9 0.9138
+  Val  : Loss 0.0397 | Prec 0.9118 | Rec 0.8603 | P@R0.9 0.8621
+Epoch 0225 | Time: 93.5s | C_Water: 0.225575 | Opt: Multiprocessing
+  Train: Loss 0.0372 | Prec 0.9270 | Rec 0.8897 | P@R0.9 0.9171
+  Val  : Loss 0.0392 | Prec 0.9090 | Rec 0.8660 | P@R0.9 0.8681
+Epoch 0226 | Time: 100.9s | C_Water: 0.225576 | Opt: Multiprocessing
+  Train: Loss 0.0365 | Prec 0.9249 | Rec 0.8870 | P@R0.9 0.9124
+  Val  : Loss 0.0399 | Prec 0.9063 | Rec 0.8659 | P@R0.9 0.8615
+Epoch 0227 | Time: 102.7s | C_Water: 0.225577 | Opt: Multiprocessing
+  Train: Loss 0.0360 | Prec 0.9313 | Rec 0.8858 | P@R0.9 0.9183
+  Val  : Loss 0.0403 | Prec 0.9127 | Rec 0.8575 | P@R0.9 0.8610
+Epoch 0228 | Time: 105.2s | C_Water: 0.225578 | Opt: Multiprocessing
+  Train: Loss 0.0369 | Prec 0.9306 | Rec 0.8852 | P@R0.9 0.9168
+  Val  : Loss 0.0396 | Prec 0.9102 | Rec 0.8629 | P@R0.9 0.8640
+Epoch 0229 | Time: 93.2s | C_Water: 0.225580 | Opt: Multiprocessing
+  Train: Loss 0.0346 | Prec 0.9232 | Rec 0.8981 | P@R0.9 0.9214
+  Val  : Loss 0.0399 | Prec 0.9027 | Rec 0.8687 | P@R0.9 0.8609
+Epoch 0230 | Time: 95.2s | C_Water: 0.225581 | Opt: Multiprocessing
+  Train: Loss 0.0364 | Prec 0.9317 | Rec 0.8888 | P@R0.9 0.9212
+  Val  : Loss 0.0396 | Prec 0.9095 | Rec 0.8631 | P@R0.9 0.8636
+Epoch 0231 | Time: 97.0s | C_Water: 0.225581 | Opt: Multiprocessing
+  Train: Loss 0.0368 | Prec 0.9259 | Rec 0.8847 | P@R0.9 0.9103
+  Val  : Loss 0.0397 | Prec 0.9095 | Rec 0.8634 | P@R0.9 0.8628
+Epoch 0232 | Time: 92.9s | C_Water: 0.225582 | Opt: Multiprocessing
+  Train: Loss 0.0353 | Prec 0.9292 | Rec 0.8861 | P@R0.9 0.9169
+  Val  : Loss 0.0396 | Prec 0.9120 | Rec 0.8604 | P@R0.9 0.8632
+Epoch 0233 | Time: 99.6s | C_Water: 0.225584 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9234 | Rec 0.8968 | P@R0.9 0.9204
+  Val  : Loss 0.0398 | Prec 0.9017 | Rec 0.8716 | P@R0.9 0.8637
+Epoch 0234 | Time: 107.8s | C_Water: 0.225585 | Opt: Multiprocessing
+  Train: Loss 0.0360 | Prec 0.9228 | Rec 0.9000 | P@R0.9 0.9228
+  Val  : Loss 0.0397 | Prec 0.9007 | Rec 0.8743 | P@R0.9 0.8665
+Epoch 0235 | Time: 104.5s | C_Water: 0.225586 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9252 | Rec 0.8907 | P@R0.9 0.9161
+  Val  : Loss 0.0397 | Prec 0.9055 | Rec 0.8687 | P@R0.9 0.8631
+Epoch 0236 | Time: 88.2s | C_Water: 0.225587 | Opt: Multiprocessing
+  Train: Loss 0.0368 | Prec 0.9222 | Rec 0.8987 | P@R0.9 0.9210
+  Val  : Loss 0.0401 | Prec 0.8961 | Rec 0.8756 | P@R0.9 0.8634
+Epoch 0237 | Time: 108.0s | C_Water: 0.225588 | Opt: Multiprocessing
+  Train: Loss 0.0372 | Prec 0.9281 | Rec 0.8893 | P@R0.9 0.9183
+  Val  : Loss 0.0396 | Prec 0.9069 | Rec 0.8656 | P@R0.9 0.8629
+Epoch 0238 | Time: 97.3s | C_Water: 0.225589 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9284 | Rec 0.8895 | P@R0.9 0.9181
+  Val  : Loss 0.0393 | Prec 0.9097 | Rec 0.8644 | P@R0.9 0.8656
+Epoch 0239 | Time: 106.7s | C_Water: 0.225591 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9260 | Rec 0.8877 | P@R0.9 0.9148
+  Val  : Loss 0.0394 | Prec 0.9072 | Rec 0.8669 | P@R0.9 0.8640
+Epoch 0240 | Time: 96.4s | C_Water: 0.225591 | Opt: Multiprocessing
+  Train: Loss 0.0366 | Prec 0.9244 | Rec 0.8918 | P@R0.9 0.9156
+  Val  : Loss 0.0399 | Prec 0.9041 | Rec 0.8677 | P@R0.9 0.8619
+Epoch 0241 | Time: 105.3s | C_Water: 0.225593 | Opt: Multiprocessing
+  Train: Loss 0.0351 | Prec 0.9274 | Rec 0.8946 | P@R0.9 0.9213
+  Val  : Loss 0.0396 | Prec 0.9057 | Rec 0.8669 | P@R0.9 0.8650
+Epoch 0242 | Time: 104.5s | C_Water: 0.225594 | Opt: Multiprocessing
+  Train: Loss 0.0358 | Prec 0.9255 | Rec 0.8953 | P@R0.9 0.9208
+  Val  : Loss 0.0396 | Prec 0.9031 | Rec 0.8707 | P@R0.9 0.8645
+Epoch 0243 | Time: 107.7s | C_Water: 0.225595 | Opt: Multiprocessing
+  Train: Loss 0.0355 | Prec 0.9256 | Rec 0.8929 | P@R0.9 0.9194
+  Val  : Loss 0.0396 | Prec 0.9031 | Rec 0.8696 | P@R0.9 0.8651
+Epoch 0244 | Time: 95.5s | C_Water: 0.225596 | Opt: Multiprocessing
+  Train: Loss 0.0351 | Prec 0.9262 | Rec 0.8954 | P@R0.9 0.9214
+  Val  : Loss 0.0397 | Prec 0.9046 | Rec 0.8676 | P@R0.9 0.8625
+Epoch 0245 | Time: 94.8s | C_Water: 0.225597 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9310 | Rec 0.8879 | P@R0.9 0.9199
+  Val  : Loss 0.0396 | Prec 0.9108 | Rec 0.8620 | P@R0.9 0.8654
+Epoch 0246 | Time: 91.9s | C_Water: 0.225598 | Opt: Multiprocessing
+  Train: Loss 0.0355 | Prec 0.9258 | Rec 0.8903 | P@R0.9 0.9173
+  Val  : Loss 0.0393 | Prec 0.9085 | Rec 0.8660 | P@R0.9 0.8675
+Epoch 0247 | Time: 102.5s | C_Water: 0.225599 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9207 | Rec 0.9005 | P@R0.9 0.9211
+  Val  : Loss 0.0401 | Prec 0.8988 | Rec 0.8727 | P@R0.9 0.8607
+Epoch 0248 | Time: 114.4s | C_Water: 0.225601 | Opt: Multiprocessing
+  Train: Loss 0.0354 | Prec 0.9237 | Rec 0.8979 | P@R0.9 0.9214
+  Val  : Loss 0.0392 | Prec 0.9025 | Rec 0.8734 | P@R0.9 0.8670
+Epoch 0249 | Time: 108.1s | C_Water: 0.225602 | Opt: Multiprocessing
+  Train: Loss 0.0360 | Prec 0.9301 | Rec 0.8957 | P@R0.9 0.9258
+  Val  : Loss 0.0396 | Prec 0.9069 | Rec 0.8674 | P@R0.9 0.8644
+Epoch 0250 | Time: 103.2s | C_Water: 0.225603 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9339 | Rec 0.8930 | P@R0.9 0.9280
+  Val  : Loss 0.0395 | Prec 0.9102 | Rec 0.8629 | P@R0.9 0.8663
+Epoch 0251 | Time: 97.3s | C_Water: 0.225605 | Opt: Multiprocessing
+  Train: Loss 0.0364 | Prec 0.9326 | Rec 0.8919 | P@R0.9 0.9259
+  Val  : Loss 0.0394 | Prec 0.9119 | Rec 0.8619 | P@R0.9 0.8675
+Epoch 0252 | Time: 94.5s | C_Water: 0.225605 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9240 | Rec 0.8920 | P@R0.9 0.9161
+  Val  : Loss 0.0395 | Prec 0.9049 | Rec 0.8702 | P@R0.9 0.8674
+Epoch 0253 | Time: 101.5s | C_Water: 0.225607 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9277 | Rec 0.8935 | P@R0.9 0.9216
+  Val  : Loss 0.0398 | Prec 0.9075 | Rec 0.8650 | P@R0.9 0.8649
+Epoch 0254 | Time: 96.1s | C_Water: 0.225608 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9273 | Rec 0.8985 | P@R0.9 0.9260
+  Val  : Loss 0.0394 | Prec 0.9042 | Rec 0.8703 | P@R0.9 0.8661
+Epoch 0255 | Time: 105.4s | C_Water: 0.225609 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9301 | Rec 0.8926 | P@R0.9 0.9233
+  Val  : Loss 0.0395 | Prec 0.9084 | Rec 0.8648 | P@R0.9 0.8659
+Epoch 0256 | Time: 110.7s | C_Water: 0.225610 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9306 | Rec 0.8952 | P@R0.9 0.9263
+  Val  : Loss 0.0393 | Prec 0.9078 | Rec 0.8659 | P@R0.9 0.8668
+Epoch 0257 | Time: 85.2s | C_Water: 0.225611 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9253 | Rec 0.8935 | P@R0.9 0.9195
+  Val  : Loss 0.0390 | Prec 0.9080 | Rec 0.8684 | P@R0.9 0.8687
+Epoch 0258 | Time: 87.4s | C_Water: 0.225612 | Opt: Multiprocessing
+  Train: Loss 0.0354 | Prec 0.9288 | Rec 0.9005 | P@R0.9 0.9293
+  Val  : Loss 0.0394 | Prec 0.9021 | Rec 0.8719 | P@R0.9 0.8669
+Epoch 0259 | Time: 104.5s | C_Water: 0.225614 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9295 | Rec 0.8935 | P@R0.9 0.9233
+  Val  : Loss 0.0393 | Prec 0.9109 | Rec 0.8641 | P@R0.9 0.8663
+Epoch 0260 | Time: 83.5s | C_Water: 0.225615 | Opt: Multiprocessing
+  Train: Loss 0.0358 | Prec 0.9251 | Rec 0.8965 | P@R0.9 0.9217
+  Val  : Loss 0.0393 | Prec 0.9032 | Rec 0.8719 | P@R0.9 0.8668
+Epoch 0261 | Time: 95.6s | C_Water: 0.225616 | Opt: Multiprocessing
+  Train: Loss 0.0357 | Prec 0.9327 | Rec 0.8913 | P@R0.9 0.9255
+  Val  : Loss 0.0395 | Prec 0.9130 | Rec 0.8619 | P@R0.9 0.8648
+Epoch 0262 | Time: 101.3s | C_Water: 0.225617 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9295 | Rec 0.8973 | P@R0.9 0.9269
+  Val  : Loss 0.0391 | Prec 0.9073 | Rec 0.8686 | P@R0.9 0.8692
+Epoch 0263 | Time: 102.4s | C_Water: 0.225619 | Opt: Multiprocessing
+  Train: Loss 0.0370 | Prec 0.9326 | Rec 0.8819 | P@R0.9 0.9179
+  Val  : Loss 0.0392 | Prec 0.9164 | Rec 0.8567 | P@R0.9 0.8675
+Epoch 0264 | Time: 77.9s | C_Water: 0.225620 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9322 | Rec 0.8812 | P@R0.9 0.9149
+  Val  : Loss 0.0393 | Prec 0.9156 | Rec 0.8579 | P@R0.9 0.8670
+Epoch 0265 | Time: 83.5s | C_Water: 0.225621 | Opt: Multiprocessing
+  Train: Loss 0.0368 | Prec 0.9252 | Rec 0.8893 | P@R0.9 0.9154
+  Val  : Loss 0.0393 | Prec 0.9066 | Rec 0.8685 | P@R0.9 0.8681
+Epoch 0266 | Time: 94.3s | C_Water: 0.225622 | Opt: Multiprocessing
+  Train: Loss 0.0354 | Prec 0.9252 | Rec 0.8967 | P@R0.9 0.9220
+  Val  : Loss 0.0394 | Prec 0.9053 | Rec 0.8686 | P@R0.9 0.8662
+Epoch 0267 | Time: 93.4s | C_Water: 0.225624 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9308 | Rec 0.8954 | P@R0.9 0.9269
+  Val  : Loss 0.0391 | Prec 0.9119 | Rec 0.8641 | P@R0.9 0.8666
+Epoch 0268 | Time: 93.6s | C_Water: 0.225624 | Opt: Multiprocessing
+  Train: Loss 0.0346 | Prec 0.9318 | Rec 0.8994 | P@R0.9 0.9311
+  Val  : Loss 0.0387 | Prec 0.9079 | Rec 0.8695 | P@R0.9 0.8709
+Epoch 0269 | Time: 99.0s | C_Water: 0.225626 | Opt: Multiprocessing
+  Train: Loss 0.0362 | Prec 0.9292 | Rec 0.9010 | P@R0.9 0.9302
+  Val  : Loss 0.0392 | Prec 0.9058 | Rec 0.8710 | P@R0.9 0.8675
+Epoch 0270 | Time: 102.1s | C_Water: 0.225626 | Opt: Multiprocessing
+  Train: Loss 0.0358 | Prec 0.9274 | Rec 0.8995 | P@R0.9 0.9271
+  Val  : Loss 0.0389 | Prec 0.9054 | Rec 0.8732 | P@R0.9 0.8684
+Epoch 0271 | Time: 105.8s | C_Water: 0.225628 | Opt: Multiprocessing
+  Train: Loss 0.0367 | Prec 0.9292 | Rec 0.8870 | P@R0.9 0.9178
+  Val  : Loss 0.0394 | Prec 0.9118 | Rec 0.8631 | P@R0.9 0.8674
+Epoch 0272 | Time: 100.0s | C_Water: 0.225629 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9271 | Rec 0.8996 | P@R0.9 0.9266
+  Val  : Loss 0.0389 | Prec 0.9032 | Rec 0.8744 | P@R0.9 0.8709
+Epoch 0273 | Time: 109.3s | C_Water: 0.225630 | Opt: Multiprocessing
+  Train: Loss 0.0372 | Prec 0.9269 | Rec 0.8934 | P@R0.9 0.9208
+  Val  : Loss 0.0390 | Prec 0.9076 | Rec 0.8693 | P@R0.9 0.8675
+Epoch 0274 | Time: 103.3s | C_Water: 0.225631 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9288 | Rec 0.8891 | P@R0.9 0.9181
+  Val  : Loss 0.0389 | Prec 0.9118 | Rec 0.8643 | P@R0.9 0.8688
+Epoch 0275 | Time: 97.7s | C_Water: 0.225633 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9267 | Rec 0.9044 | P@R0.9 0.9313
+  Val  : Loss 0.0391 | Prec 0.9017 | Rec 0.8760 | P@R0.9 0.8689
+Epoch 0276 | Time: 100.8s | C_Water: 0.225634 | Opt: Multiprocessing
+  Train: Loss 0.0351 | Prec 0.9346 | Rec 0.8884 | P@R0.9 0.9255
+  Val  : Loss 0.0388 | Prec 0.9147 | Rec 0.8625 | P@R0.9 0.8698
+Epoch 0277 | Time: 98.8s | C_Water: 0.225634 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9289 | Rec 0.8926 | P@R0.9 0.9228
+  Val  : Loss 0.0388 | Prec 0.9096 | Rec 0.8689 | P@R0.9 0.8715
+Epoch 0278 | Time: 82.8s | C_Water: 0.225636 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9283 | Rec 0.9004 | P@R0.9 0.9286
+  Val  : Loss 0.0391 | Prec 0.9044 | Rec 0.8736 | P@R0.9 0.8677
+Epoch 0279 | Time: 94.3s | C_Water: 0.225637 | Opt: Multiprocessing
+  Train: Loss 0.0344 | Prec 0.9327 | Rec 0.8886 | P@R0.9 0.9231
+  Val  : Loss 0.0389 | Prec 0.9128 | Rec 0.8644 | P@R0.9 0.8688
+Epoch 0280 | Time: 91.4s | C_Water: 0.225638 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9293 | Rec 0.8947 | P@R0.9 0.9247
+  Val  : Loss 0.0385 | Prec 0.9090 | Rec 0.8707 | P@R0.9 0.8711
+Epoch 0281 | Time: 112.0s | C_Water: 0.225640 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9309 | Rec 0.8951 | P@R0.9 0.9269
+  Val  : Loss 0.0389 | Prec 0.9120 | Rec 0.8660 | P@R0.9 0.8693
+Epoch 0282 | Time: 87.1s | C_Water: 0.225640 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9290 | Rec 0.8930 | P@R0.9 0.9227
+  Val  : Loss 0.0386 | Prec 0.9081 | Rec 0.8708 | P@R0.9 0.8725
+Epoch 0283 | Time: 96.5s | C_Water: 0.225642 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9322 | Rec 0.8977 | P@R0.9 0.9307
+  Val  : Loss 0.0389 | Prec 0.9110 | Rec 0.8666 | P@R0.9 0.8711
+Epoch 0284 | Time: 95.1s | C_Water: 0.225643 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9307 | Rec 0.9000 | P@R0.9 0.9308
+  Val  : Loss 0.0388 | Prec 0.9104 | Rec 0.8675 | P@R0.9 0.8702
+Epoch 0285 | Time: 84.6s | C_Water: 0.225643 | Opt: Multiprocessing
+  Train: Loss 0.0364 | Prec 0.9290 | Rec 0.8983 | P@R0.9 0.9276
+  Val  : Loss 0.0388 | Prec 0.9072 | Rec 0.8701 | P@R0.9 0.8709
+Epoch 0286 | Time: 86.4s | C_Water: 0.225645 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9292 | Rec 0.8926 | P@R0.9 0.9222
+  Val  : Loss 0.0386 | Prec 0.9093 | Rec 0.8692 | P@R0.9 0.8703
+Epoch 0287 | Time: 89.5s | C_Water: 0.225646 | Opt: Multiprocessing
+  Train: Loss 0.0358 | Prec 0.9289 | Rec 0.8912 | P@R0.9 0.9213
+  Val  : Loss 0.0387 | Prec 0.9093 | Rec 0.8688 | P@R0.9 0.8710
+Epoch 0288 | Time: 95.6s | C_Water: 0.225648 | Opt: Multiprocessing
+  Train: Loss 0.0341 | Prec 0.9283 | Rec 0.8949 | P@R0.9 0.9235
+  Val  : Loss 0.0387 | Prec 0.9075 | Rec 0.8706 | P@R0.9 0.8714
+Epoch 0289 | Time: 87.6s | C_Water: 0.225648 | Opt: Multiprocessing
+  Train: Loss 0.0344 | Prec 0.9295 | Rec 0.8997 | P@R0.9 0.9293
+  Val  : Loss 0.0388 | Prec 0.9051 | Rec 0.8725 | P@R0.9 0.8715
+Epoch 0290 | Time: 91.6s | C_Water: 0.225649 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9296 | Rec 0.9003 | P@R0.9 0.9298
+  Val  : Loss 0.0386 | Prec 0.9068 | Rec 0.8727 | P@R0.9 0.8721
+Epoch 0291 | Time: 89.9s | C_Water: 0.225650 | Opt: Multiprocessing
+  Train: Loss 0.0357 | Prec 0.9267 | Rec 0.8969 | P@R0.9 0.9241
+  Val  : Loss 0.0386 | Prec 0.9075 | Rec 0.8719 | P@R0.9 0.8725
+Epoch 0292 | Time: 86.4s | C_Water: 0.225652 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9314 | Rec 0.8981 | P@R0.9 0.9299
+  Val  : Loss 0.0383 | Prec 0.9098 | Rec 0.8716 | P@R0.9 0.8748
+Epoch 0293 | Time: 97.4s | C_Water: 0.225653 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9297 | Rec 0.8959 | P@R0.9 0.9257
+  Val  : Loss 0.0391 | Prec 0.9072 | Rec 0.8682 | P@R0.9 0.8670
+Epoch 0294 | Time: 103.0s | C_Water: 0.225654 | Opt: Multiprocessing
+  Train: Loss 0.0355 | Prec 0.9308 | Rec 0.8952 | P@R0.9 0.9267
+  Val  : Loss 0.0383 | Prec 0.9088 | Rec 0.8721 | P@R0.9 0.8749
+Epoch 0295 | Time: 98.3s | C_Water: 0.225655 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9311 | Rec 0.8948 | P@R0.9 0.9266
+  Val  : Loss 0.0390 | Prec 0.9086 | Rec 0.8697 | P@R0.9 0.8701
+Epoch 0296 | Time: 95.8s | C_Water: 0.225656 | Opt: Multiprocessing
+  Train: Loss 0.0344 | Prec 0.9299 | Rec 0.8937 | P@R0.9 0.9250
+  Val  : Loss 0.0387 | Prec 0.9096 | Rec 0.8704 | P@R0.9 0.8719
+Epoch 0297 | Time: 84.0s | C_Water: 0.225657 | Opt: Multiprocessing
+  Train: Loss 0.0353 | Prec 0.9293 | Rec 0.8955 | P@R0.9 0.9247
+  Val  : Loss 0.0383 | Prec 0.9101 | Rec 0.8702 | P@R0.9 0.8743
+Epoch 0298 | Time: 92.4s | C_Water: 0.225659 | Opt: Multiprocessing
+  Train: Loss 0.0361 | Prec 0.9298 | Rec 0.8925 | P@R0.9 0.9233
+  Val  : Loss 0.0389 | Prec 0.9126 | Rec 0.8645 | P@R0.9 0.8696
+Epoch 0299 | Time: 86.8s | C_Water: 0.225659 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9277 | Rec 0.8966 | P@R0.9 0.9249
+  Val  : Loss 0.0384 | Prec 0.9082 | Rec 0.8723 | P@R0.9 0.8741
+Epoch 0300 | Time: 84.5s | C_Water: 0.225661 | Opt: Multiprocessing
+  Train: Loss 0.0351 | Prec 0.9298 | Rec 0.8929 | P@R0.9 0.9235
+  Val  : Loss 0.0389 | Prec 0.9085 | Rec 0.8687 | P@R0.9 0.8704
+Epoch 0301 | Time: 95.6s | C_Water: 0.225662 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9332 | Rec 0.8986 | P@R0.9 0.9321
+  Val  : Loss 0.0388 | Prec 0.9114 | Rec 0.8662 | P@R0.9 0.8696
+Epoch 0302 | Time: 85.1s | C_Water: 0.225663 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9265 | Rec 0.8912 | P@R0.9 0.9189
+  Val  : Loss 0.0387 | Prec 0.9112 | Rec 0.8673 | P@R0.9 0.8710
+Epoch 0303 | Time: 88.9s | C_Water: 0.225664 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9300 | Rec 0.8959 | P@R0.9 0.9259
+  Val  : Loss 0.0386 | Prec 0.9070 | Rec 0.8736 | P@R0.9 0.8734
+Epoch 0304 | Time: 95.9s | C_Water: 0.225665 | Opt: Multiprocessing
+  Train: Loss 0.0353 | Prec 0.9292 | Rec 0.8987 | P@R0.9 0.9280
+  Val  : Loss 0.0384 | Prec 0.9073 | Rec 0.8724 | P@R0.9 0.8738
+Epoch 0305 | Time: 93.0s | C_Water: 0.225666 | Opt: Multiprocessing
+  Train: Loss 0.0355 | Prec 0.9329 | Rec 0.8950 | P@R0.9 0.9286
+  Val  : Loss 0.0391 | Prec 0.9135 | Rec 0.8630 | P@R0.9 0.8684
+Epoch 0306 | Time: 93.3s | C_Water: 0.225667 | Opt: Multiprocessing
+  Train: Loss 0.0354 | Prec 0.9301 | Rec 0.8934 | P@R0.9 0.9251
+  Val  : Loss 0.0388 | Prec 0.9110 | Rec 0.8666 | P@R0.9 0.8715
+Epoch 0307 | Time: 91.0s | C_Water: 0.225668 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9283 | Rec 0.8983 | P@R0.9 0.9268
+  Val  : Loss 0.0389 | Prec 0.9055 | Rec 0.8710 | P@R0.9 0.8714
+Epoch 0308 | Time: 89.6s | C_Water: 0.225669 | Opt: Multiprocessing
+  Train: Loss 0.0357 | Prec 0.9218 | Rec 0.8996 | P@R0.9 0.9213
+  Val  : Loss 0.0392 | Prec 0.9008 | Rec 0.8770 | P@R0.9 0.8709
+Epoch 0309 | Time: 85.9s | C_Water: 0.225670 | Opt: Multiprocessing
+  Train: Loss 0.0351 | Prec 0.9251 | Rec 0.8956 | P@R0.9 0.9208
+  Val  : Loss 0.0385 | Prec 0.9072 | Rec 0.8727 | P@R0.9 0.8737
+Epoch 0310 | Time: 92.7s | C_Water: 0.225671 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9311 | Rec 0.8939 | P@R0.9 0.9255
+  Val  : Loss 0.0388 | Prec 0.9128 | Rec 0.8654 | P@R0.9 0.8699
+Epoch 0311 | Time: 95.5s | C_Water: 0.225672 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9358 | Rec 0.8911 | P@R0.9 0.9286
+  Val  : Loss 0.0384 | Prec 0.9160 | Rec 0.8638 | P@R0.9 0.8743
+Epoch 0312 | Time: 100.0s | C_Water: 0.225674 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9214 | Rec 0.8956 | P@R0.9 0.9170
+  Val  : Loss 0.0385 | Prec 0.9032 | Rec 0.8767 | P@R0.9 0.8721
+Epoch 0313 | Time: 97.0s | C_Water: 0.225675 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9306 | Rec 0.8925 | P@R0.9 0.9241
+  Val  : Loss 0.0389 | Prec 0.9130 | Rec 0.8645 | P@R0.9 0.8697
+Epoch 0314 | Time: 91.5s | C_Water: 0.225676 | Opt: Multiprocessing
+  Train: Loss 0.0356 | Prec 0.9326 | Rec 0.8886 | P@R0.9 0.9223
+  Val  : Loss 0.0389 | Prec 0.9119 | Rec 0.8664 | P@R0.9 0.8713
+Epoch 0315 | Time: 86.0s | C_Water: 0.225677 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9262 | Rec 0.9000 | P@R0.9 0.9262
+  Val  : Loss 0.0391 | Prec 0.9034 | Rec 0.8744 | P@R0.9 0.8699
+Epoch 0316 | Time: 86.8s | C_Water: 0.225678 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9276 | Rec 0.8954 | P@R0.9 0.9234
+  Val  : Loss 0.0387 | Prec 0.9109 | Rec 0.8685 | P@R0.9 0.8714
+Epoch 0317 | Time: 93.3s | C_Water: 0.225680 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9321 | Rec 0.8950 | P@R0.9 0.9275
+  Val  : Loss 0.0387 | Prec 0.9101 | Rec 0.8686 | P@R0.9 0.8722
+Epoch 0318 | Time: 104.5s | C_Water: 0.225680 | Opt: Multiprocessing
+  Train: Loss 0.0353 | Prec 0.9310 | Rec 0.8961 | P@R0.9 0.9272
+  Val  : Loss 0.0383 | Prec 0.9114 | Rec 0.8699 | P@R0.9 0.8748
+Epoch 0319 | Time: 97.7s | C_Water: 0.225682 | Opt: Multiprocessing
+  Train: Loss 0.0363 | Prec 0.9324 | Rec 0.8965 | P@R0.9 0.9296
+  Val  : Loss 0.0386 | Prec 0.9097 | Rec 0.8699 | P@R0.9 0.8716
+Epoch 0320 | Time: 89.6s | C_Water: 0.225684 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9363 | Rec 0.8885 | P@R0.9 0.9279
+  Val  : Loss 0.0390 | Prec 0.9146 | Rec 0.8617 | P@R0.9 0.8694
+Epoch 0321 | Time: 87.8s | C_Water: 0.225684 | Opt: Multiprocessing
+  Train: Loss 0.0344 | Prec 0.9337 | Rec 0.8929 | P@R0.9 0.9275
+  Val  : Loss 0.0385 | Prec 0.9144 | Rec 0.8648 | P@R0.9 0.8747
+Epoch 0322 | Time: 106.4s | C_Water: 0.225685 | Opt: Multiprocessing
+  Train: Loss 0.0346 | Prec 0.9280 | Rec 0.8984 | P@R0.9 0.9265
+  Val  : Loss 0.0381 | Prec 0.9089 | Rec 0.8737 | P@R0.9 0.8774
+Epoch 0323 | Time: 90.8s | C_Water: 0.225686 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9243 | Rec 0.9002 | P@R0.9 0.9248
+  Val  : Loss 0.0386 | Prec 0.9033 | Rec 0.8757 | P@R0.9 0.8734
+Epoch 0324 | Time: 85.1s | C_Water: 0.225687 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9272 | Rec 0.9003 | P@R0.9 0.9275
+  Val  : Loss 0.0385 | Prec 0.9055 | Rec 0.8738 | P@R0.9 0.8736
+Epoch 0325 | Time: 96.2s | C_Water: 0.225688 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9287 | Rec 0.8980 | P@R0.9 0.9269
+  Val  : Loss 0.0384 | Prec 0.9073 | Rec 0.8731 | P@R0.9 0.8730
+Epoch 0326 | Time: 93.2s | C_Water: 0.225689 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9243 | Rec 0.9022 | P@R0.9 0.9262
+  Val  : Loss 0.0385 | Prec 0.9023 | Rec 0.8777 | P@R0.9 0.8736
+Epoch 0327 | Time: 89.3s | C_Water: 0.225690 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9296 | Rec 0.8975 | P@R0.9 0.9272
+  Val  : Loss 0.0384 | Prec 0.9086 | Rec 0.8728 | P@R0.9 0.8756
+Epoch 0328 | Time: 94.9s | C_Water: 0.225691 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9333 | Rec 0.8964 | P@R0.9 0.9307
+  Val  : Loss 0.0386 | Prec 0.9137 | Rec 0.8663 | P@R0.9 0.8714
+Epoch 0329 | Time: 91.5s | C_Water: 0.225692 | Opt: Multiprocessing
+  Train: Loss 0.0339 | Prec 0.9336 | Rec 0.8946 | P@R0.9 0.9292
+  Val  : Loss 0.0379 | Prec 0.9141 | Rec 0.8677 | P@R0.9 0.8760
+Epoch 0330 | Time: 86.1s | C_Water: 0.225694 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9229 | Rec 0.9056 | P@R0.9 0.9273
+  Val  : Loss 0.0389 | Prec 0.9005 | Rec 0.8771 | P@R0.9 0.8708
+Epoch 0331 | Time: 87.6s | C_Water: 0.225695 | Opt: Multiprocessing
+  Train: Loss 0.0339 | Prec 0.9284 | Rec 0.8961 | P@R0.9 0.9256
+  Val  : Loss 0.0382 | Prec 0.9101 | Rec 0.8716 | P@R0.9 0.8743
+Epoch 0332 | Time: 102.0s | C_Water: 0.225696 | Opt: Multiprocessing
+  Train: Loss 0.0355 | Prec 0.9332 | Rec 0.8891 | P@R0.9 0.9230
+  Val  : Loss 0.0382 | Prec 0.9137 | Rec 0.8674 | P@R0.9 0.8773
+Epoch 0333 | Time: 100.4s | C_Water: 0.225697 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9307 | Rec 0.8967 | P@R0.9 0.9276
+  Val  : Loss 0.0385 | Prec 0.9107 | Rec 0.8688 | P@R0.9 0.8719
+Epoch 0334 | Time: 101.0s | C_Water: 0.225698 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9333 | Rec 0.8951 | P@R0.9 0.9289
+  Val  : Loss 0.0383 | Prec 0.9125 | Rec 0.8685 | P@R0.9 0.8741
+Epoch 0335 | Time: 87.8s | C_Water: 0.225700 | Opt: Multiprocessing
+  Train: Loss 0.0344 | Prec 0.9328 | Rec 0.8961 | P@R0.9 0.9293
+  Val  : Loss 0.0386 | Prec 0.9139 | Rec 0.8662 | P@R0.9 0.8728
+Epoch 0336 | Time: 93.0s | C_Water: 0.225701 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9318 | Rec 0.8999 | P@R0.9 0.9317
+  Val  : Loss 0.0386 | Prec 0.9097 | Rec 0.8703 | P@R0.9 0.8731
+Epoch 0337 | Time: 91.7s | C_Water: 0.225701 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9331 | Rec 0.8937 | P@R0.9 0.9277
+  Val  : Loss 0.0383 | Prec 0.9150 | Rec 0.8664 | P@R0.9 0.8747
+Epoch 0338 | Time: 94.4s | C_Water: 0.225703 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9279 | Rec 0.9008 | P@R0.9 0.9287
+  Val  : Loss 0.0384 | Prec 0.9045 | Rec 0.8761 | P@R0.9 0.8742
+Epoch 0339 | Time: 101.8s | C_Water: 0.225704 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9275 | Rec 0.8926 | P@R0.9 0.9211
+  Val  : Loss 0.0380 | Prec 0.9104 | Rec 0.8724 | P@R0.9 0.8756
+Epoch 0340 | Time: 91.9s | C_Water: 0.225705 | Opt: Multiprocessing
+  Train: Loss 0.0355 | Prec 0.9317 | Rec 0.8928 | P@R0.9 0.9251
+  Val  : Loss 0.0380 | Prec 0.9128 | Rec 0.8702 | P@R0.9 0.8781
+Epoch 0341 | Time: 94.1s | C_Water: 0.225706 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9275 | Rec 0.8969 | P@R0.9 0.9253
+  Val  : Loss 0.0378 | Prec 0.9112 | Rec 0.8727 | P@R0.9 0.8793
+Epoch 0342 | Time: 112.0s | C_Water: 0.225707 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9258 | Rec 0.9054 | P@R0.9 0.9309
+  Val  : Loss 0.0385 | Prec 0.9028 | Rec 0.8775 | P@R0.9 0.8737
+Epoch 0343 | Time: 107.6s | C_Water: 0.225708 | Opt: Multiprocessing
+  Train: Loss 0.0344 | Prec 0.9326 | Rec 0.8985 | P@R0.9 0.9314
+  Val  : Loss 0.0383 | Prec 0.9097 | Rec 0.8721 | P@R0.9 0.8770
+Epoch 0344 | Time: 106.4s | C_Water: 0.225710 | Opt: Multiprocessing
+  Train: Loss 0.0354 | Prec 0.9306 | Rec 0.9023 | P@R0.9 0.9323
+  Val  : Loss 0.0391 | Prec 0.9065 | Rec 0.8724 | P@R0.9 0.8719
+Epoch 0345 | Time: 104.4s | C_Water: 0.225711 | Opt: Multiprocessing
+  Train: Loss 0.0346 | Prec 0.9292 | Rec 0.9034 | P@R0.9 0.9323
+  Val  : Loss 0.0381 | Prec 0.9071 | Rec 0.8751 | P@R0.9 0.8774
+Epoch 0346 | Time: 94.1s | C_Water: 0.225712 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9329 | Rec 0.8956 | P@R0.9 0.9293
+  Val  : Loss 0.0379 | Prec 0.9141 | Rec 0.8693 | P@R0.9 0.8765
+Epoch 0347 | Time: 98.7s | C_Water: 0.225713 | Opt: Multiprocessing
+  Train: Loss 0.0352 | Prec 0.9319 | Rec 0.8888 | P@R0.9 0.9217
+  Val  : Loss 0.0378 | Prec 0.9138 | Rec 0.8697 | P@R0.9 0.8783
+Epoch 0348 | Time: 105.9s | C_Water: 0.225715 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9322 | Rec 0.8998 | P@R0.9 0.9320
+  Val  : Loss 0.0380 | Prec 0.9123 | Rec 0.8711 | P@R0.9 0.8782
+Epoch 0349 | Time: 99.6s | C_Water: 0.225716 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9292 | Rec 0.9016 | P@R0.9 0.9304
+  Val  : Loss 0.0379 | Prec 0.9110 | Rec 0.8726 | P@R0.9 0.8766
+Epoch 0350 | Time: 100.7s | C_Water: 0.225718 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9310 | Rec 0.8986 | P@R0.9 0.9294
+  Val  : Loss 0.0382 | Prec 0.9101 | Rec 0.8728 | P@R0.9 0.8766
+Epoch 0351 | Time: 102.6s | C_Water: 0.225719 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9279 | Rec 0.8967 | P@R0.9 0.9249
+  Val  : Loss 0.0383 | Prec 0.9051 | Rec 0.8762 | P@R0.9 0.8755
+Epoch 0352 | Time: 86.4s | C_Water: 0.225720 | Opt: Multiprocessing
+  Train: Loss 0.0353 | Prec 0.9303 | Rec 0.8910 | P@R0.9 0.9222
+  Val  : Loss 0.0385 | Prec 0.9114 | Rec 0.8681 | P@R0.9 0.8729
+Epoch 0353 | Time: 104.9s | C_Water: 0.225720 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9281 | Rec 0.8900 | P@R0.9 0.9186
+  Val  : Loss 0.0380 | Prec 0.9115 | Rec 0.8715 | P@R0.9 0.8763
+Epoch 0354 | Time: 96.3s | C_Water: 0.225721 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9378 | Rec 0.8911 | P@R0.9 0.9300
+  Val  : Loss 0.0380 | Prec 0.9188 | Rec 0.8646 | P@R0.9 0.8772
+Epoch 0355 | Time: 101.1s | C_Water: 0.225722 | Opt: Multiprocessing
+  Train: Loss 0.0339 | Prec 0.9318 | Rec 0.8951 | P@R0.9 0.9276
+  Val  : Loss 0.0380 | Prec 0.9122 | Rec 0.8702 | P@R0.9 0.8760
+Epoch 0356 | Time: 101.9s | C_Water: 0.225724 | Opt: Multiprocessing
+  Train: Loss 0.0344 | Prec 0.9323 | Rec 0.8928 | P@R0.9 0.9257
+  Val  : Loss 0.0381 | Prec 0.9144 | Rec 0.8681 | P@R0.9 0.8765
+Epoch 0357 | Time: 99.5s | C_Water: 0.225724 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9307 | Rec 0.8982 | P@R0.9 0.9289
+  Val  : Loss 0.0380 | Prec 0.9097 | Rec 0.8728 | P@R0.9 0.8780
+Epoch 0358 | Time: 99.5s | C_Water: 0.225726 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9314 | Rec 0.8990 | P@R0.9 0.9307
+  Val  : Loss 0.0381 | Prec 0.9117 | Rec 0.8715 | P@R0.9 0.8757
+Epoch 0359 | Time: 99.0s | C_Water: 0.225727 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9311 | Rec 0.8990 | P@R0.9 0.9303
+  Val  : Loss 0.0383 | Prec 0.9109 | Rec 0.8692 | P@R0.9 0.8759
+Epoch 0360 | Time: 96.9s | C_Water: 0.225729 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9292 | Rec 0.8969 | P@R0.9 0.9266
+  Val  : Loss 0.0378 | Prec 0.9118 | Rec 0.8719 | P@R0.9 0.8788
+Epoch 0361 | Time: 86.5s | C_Water: 0.225730 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9289 | Rec 0.8982 | P@R0.9 0.9270
+  Val  : Loss 0.0382 | Prec 0.9087 | Rec 0.8731 | P@R0.9 0.8762
+Epoch 0362 | Time: 96.5s | C_Water: 0.225731 | Opt: Multiprocessing
+  Train: Loss 0.0346 | Prec 0.9348 | Rec 0.8986 | P@R0.9 0.9336
+  Val  : Loss 0.0382 | Prec 0.9138 | Rec 0.8677 | P@R0.9 0.8755
+Epoch 0363 | Time: 91.0s | C_Water: 0.225732 | Opt: Multiprocessing
+  Train: Loss 0.0334 | Prec 0.9331 | Rec 0.9012 | P@R0.9 0.9341
+  Val  : Loss 0.0377 | Prec 0.9110 | Rec 0.8737 | P@R0.9 0.8788
+Epoch 0364 | Time: 99.1s | C_Water: 0.225733 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9304 | Rec 0.8996 | P@R0.9 0.9301
+  Val  : Loss 0.0378 | Prec 0.9100 | Rec 0.8755 | P@R0.9 0.8768
+Epoch 0365 | Time: 84.1s | C_Water: 0.225734 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9377 | Rec 0.8992 | P@R0.9 0.9370
+  Val  : Loss 0.0380 | Prec 0.9154 | Rec 0.8673 | P@R0.9 0.8748
+Epoch 0366 | Time: 97.4s | C_Water: 0.225736 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9296 | Rec 0.8974 | P@R0.9 0.9272
+  Val  : Loss 0.0379 | Prec 0.9114 | Rec 0.8711 | P@R0.9 0.8768
+Epoch 0367 | Time: 108.4s | C_Water: 0.225737 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9301 | Rec 0.8991 | P@R0.9 0.9294
+  Val  : Loss 0.0376 | Prec 0.9099 | Rec 0.8747 | P@R0.9 0.8794
+Epoch 0368 | Time: 103.1s | C_Water: 0.225739 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9332 | Rec 0.8928 | P@R0.9 0.9270
+  Val  : Loss 0.0381 | Prec 0.9153 | Rec 0.8673 | P@R0.9 0.8779
+Epoch 0369 | Time: 101.8s | C_Water: 0.225740 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9306 | Rec 0.9008 | P@R0.9 0.9313
+  Val  : Loss 0.0380 | Prec 0.9086 | Rec 0.8746 | P@R0.9 0.8756
+Epoch 0370 | Time: 91.5s | C_Water: 0.225741 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9308 | Rec 0.8990 | P@R0.9 0.9300
+  Val  : Loss 0.0381 | Prec 0.9094 | Rec 0.8724 | P@R0.9 0.8769
+Epoch 0371 | Time: 94.3s | C_Water: 0.225742 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9286 | Rec 0.9034 | P@R0.9 0.9320
+  Val  : Loss 0.0381 | Prec 0.9077 | Rec 0.8756 | P@R0.9 0.8758
+Epoch 0372 | Time: 108.0s | C_Water: 0.225742 | Opt: Multiprocessing
+  Train: Loss 0.0341 | Prec 0.9330 | Rec 0.8965 | P@R0.9 0.9302
+  Val  : Loss 0.0377 | Prec 0.9152 | Rec 0.8694 | P@R0.9 0.8780
+Epoch 0373 | Time: 110.5s | C_Water: 0.225744 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9347 | Rec 0.8979 | P@R0.9 0.9330
+  Val  : Loss 0.0381 | Prec 0.9142 | Rec 0.8690 | P@R0.9 0.8774
+Epoch 0374 | Time: 86.4s | C_Water: 0.225745 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9292 | Rec 0.8973 | P@R0.9 0.9265
+  Val  : Loss 0.0382 | Prec 0.9100 | Rec 0.8724 | P@R0.9 0.8747
+Epoch 0375 | Time: 101.5s | C_Water: 0.225746 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9328 | Rec 0.8960 | P@R0.9 0.9294
+  Val  : Loss 0.0381 | Prec 0.9124 | Rec 0.8697 | P@R0.9 0.8748
+Epoch 0376 | Time: 89.5s | C_Water: 0.225747 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9275 | Rec 0.8939 | P@R0.9 0.9213
+  Val  : Loss 0.0380 | Prec 0.9129 | Rec 0.8708 | P@R0.9 0.8777
+Epoch 0377 | Time: 90.6s | C_Water: 0.225748 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9308 | Rec 0.8989 | P@R0.9 0.9297
+  Val  : Loss 0.0376 | Prec 0.9119 | Rec 0.8742 | P@R0.9 0.8798
+Epoch 0378 | Time: 79.1s | C_Water: 0.225749 | Opt: Multiprocessing
+  Train: Loss 0.0341 | Prec 0.9276 | Rec 0.9055 | P@R0.9 0.9325
+  Val  : Loss 0.0379 | Prec 0.9055 | Rec 0.8788 | P@R0.9 0.8798
+Epoch 0379 | Time: 78.8s | C_Water: 0.225750 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9313 | Rec 0.8958 | P@R0.9 0.9268
+  Val  : Loss 0.0379 | Prec 0.9142 | Rec 0.8683 | P@R0.9 0.8766
+Epoch 0380 | Time: 89.3s | C_Water: 0.225751 | Opt: Multiprocessing
+  Train: Loss 0.0348 | Prec 0.9346 | Rec 0.8910 | P@R0.9 0.9264
+  Val  : Loss 0.0377 | Prec 0.9158 | Rec 0.8680 | P@R0.9 0.8789
+Epoch 0381 | Time: 85.0s | C_Water: 0.225753 | Opt: Multiprocessing
+  Train: Loss 0.0331 | Prec 0.9384 | Rec 0.8973 | P@R0.9 0.9364
+  Val  : Loss 0.0384 | Prec 0.9185 | Rec 0.8627 | P@R0.9 0.8752
+Epoch 0382 | Time: 86.6s | C_Water: 0.225754 | Opt: Multiprocessing
+  Train: Loss 0.0346 | Prec 0.9278 | Rec 0.9055 | P@R0.9 0.9327
+  Val  : Loss 0.0381 | Prec 0.9055 | Rec 0.8773 | P@R0.9 0.8759
+Epoch 0383 | Time: 93.3s | C_Water: 0.225755 | Opt: Multiprocessing
+  Train: Loss 0.0342 | Prec 0.9257 | Rec 0.9028 | P@R0.9 0.9281
+  Val  : Loss 0.0380 | Prec 0.9053 | Rec 0.8777 | P@R0.9 0.8776
+Epoch 0384 | Time: 88.2s | C_Water: 0.225755 | Opt: Multiprocessing
+  Train: Loss 0.0350 | Prec 0.9338 | Rec 0.8944 | P@R0.9 0.9293
+  Val  : Loss 0.0378 | Prec 0.9142 | Rec 0.8690 | P@R0.9 0.8780
+Epoch 0385 | Time: 84.6s | C_Water: 0.225756 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9244 | Rec 0.8983 | P@R0.9 0.9229
+  Val  : Loss 0.0380 | Prec 0.9064 | Rec 0.8786 | P@R0.9 0.8786
+Epoch 0386 | Time: 86.4s | C_Water: 0.225757 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9302 | Rec 0.8994 | P@R0.9 0.9299
+  Val  : Loss 0.0381 | Prec 0.9098 | Rec 0.8736 | P@R0.9 0.8779
+Epoch 0387 | Time: 90.6s | C_Water: 0.225759 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9294 | Rec 0.8983 | P@R0.9 0.9280
+  Val  : Loss 0.0379 | Prec 0.9102 | Rec 0.8747 | P@R0.9 0.8784
+Epoch 0388 | Time: 79.1s | C_Water: 0.225761 | Opt: Multiprocessing
+  Train: Loss 0.0320 | Prec 0.9300 | Rec 0.8979 | P@R0.9 0.9281
+  Val  : Loss 0.0376 | Prec 0.9117 | Rec 0.8734 | P@R0.9 0.8798
+Epoch 0389 | Time: 93.6s | C_Water: 0.225761 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9301 | Rec 0.8989 | P@R0.9 0.9292
+  Val  : Loss 0.0378 | Prec 0.9117 | Rec 0.8721 | P@R0.9 0.8776
+Epoch 0390 | Time: 87.0s | C_Water: 0.225763 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9313 | Rec 0.8944 | P@R0.9 0.9267
+  Val  : Loss 0.0373 | Prec 0.9111 | Rec 0.8741 | P@R0.9 0.8814
+Epoch 0391 | Time: 88.5s | C_Water: 0.225764 | Opt: Multiprocessing
+  Train: Loss 0.0319 | Prec 0.9347 | Rec 0.9017 | P@R0.9 0.9360
+  Val  : Loss 0.0379 | Prec 0.9106 | Rec 0.8722 | P@R0.9 0.8783
+Epoch 0392 | Time: 89.7s | C_Water: 0.225765 | Opt: Multiprocessing
+  Train: Loss 0.0327 | Prec 0.9335 | Rec 0.9005 | P@R0.9 0.9339
+  Val  : Loss 0.0375 | Prec 0.9100 | Rec 0.8752 | P@R0.9 0.8811
+Epoch 0393 | Time: 95.9s | C_Water: 0.225766 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9305 | Rec 0.8999 | P@R0.9 0.9305
+  Val  : Loss 0.0380 | Prec 0.9087 | Rec 0.8747 | P@R0.9 0.8758
+Epoch 0394 | Time: 92.4s | C_Water: 0.225767 | Opt: Multiprocessing
+  Train: Loss 0.0342 | Prec 0.9274 | Rec 0.8973 | P@R0.9 0.9251
+  Val  : Loss 0.0376 | Prec 0.9098 | Rec 0.8757 | P@R0.9 0.8803
+Epoch 0395 | Time: 77.5s | C_Water: 0.225768 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9343 | Rec 0.8985 | P@R0.9 0.9331
+  Val  : Loss 0.0376 | Prec 0.9139 | Rec 0.8715 | P@R0.9 0.8787
+Epoch 0396 | Time: 83.0s | C_Water: 0.225769 | Opt: Multiprocessing
+  Train: Loss 0.0351 | Prec 0.9375 | Rec 0.8939 | P@R0.9 0.9322
+  Val  : Loss 0.0374 | Prec 0.9181 | Rec 0.8681 | P@R0.9 0.8813
+Epoch 0397 | Time: 93.7s | C_Water: 0.225770 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9279 | Rec 0.9015 | P@R0.9 0.9293
+  Val  : Loss 0.0376 | Prec 0.9081 | Rec 0.8795 | P@R0.9 0.8812
+Epoch 0398 | Time: 80.6s | C_Water: 0.225771 | Opt: Multiprocessing
+  Train: Loss 0.0341 | Prec 0.9350 | Rec 0.9020 | P@R0.9 0.9364
+  Val  : Loss 0.0374 | Prec 0.9132 | Rec 0.8718 | P@R0.9 0.8818
+Epoch 0399 | Time: 82.2s | C_Water: 0.225772 | Opt: Multiprocessing
+  Train: Loss 0.0334 | Prec 0.9347 | Rec 0.9003 | P@R0.9 0.9348
+  Val  : Loss 0.0380 | Prec 0.9129 | Rec 0.8696 | P@R0.9 0.8765
+Epoch 0400 | Time: 90.7s | C_Water: 0.225774 | Opt: Multiprocessing
+  Train: Loss 0.0340 | Prec 0.9356 | Rec 0.8990 | P@R0.9 0.9348
+  Val  : Loss 0.0376 | Prec 0.9129 | Rec 0.8723 | P@R0.9 0.8807
+Epoch 0401 | Time: 96.6s | C_Water: 0.225775 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9318 | Rec 0.9015 | P@R0.9 0.9330
+  Val  : Loss 0.0377 | Prec 0.9107 | Rec 0.8741 | P@R0.9 0.8804
+Epoch 0402 | Time: 88.9s | C_Water: 0.225776 | Opt: Multiprocessing
+  Train: Loss 0.0347 | Prec 0.9358 | Rec 0.8994 | P@R0.9 0.9352
+  Val  : Loss 0.0375 | Prec 0.9135 | Rec 0.8724 | P@R0.9 0.8814
+Epoch 0403 | Time: 80.2s | C_Water: 0.225777 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9254 | Rec 0.9028 | P@R0.9 0.9277
+  Val  : Loss 0.0379 | Prec 0.9068 | Rec 0.8768 | P@R0.9 0.8795
+Epoch 0404 | Time: 80.3s | C_Water: 0.225778 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9311 | Rec 0.8979 | P@R0.9 0.9291
+  Val  : Loss 0.0379 | Prec 0.9101 | Rec 0.8748 | P@R0.9 0.8779
+Epoch 0405 | Time: 82.9s | C_Water: 0.225779 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9322 | Rec 0.9041 | P@R0.9 0.9356
+  Val  : Loss 0.0381 | Prec 0.9085 | Rec 0.8748 | P@R0.9 0.8776
+Epoch 0406 | Time: 80.8s | C_Water: 0.225780 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9333 | Rec 0.9002 | P@R0.9 0.9334
+  Val  : Loss 0.0377 | Prec 0.9105 | Rec 0.8748 | P@R0.9 0.8799
+Epoch 0407 | Time: 82.5s | C_Water: 0.225781 | Opt: Multiprocessing
+  Train: Loss 0.0342 | Prec 0.9344 | Rec 0.8950 | P@R0.9 0.9301
+  Val  : Loss 0.0374 | Prec 0.9159 | Rec 0.8700 | P@R0.9 0.8800
+Epoch 0408 | Time: 90.1s | C_Water: 0.225782 | Opt: Multiprocessing
+  Train: Loss 0.0334 | Prec 0.9344 | Rec 0.8954 | P@R0.9 0.9303
+  Val  : Loss 0.0374 | Prec 0.9149 | Rec 0.8696 | P@R0.9 0.8814
+Epoch 0409 | Time: 88.3s | C_Water: 0.225784 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9278 | Rec 0.8980 | P@R0.9 0.9258
+  Val  : Loss 0.0377 | Prec 0.9095 | Rec 0.8762 | P@R0.9 0.8808
+Epoch 0410 | Time: 87.5s | C_Water: 0.225784 | Opt: Multiprocessing
+  Train: Loss 0.0334 | Prec 0.9295 | Rec 0.8988 | P@R0.9 0.9285
+  Val  : Loss 0.0376 | Prec 0.9106 | Rec 0.8748 | P@R0.9 0.8799
+Epoch 0411 | Time: 90.5s | C_Water: 0.225786 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9313 | Rec 0.8946 | P@R0.9 0.9264
+  Val  : Loss 0.0375 | Prec 0.9124 | Rec 0.8731 | P@R0.9 0.8796
+Epoch 0412 | Time: 90.9s | C_Water: 0.225787 | Opt: Multiprocessing
+  Train: Loss 0.0341 | Prec 0.9372 | Rec 0.8963 | P@R0.9 0.9342
+  Val  : Loss 0.0377 | Prec 0.9156 | Rec 0.8690 | P@R0.9 0.8802
+Epoch 0413 | Time: 95.3s | C_Water: 0.225788 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9304 | Rec 0.9004 | P@R0.9 0.9307
+  Val  : Loss 0.0374 | Prec 0.9104 | Rec 0.8764 | P@R0.9 0.8815
+Epoch 0414 | Time: 97.2s | C_Water: 0.225789 | Opt: Multiprocessing
+  Train: Loss 0.0326 | Prec 0.9310 | Rec 0.9008 | P@R0.9 0.9317
+  Val  : Loss 0.0376 | Prec 0.9102 | Rec 0.8751 | P@R0.9 0.8807
+Epoch 0415 | Time: 93.4s | C_Water: 0.225791 | Opt: Multiprocessing
+  Train: Loss 0.0326 | Prec 0.9317 | Rec 0.9047 | P@R0.9 0.9359
+  Val  : Loss 0.0378 | Prec 0.9095 | Rec 0.8754 | P@R0.9 0.8789
+Epoch 0416 | Time: 92.4s | C_Water: 0.225791 | Opt: Multiprocessing
+  Train: Loss 0.0341 | Prec 0.9343 | Rec 0.8935 | P@R0.9 0.9288
+  Val  : Loss 0.0374 | Prec 0.9157 | Rec 0.8709 | P@R0.9 0.8820
+Epoch 0417 | Time: 115.3s | C_Water: 0.225793 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9306 | Rec 0.9006 | P@R0.9 0.9312
+  Val  : Loss 0.0374 | Prec 0.9094 | Rec 0.8767 | P@R0.9 0.8814
+Epoch 0418 | Time: 96.0s | C_Water: 0.225794 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9342 | Rec 0.8974 | P@R0.9 0.9322
+  Val  : Loss 0.0375 | Prec 0.9152 | Rec 0.8705 | P@R0.9 0.8812
+Epoch 0419 | Time: 101.1s | C_Water: 0.225795 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9345 | Rec 0.8986 | P@R0.9 0.9328
+  Val  : Loss 0.0376 | Prec 0.9129 | Rec 0.8717 | P@R0.9 0.8798
+Epoch 0420 | Time: 98.5s | C_Water: 0.225796 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9329 | Rec 0.9004 | P@R0.9 0.9333
+  Val  : Loss 0.0372 | Prec 0.9106 | Rec 0.8775 | P@R0.9 0.8835
+Epoch 0421 | Time: 100.3s | C_Water: 0.225798 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9326 | Rec 0.9020 | P@R0.9 0.9345
+  Val  : Loss 0.0374 | Prec 0.9106 | Rec 0.8764 | P@R0.9 0.8815
+Epoch 0422 | Time: 97.8s | C_Water: 0.225798 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9274 | Rec 0.9043 | P@R0.9 0.9313
+  Val  : Loss 0.0374 | Prec 0.9061 | Rec 0.8811 | P@R0.9 0.8823
+Epoch 0423 | Time: 104.9s | C_Water: 0.225799 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9225 | Rec 0.9001 | P@R0.9 0.9225
+  Val  : Loss 0.0378 | Prec 0.9072 | Rec 0.8783 | P@R0.9 0.8788
+Epoch 0424 | Time: 93.1s | C_Water: 0.225800 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9371 | Rec 0.9020 | P@R0.9 0.9386
+  Val  : Loss 0.0375 | Prec 0.9136 | Rec 0.8725 | P@R0.9 0.8809
+Epoch 0425 | Time: 106.9s | C_Water: 0.225802 | Opt: Multiprocessing
+  Train: Loss 0.0339 | Prec 0.9351 | Rec 0.8995 | P@R0.9 0.9346
+  Val  : Loss 0.0375 | Prec 0.9113 | Rec 0.8742 | P@R0.9 0.8813
+Epoch 0426 | Time: 92.2s | C_Water: 0.225802 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9273 | Rec 0.9032 | P@R0.9 0.9302
+  Val  : Loss 0.0374 | Prec 0.9080 | Rec 0.8798 | P@R0.9 0.8821
+Epoch 0427 | Time: 104.2s | C_Water: 0.225803 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9359 | Rec 0.9021 | P@R0.9 0.9374
+  Val  : Loss 0.0373 | Prec 0.9126 | Rec 0.8753 | P@R0.9 0.8825
+Epoch 0428 | Time: 95.0s | C_Water: 0.225804 | Opt: Multiprocessing
+  Train: Loss 0.0330 | Prec 0.9324 | Rec 0.9003 | P@R0.9 0.9327
+  Val  : Loss 0.0375 | Prec 0.9107 | Rec 0.8745 | P@R0.9 0.8808
+Epoch 0429 | Time: 92.6s | C_Water: 0.225806 | Opt: Multiprocessing
+  Train: Loss 0.0349 | Prec 0.9345 | Rec 0.8944 | P@R0.9 0.9305
+  Val  : Loss 0.0375 | Prec 0.9176 | Rec 0.8688 | P@R0.9 0.8801
+Epoch 0430 | Time: 95.3s | C_Water: 0.225807 | Opt: Multiprocessing
+  Train: Loss 0.0331 | Prec 0.9336 | Rec 0.9022 | P@R0.9 0.9361
+  Val  : Loss 0.0372 | Prec 0.9121 | Rec 0.8761 | P@R0.9 0.8841
+Epoch 0431 | Time: 100.6s | C_Water: 0.225808 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9409 | Rec 0.8950 | P@R0.9 0.9371
+  Val  : Loss 0.0375 | Prec 0.9198 | Rec 0.8650 | P@R0.9 0.8807
+Epoch 0432 | Time: 94.6s | C_Water: 0.225809 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9350 | Rec 0.9026 | P@R0.9 0.9369
+  Val  : Loss 0.0371 | Prec 0.9115 | Rec 0.8762 | P@R0.9 0.8837
+Epoch 0433 | Time: 91.9s | C_Water: 0.225810 | Opt: Multiprocessing
+  Train: Loss 0.0339 | Prec 0.9372 | Rec 0.8988 | P@R0.9 0.9362
+  Val  : Loss 0.0373 | Prec 0.9145 | Rec 0.8730 | P@R0.9 0.8824
+Epoch 0434 | Time: 114.2s | C_Water: 0.225811 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9362 | Rec 0.9004 | P@R0.9 0.9365
+  Val  : Loss 0.0377 | Prec 0.9140 | Rec 0.8697 | P@R0.9 0.8794
+Epoch 0435 | Time: 85.2s | C_Water: 0.225812 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9380 | Rec 0.9007 | P@R0.9 0.9385
+  Val  : Loss 0.0375 | Prec 0.9168 | Rec 0.8696 | P@R0.9 0.8798
+Epoch 0436 | Time: 105.9s | C_Water: 0.225814 | Opt: Multiprocessing
+  Train: Loss 0.0326 | Prec 0.9347 | Rec 0.9035 | P@R0.9 0.9379
+  Val  : Loss 0.0376 | Prec 0.9111 | Rec 0.8749 | P@R0.9 0.8798
+Epoch 0437 | Time: 92.5s | C_Water: 0.225815 | Opt: Multiprocessing
+  Train: Loss 0.0334 | Prec 0.9334 | Rec 0.8984 | P@R0.9 0.9317
+  Val  : Loss 0.0376 | Prec 0.9118 | Rec 0.8732 | P@R0.9 0.8804
+Epoch 0438 | Time: 95.5s | C_Water: 0.225816 | Opt: Multiprocessing
+  Train: Loss 0.0322 | Prec 0.9333 | Rec 0.9028 | P@R0.9 0.9360
+  Val  : Loss 0.0375 | Prec 0.9123 | Rec 0.8746 | P@R0.9 0.8827
+Epoch 0439 | Time: 98.9s | C_Water: 0.225817 | Opt: Multiprocessing
+  Train: Loss 0.0327 | Prec 0.9313 | Rec 0.8966 | P@R0.9 0.9286
+  Val  : Loss 0.0375 | Prec 0.9143 | Rec 0.8717 | P@R0.9 0.8817
+Epoch 0440 | Time: 86.9s | C_Water: 0.225818 | Opt: Multiprocessing
+  Train: Loss 0.0339 | Prec 0.9361 | Rec 0.8935 | P@R0.9 0.9309
+  Val  : Loss 0.0373 | Prec 0.9177 | Rec 0.8687 | P@R0.9 0.8825
+Epoch 0441 | Time: 89.8s | C_Water: 0.225819 | Opt: Multiprocessing
+  Train: Loss 0.0321 | Prec 0.9363 | Rec 0.8978 | P@R0.9 0.9344
+  Val  : Loss 0.0373 | Prec 0.9141 | Rec 0.8725 | P@R0.9 0.8817
+Epoch 0442 | Time: 91.3s | C_Water: 0.225820 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9314 | Rec 0.8973 | P@R0.9 0.9290
+  Val  : Loss 0.0376 | Prec 0.9124 | Rec 0.8731 | P@R0.9 0.8808
+Epoch 0443 | Time: 82.2s | C_Water: 0.225822 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9330 | Rec 0.8987 | P@R0.9 0.9315
+  Val  : Loss 0.0372 | Prec 0.9124 | Rec 0.8748 | P@R0.9 0.8819
+Epoch 0444 | Time: 94.2s | C_Water: 0.225823 | Opt: Multiprocessing
+  Train: Loss 0.0322 | Prec 0.9247 | Rec 0.9047 | P@R0.9 0.9288
+  Val  : Loss 0.0375 | Prec 0.9063 | Rec 0.8810 | P@R0.9 0.8813
+Epoch 0445 | Time: 95.5s | C_Water: 0.225824 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9325 | Rec 0.9059 | P@R0.9 0.9376
+  Val  : Loss 0.0375 | Prec 0.9092 | Rec 0.8776 | P@R0.9 0.8826
+Epoch 0446 | Time: 91.1s | C_Water: 0.225825 | Opt: Multiprocessing
+  Train: Loss 0.0337 | Prec 0.9301 | Rec 0.9012 | P@R0.9 0.9312
+  Val  : Loss 0.0369 | Prec 0.9110 | Rec 0.8781 | P@R0.9 0.8851
+Epoch 0447 | Time: 82.2s | C_Water: 0.225826 | Opt: Multiprocessing
+  Train: Loss 0.0328 | Prec 0.9294 | Rec 0.8947 | P@R0.9 0.9239
+  Val  : Loss 0.0371 | Prec 0.9140 | Rec 0.8745 | P@R0.9 0.8821
+Epoch 0448 | Time: 89.4s | C_Water: 0.225827 | Opt: Multiprocessing
+  Train: Loss 0.0323 | Prec 0.9282 | Rec 0.9035 | P@R0.9 0.9317
+  Val  : Loss 0.0370 | Prec 0.9104 | Rec 0.8793 | P@R0.9 0.8848
+Epoch 0449 | Time: 100.1s | C_Water: 0.225828 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9374 | Rec 0.8980 | P@R0.9 0.9358
+  Val  : Loss 0.0372 | Prec 0.9152 | Rec 0.8723 | P@R0.9 0.8818
+Epoch 0450 | Time: 87.5s | C_Water: 0.225829 | Opt: Multiprocessing
+  Train: Loss 0.0320 | Prec 0.9363 | Rec 0.8985 | P@R0.9 0.9355
+  Val  : Loss 0.0371 | Prec 0.9160 | Rec 0.8719 | P@R0.9 0.8837
+Epoch 0451 | Time: 98.1s | C_Water: 0.225830 | Opt: Multiprocessing
+  Train: Loss 0.0334 | Prec 0.9322 | Rec 0.9052 | P@R0.9 0.9369
+  Val  : Loss 0.0376 | Prec 0.9084 | Rec 0.8772 | P@R0.9 0.8809
+Epoch 0452 | Time: 91.7s | C_Water: 0.225831 | Opt: Multiprocessing
+  Train: Loss 0.0325 | Prec 0.9329 | Rec 0.9006 | P@R0.9 0.9334
+  Val  : Loss 0.0371 | Prec 0.9125 | Rec 0.8762 | P@R0.9 0.8842
+Epoch 0453 | Time: 84.4s | C_Water: 0.225832 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9313 | Rec 0.9029 | P@R0.9 0.9343
+  Val  : Loss 0.0372 | Prec 0.9105 | Rec 0.8771 | P@R0.9 0.8838
+Epoch 0454 | Time: 104.4s | C_Water: 0.225834 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9355 | Rec 0.9035 | P@R0.9 0.9383
+  Val  : Loss 0.0373 | Prec 0.9136 | Rec 0.8728 | P@R0.9 0.8815
+Epoch 0455 | Time: 97.9s | C_Water: 0.225835 | Opt: Multiprocessing
+  Train: Loss 0.0330 | Prec 0.9316 | Rec 0.8990 | P@R0.9 0.9309
+  Val  : Loss 0.0373 | Prec 0.9118 | Rec 0.8754 | P@R0.9 0.8818
+Epoch 0456 | Time: 90.3s | C_Water: 0.225836 | Opt: Multiprocessing
+  Train: Loss 0.0330 | Prec 0.9306 | Rec 0.8984 | P@R0.9 0.9290
+  Val  : Loss 0.0368 | Prec 0.9130 | Rec 0.8768 | P@R0.9 0.8854
+Epoch 0457 | Time: 102.3s | C_Water: 0.225837 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9302 | Rec 0.8971 | P@R0.9 0.9278
+  Val  : Loss 0.0371 | Prec 0.9134 | Rec 0.8756 | P@R0.9 0.8830
+Epoch 0458 | Time: 95.9s | C_Water: 0.225838 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9360 | Rec 0.9035 | P@R0.9 0.9385
+  Val  : Loss 0.0370 | Prec 0.9138 | Rec 0.8759 | P@R0.9 0.8846
+Epoch 0459 | Time: 98.4s | C_Water: 0.225840 | Opt: Multiprocessing
+  Train: Loss 0.0318 | Prec 0.9289 | Rec 0.9056 | P@R0.9 0.9342
+  Val  : Loss 0.0372 | Prec 0.9076 | Rec 0.8804 | P@R0.9 0.8833
+Epoch 0460 | Time: 85.7s | C_Water: 0.225841 | Opt: Multiprocessing
+  Train: Loss 0.0330 | Prec 0.9300 | Rec 0.8999 | P@R0.9 0.9298
+  Val  : Loss 0.0368 | Prec 0.9120 | Rec 0.8775 | P@R0.9 0.8855
+Epoch 0461 | Time: 92.2s | C_Water: 0.225842 | Opt: Multiprocessing
+  Train: Loss 0.0317 | Prec 0.9309 | Rec 0.9030 | P@R0.9 0.9337
+  Val  : Loss 0.0374 | Prec 0.9118 | Rec 0.8752 | P@R0.9 0.8821
+Epoch 0462 | Time: 100.9s | C_Water: 0.225843 | Opt: Multiprocessing
+  Train: Loss 0.0320 | Prec 0.9284 | Rec 0.9022 | P@R0.9 0.9303
+  Val  : Loss 0.0370 | Prec 0.9103 | Rec 0.8795 | P@R0.9 0.8834
+Epoch 0463 | Time: 103.8s | C_Water: 0.225844 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9304 | Rec 0.8997 | P@R0.9 0.9301
+  Val  : Loss 0.0374 | Prec 0.9122 | Rec 0.8753 | P@R0.9 0.8824
+Epoch 0464 | Time: 95.7s | C_Water: 0.225846 | Opt: Multiprocessing
+  Train: Loss 0.0331 | Prec 0.9351 | Rec 0.9004 | P@R0.9 0.9355
+  Val  : Loss 0.0372 | Prec 0.9142 | Rec 0.8731 | P@R0.9 0.8828
+Epoch 0465 | Time: 106.9s | C_Water: 0.225846 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9310 | Rec 0.9025 | P@R0.9 0.9333
+  Val  : Loss 0.0374 | Prec 0.9106 | Rec 0.8767 | P@R0.9 0.8820
+Epoch 0466 | Time: 90.1s | C_Water: 0.225848 | Opt: Multiprocessing
+  Train: Loss 0.0325 | Prec 0.9341 | Rec 0.8968 | P@R0.9 0.9316
+  Val  : Loss 0.0370 | Prec 0.9182 | Rec 0.8695 | P@R0.9 0.8848
+Epoch 0467 | Time: 87.6s | C_Water: 0.225849 | Opt: Multiprocessing
+  Train: Loss 0.0331 | Prec 0.9356 | Rec 0.8998 | P@R0.9 0.9355
+  Val  : Loss 0.0373 | Prec 0.9147 | Rec 0.8727 | P@R0.9 0.8828
+Epoch 0468 | Time: 93.9s | C_Water: 0.225850 | Opt: Multiprocessing
+  Train: Loss 0.0324 | Prec 0.9307 | Rec 0.8989 | P@R0.9 0.9295
+  Val  : Loss 0.0374 | Prec 0.9120 | Rec 0.8760 | P@R0.9 0.8822
+Epoch 0469 | Time: 75.4s | C_Water: 0.225851 | Opt: Multiprocessing
+  Train: Loss 0.0330 | Prec 0.9325 | Rec 0.8972 | P@R0.9 0.9298
+  Val  : Loss 0.0373 | Prec 0.9165 | Rec 0.8713 | P@R0.9 0.8829
+Epoch 0470 | Time: 91.3s | C_Water: 0.225852 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9369 | Rec 0.9029 | P@R0.9 0.9389
+  Val  : Loss 0.0371 | Prec 0.9133 | Rec 0.8746 | P@R0.9 0.8835
+Epoch 0471 | Time: 78.9s | C_Water: 0.225853 | Opt: Multiprocessing
+  Train: Loss 0.0320 | Prec 0.9351 | Rec 0.8991 | P@R0.9 0.9345
+  Val  : Loss 0.0376 | Prec 0.9154 | Rec 0.8725 | P@R0.9 0.8818
+Epoch 0472 | Time: 89.9s | C_Water: 0.225854 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9355 | Rec 0.9004 | P@R0.9 0.9358
+  Val  : Loss 0.0373 | Prec 0.9141 | Rec 0.8750 | P@R0.9 0.8842
+Epoch 0473 | Time: 84.6s | C_Water: 0.225856 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9345 | Rec 0.9023 | P@R0.9 0.9364
+  Val  : Loss 0.0375 | Prec 0.9167 | Rec 0.8698 | P@R0.9 0.8815
+Epoch 0474 | Time: 96.1s | C_Water: 0.225857 | Opt: Multiprocessing
+  Train: Loss 0.0331 | Prec 0.9374 | Rec 0.8950 | P@R0.9 0.9325
+  Val  : Loss 0.0373 | Prec 0.9184 | Rec 0.8688 | P@R0.9 0.8835
+Epoch 0475 | Time: 85.5s | C_Water: 0.225857 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9343 | Rec 0.9016 | P@R0.9 0.9358
+  Val  : Loss 0.0370 | Prec 0.9129 | Rec 0.8755 | P@R0.9 0.8849
+Epoch 0476 | Time: 86.9s | C_Water: 0.225858 | Opt: Multiprocessing
+  Train: Loss 0.0325 | Prec 0.9353 | Rec 0.8942 | P@R0.9 0.9300
+  Val  : Loss 0.0374 | Prec 0.9183 | Rec 0.8689 | P@R0.9 0.8810
+Epoch 0477 | Time: 88.0s | C_Water: 0.225859 | Opt: Multiprocessing
+  Train: Loss 0.0345 | Prec 0.9250 | Rec 0.9008 | P@R0.9 0.9258
+  Val  : Loss 0.0373 | Prec 0.9081 | Rec 0.8811 | P@R0.9 0.8836
+Epoch 0478 | Time: 82.7s | C_Water: 0.225860 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9320 | Rec 0.9026 | P@R0.9 0.9345
+  Val  : Loss 0.0370 | Prec 0.9119 | Rec 0.8775 | P@R0.9 0.8834
+Epoch 0479 | Time: 94.3s | C_Water: 0.225862 | Opt: Multiprocessing
+  Train: Loss 0.0324 | Prec 0.9296 | Rec 0.9068 | P@R0.9 0.9352
+  Val  : Loss 0.0373 | Prec 0.9067 | Rec 0.8803 | P@R0.9 0.8825
+Epoch 0480 | Time: 95.5s | C_Water: 0.225863 | Opt: Multiprocessing
+  Train: Loss 0.0322 | Prec 0.9303 | Rec 0.9048 | P@R0.9 0.9351
+  Val  : Loss 0.0367 | Prec 0.9126 | Rec 0.8788 | P@R0.9 0.8869
+Epoch 0481 | Time: 96.7s | C_Water: 0.225864 | Opt: Multiprocessing
+  Train: Loss 0.0322 | Prec 0.9314 | Rec 0.9039 | P@R0.9 0.9351
+  Val  : Loss 0.0375 | Prec 0.9099 | Rec 0.8769 | P@R0.9 0.8818
+Epoch 0482 | Time: 100.9s | C_Water: 0.225865 | Opt: Multiprocessing
+  Train: Loss 0.0333 | Prec 0.9282 | Rec 0.9066 | P@R0.9 0.9345
+  Val  : Loss 0.0371 | Prec 0.9091 | Rec 0.8809 | P@R0.9 0.8833
+Epoch 0483 | Time: 89.6s | C_Water: 0.225866 | Opt: Multiprocessing
+  Train: Loss 0.0327 | Prec 0.9267 | Rec 0.9045 | P@R0.9 0.9310
+  Val  : Loss 0.0367 | Prec 0.9087 | Rec 0.8812 | P@R0.9 0.8858
+Epoch 0484 | Time: 116.9s | C_Water: 0.225867 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9318 | Rec 0.8962 | P@R0.9 0.9284
+  Val  : Loss 0.0370 | Prec 0.9132 | Rec 0.8757 | P@R0.9 0.8841
+Epoch 0485 | Time: 106.3s | C_Water: 0.225868 | Opt: Multiprocessing
+  Train: Loss 0.0327 | Prec 0.9355 | Rec 0.9013 | P@R0.9 0.9363
+  Val  : Loss 0.0369 | Prec 0.9160 | Rec 0.8741 | P@R0.9 0.8843
+Epoch 0486 | Time: 97.3s | C_Water: 0.225870 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9337 | Rec 0.9005 | P@R0.9 0.9342
+  Val  : Loss 0.0368 | Prec 0.9121 | Rec 0.8770 | P@R0.9 0.8850
+Epoch 0487 | Time: 93.2s | C_Water: 0.225870 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9319 | Rec 0.8996 | P@R0.9 0.9317
+  Val  : Loss 0.0371 | Prec 0.9138 | Rec 0.8741 | P@R0.9 0.8834
+Epoch 0488 | Time: 99.7s | C_Water: 0.225872 | Opt: Multiprocessing
+  Train: Loss 0.0331 | Prec 0.9313 | Rec 0.8987 | P@R0.9 0.9305
+  Val  : Loss 0.0369 | Prec 0.9114 | Rec 0.8781 | P@R0.9 0.8849
+Epoch 0489 | Time: 94.6s | C_Water: 0.225873 | Opt: Multiprocessing
+  Train: Loss 0.0343 | Prec 0.9281 | Rec 0.9001 | P@R0.9 0.9283
+  Val  : Loss 0.0370 | Prec 0.9101 | Rec 0.8788 | P@R0.9 0.8843
+Epoch 0490 | Time: 92.8s | C_Water: 0.225873 | Opt: Multiprocessing
+  Train: Loss 0.0314 | Prec 0.9327 | Rec 0.9046 | P@R0.9 0.9365
+  Val  : Loss 0.0373 | Prec 0.9119 | Rec 0.8766 | P@R0.9 0.8827
+Epoch 0491 | Time: 103.5s | C_Water: 0.225875 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9371 | Rec 0.9011 | P@R0.9 0.9378
+  Val  : Loss 0.0366 | Prec 0.9160 | Rec 0.8745 | P@R0.9 0.8868
+Epoch 0492 | Time: 103.9s | C_Water: 0.225875 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9323 | Rec 0.8992 | P@R0.9 0.9316
+  Val  : Loss 0.0371 | Prec 0.9129 | Rec 0.8752 | P@R0.9 0.8826
+Epoch 0493 | Time: 87.6s | C_Water: 0.225876 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9359 | Rec 0.8964 | P@R0.9 0.9324
+  Val  : Loss 0.0365 | Prec 0.9176 | Rec 0.8733 | P@R0.9 0.8872
+Epoch 0494 | Time: 90.8s | C_Water: 0.225878 | Opt: Multiprocessing
+  Train: Loss 0.0319 | Prec 0.9314 | Rec 0.9066 | P@R0.9 0.9369
+  Val  : Loss 0.0371 | Prec 0.9077 | Rec 0.8816 | P@R0.9 0.8844
+Epoch 0495 | Time: 88.3s | C_Water: 0.225879 | Opt: Multiprocessing
+  Train: Loss 0.0330 | Prec 0.9321 | Rec 0.9045 | P@R0.9 0.9360
+  Val  : Loss 0.0371 | Prec 0.9127 | Rec 0.8755 | P@R0.9 0.8850
+Epoch 0496 | Time: 97.5s | C_Water: 0.225880 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9333 | Rec 0.9050 | P@R0.9 0.9375
+  Val  : Loss 0.0370 | Prec 0.9120 | Rec 0.8781 | P@R0.9 0.8844
+Epoch 0497 | Time: 97.3s | C_Water: 0.225881 | Opt: Multiprocessing
+  Train: Loss 0.0330 | Prec 0.9341 | Rec 0.9057 | P@R0.9 0.9387
+  Val  : Loss 0.0371 | Prec 0.9104 | Rec 0.8776 | P@R0.9 0.8826
+Epoch 0498 | Time: 99.8s | C_Water: 0.225882 | Opt: Multiprocessing
+  Train: Loss 0.0334 | Prec 0.9299 | Rec 0.9062 | P@R0.9 0.9354
+  Val  : Loss 0.0369 | Prec 0.9090 | Rec 0.8807 | P@R0.9 0.8865
+Epoch 0499 | Time: 108.5s | C_Water: 0.225883 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9321 | Rec 0.9056 | P@R0.9 0.9369
+  Val  : Loss 0.0370 | Prec 0.9110 | Rec 0.8789 | P@R0.9 0.8872
+Epoch 0500 | Time: 93.0s | C_Water: 0.225884 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9278 | Rec 0.9012 | P@R0.9 0.9289
+  Val  : Loss 0.0372 | Prec 0.9084 | Rec 0.8804 | P@R0.9 0.8844
+Epoch 0501 | Time: 91.8s | C_Water: 0.225885 | Opt: Multiprocessing
+  Train: Loss 0.0320 | Prec 0.9272 | Rec 0.9100 | P@R0.9 0.9366
+  Val  : Loss 0.0371 | Prec 0.9058 | Rec 0.8824 | P@R0.9 0.8845
+Epoch 0502 | Time: 100.7s | C_Water: 0.225886 | Opt: Multiprocessing
+  Train: Loss 0.0322 | Prec 0.9275 | Rec 0.9036 | P@R0.9 0.9311
+  Val  : Loss 0.0370 | Prec 0.9089 | Rec 0.8807 | P@R0.9 0.8835
+Epoch 0503 | Time: 86.1s | C_Water: 0.225887 | Opt: Multiprocessing
+  Train: Loss 0.0326 | Prec 0.9332 | Rec 0.9036 | P@R0.9 0.9360
+  Val  : Loss 0.0369 | Prec 0.9141 | Rec 0.8745 | P@R0.9 0.8855
+Epoch 0504 | Time: 136.0s | C_Water: 0.225888 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9347 | Rec 0.9037 | P@R0.9 0.9379
+  Val  : Loss 0.0371 | Prec 0.9119 | Rec 0.8766 | P@R0.9 0.8831
+Epoch 0505 | Time: 121.2s | C_Water: 0.225889 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9380 | Rec 0.8990 | P@R0.9 0.9374
+  Val  : Loss 0.0368 | Prec 0.9185 | Rec 0.8714 | P@R0.9 0.8852
+Epoch 0506 | Time: 106.4s | C_Water: 0.225890 | Opt: Multiprocessing
+  Train: Loss 0.0316 | Prec 0.9313 | Rec 0.9011 | P@R0.9 0.9325
+  Val  : Loss 0.0374 | Prec 0.9117 | Rec 0.8755 | P@R0.9 0.8830
+Epoch 0507 | Time: 102.1s | C_Water: 0.225892 | Opt: Multiprocessing
+  Train: Loss 0.0325 | Prec 0.9374 | Rec 0.9044 | P@R0.9 0.9405
+  Val  : Loss 0.0370 | Prec 0.9151 | Rec 0.8744 | P@R0.9 0.8837
+Epoch 0508 | Time: 97.6s | C_Water: 0.225893 | Opt: Multiprocessing
+  Train: Loss 0.0341 | Prec 0.9280 | Rec 0.9058 | P@R0.9 0.9328
+  Val  : Loss 0.0373 | Prec 0.9100 | Rec 0.8789 | P@R0.9 0.8832
+Epoch 0509 | Time: 100.6s | C_Water: 0.225894 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9327 | Rec 0.9011 | P@R0.9 0.9335
+  Val  : Loss 0.0369 | Prec 0.9122 | Rec 0.8774 | P@R0.9 0.8850
+Epoch 0510 | Time: 103.7s | C_Water: 0.225895 | Opt: Multiprocessing
+  Train: Loss 0.0336 | Prec 0.9322 | Rec 0.9015 | P@R0.9 0.9333
+  Val  : Loss 0.0369 | Prec 0.9130 | Rec 0.8771 | P@R0.9 0.8848
+Epoch 0511 | Time: 112.1s | C_Water: 0.225896 | Opt: Multiprocessing
+  Train: Loss 0.0328 | Prec 0.9333 | Rec 0.9044 | P@R0.9 0.9377
+  Val  : Loss 0.0367 | Prec 0.9109 | Rec 0.8812 | P@R0.9 0.8859
+Epoch 0512 | Time: 117.9s | C_Water: 0.225897 | Opt: Multiprocessing
+  Train: Loss 0.0328 | Prec 0.9326 | Rec 0.9040 | P@R0.9 0.9356
+  Val  : Loss 0.0370 | Prec 0.9144 | Rec 0.8748 | P@R0.9 0.8851
+Epoch 0513 | Time: 131.5s | C_Water: 0.225898 | Opt: Multiprocessing
+  Train: Loss 0.0324 | Prec 0.9320 | Rec 0.8997 | P@R0.9 0.9316
+  Val  : Loss 0.0368 | Prec 0.9151 | Rec 0.8743 | P@R0.9 0.8852
+Epoch 0514 | Time: 101.1s | C_Water: 0.225900 | Opt: Multiprocessing
+  Train: Loss 0.0325 | Prec 0.9320 | Rec 0.9090 | P@R0.9 0.9388
+  Val  : Loss 0.0369 | Prec 0.9090 | Rec 0.8819 | P@R0.9 0.8860
+Epoch 0515 | Time: 93.1s | C_Water: 0.225901 | Opt: Multiprocessing
+  Train: Loss 0.0339 | Prec 0.9330 | Rec 0.9018 | P@R0.9 0.9344
+  Val  : Loss 0.0370 | Prec 0.9115 | Rec 0.8778 | P@R0.9 0.8851
+Epoch 0516 | Time: 117.2s | C_Water: 0.225902 | Opt: Multiprocessing
+  Train: Loss 0.0328 | Prec 0.9294 | Rec 0.9099 | P@R0.9 0.9386
+  Val  : Loss 0.0375 | Prec 0.9051 | Rec 0.8818 | P@R0.9 0.8804
+Epoch 0517 | Time: 118.8s | C_Water: 0.225903 | Opt: Multiprocessing
+  Train: Loss 0.0327 | Prec 0.9355 | Rec 0.9037 | P@R0.9 0.9383
+  Val  : Loss 0.0367 | Prec 0.9163 | Rec 0.8743 | P@R0.9 0.8862

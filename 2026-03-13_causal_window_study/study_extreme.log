@@ -1,0 +1,12 @@
+Starting EXTREME FINE Study (T_CUT = 0.01 ns) on cuda...
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=0.01: 0.9237

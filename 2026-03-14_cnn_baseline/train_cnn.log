@@ -1,0 +1,21 @@
+Device: cuda | 1D-CNN Baseline | Events: 100000
+Epoch 01 | Time: 499.7s | T-Loss: 0.0748 | V-Loss: 0.0621 | V-P@R0.9: 0.6914
+Epoch 02 | Time: 497.0s | T-Loss: 0.0599 | V-Loss: 0.0575 | V-P@R0.9: 0.7345
+Epoch 03 | Time: 500.8s | T-Loss: 0.0569 | V-Loss: 0.0566 | V-P@R0.9: 0.7501
+Epoch 04 | Time: 497.2s | T-Loss: 0.0553 | V-Loss: 0.0553 | V-P@R0.9: 0.7589
+Epoch 05 | Time: 500.5s | T-Loss: 0.0542 | V-Loss: 0.0548 | V-P@R0.9: 0.7610
+Epoch 06 | Time: 497.8s | T-Loss: 0.0533 | V-Loss: 0.0546 | V-P@R0.9: 0.7683
+Epoch 07 | Time: 485.8s | T-Loss: 0.0525 | V-Loss: 0.0548 | V-P@R0.9: 0.7620
+Epoch 08 | Time: 499.5s | T-Loss: 0.0519 | V-Loss: 0.0541 | V-P@R0.9: 0.7726
+Epoch 09 | Time: 487.0s | T-Loss: 0.0514 | V-Loss: 0.0538 | V-P@R0.9: 0.7729
+Epoch 10 | Time: 496.5s | T-Loss: 0.0508 | V-Loss: 0.0553 | V-P@R0.9: 0.7658
+Epoch 11 | Time: 491.3s | T-Loss: 0.0504 | V-Loss: 0.0543 | V-P@R0.9: 0.7699
+Epoch 12 | Time: 490.8s | T-Loss: 0.0500 | V-Loss: 0.0539 | V-P@R0.9: 0.7736
+Epoch 13 | Time: 490.0s | T-Loss: 0.0495 | V-Loss: 0.0541 | V-P@R0.9: 0.7732
+Epoch 14 | Time: 495.5s | T-Loss: 0.0491 | V-Loss: 0.0539 | V-P@R0.9: 0.7759
+Epoch 15 | Time: 495.3s | T-Loss: 0.0489 | V-Loss: 0.0548 | V-P@R0.9: 0.7757
+Epoch 16 | Time: 498.8s | T-Loss: 0.0485 | V-Loss: 0.0557 | V-P@R0.9: 0.7751
+Epoch 17 | Time: 491.7s | T-Loss: 0.0482 | V-Loss: 0.0547 | V-P@R0.9: 0.7722
+Epoch 18 | Time: 477.9s | T-Loss: 0.0480 | V-Loss: 0.0548 | V-P@R0.9: 0.7724
+Epoch 19 | Time: 465.1s | T-Loss: 0.0479 | V-Loss: 0.0556 | V-P@R0.9: 0.7650
+Epoch 20 | Time: 456.3s | T-Loss: 0.0474 | V-Loss: 0.0553 | V-P@R0.9: 0.7706

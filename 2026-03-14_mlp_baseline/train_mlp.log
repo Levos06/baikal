@@ -1,0 +1,4 @@
+Device: cuda | MLP Baseline | Training on 100000 events
+Epoch 01 | Time: 108.2s | T-Loss: 0.0319 | V-Loss: 0.0331 | T-P@R0.9: 0.9185 | V-P@R0.9: 0.9154
+Epoch 02 | Time: 108.8s | T-Loss: 0.0273 | V-Loss: 0.0286 | T-P@R0.9: 0.9458 | V-P@R0.9: 0.9425
+Epoch 03 | Time: 109.9s | T-Loss: 0.0289 | V-Loss: 0.0305 | T-P@R0.9: 0.9343 | V-P@R0.9: 0.9304

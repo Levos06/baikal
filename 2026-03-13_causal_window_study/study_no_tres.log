@@ -1,0 +1,200 @@
+Starting ASYMMETRIC NO-TRES Study on cuda...
+
+--- Testing T_CUT_half = 1 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=1: 0.2075
+
+--- Testing T_CUT_half = 2 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=2: 0.2107
+
+--- Testing T_CUT_half = 3 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=3: 0.2102
+
+--- Testing T_CUT_half = 4 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=4: 0.2095
+
+--- Testing T_CUT_half = 5 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=5: 0.2088
+
+--- Testing T_CUT_half = 6 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=6: 0.2103
+
+--- Testing T_CUT_half = 7 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=7: 0.2083
+
+--- Testing T_CUT_half = 8 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=8: 0.2084
+
+--- Testing T_CUT_half = 9 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=9: 0.2120
+
+--- Testing T_CUT_half = 10 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=10: 0.2116
+
+--- Testing T_CUT_half = 11 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=11: 0.2090
+
+--- Testing T_CUT_half = 12 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=12: 0.2114
+
+--- Testing T_CUT_half = 13 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=13: 0.2100
+
+--- Testing T_CUT_half = 14 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=14: 0.2112
+
+--- Testing T_CUT_half = 15 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT_half=15: 0.2120
+
+Honest Study complete!
+T_CUTs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Results: [np.float64(0.2075288146330869), np.float64(0.2107316444625517), np.float64(0.2102164074321909), np.float64(0.20954844477438567), np.float64(0.20882959238381338), np.float64(0.2103077140673375), np.float64(0.2082681883573559), np.float64(0.20837255787260156), np.float64(0.21196551411139974), np.float64(0.21162906720294583), np.float64(0.2090437203077204), np.float64(0.21136893316647382), np.float64(0.20997650522587225), np.float64(0.21119485539242144), np.float64(0.21199604222042445)]

@@ -1,0 +1,2 @@
+Device: cuda | MLP BASE 5 FEAT | Training on 100000 events
+Epoch 01 | Time: 113.2s | T-Loss: 0.1239 | V-Loss: 0.1236 | T-P@R0.9: 0.2859 | V-P@R0.9: 0.2945

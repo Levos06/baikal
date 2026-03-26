@@ -1,0 +1,148 @@
+Starting SYMMETRIC Study on cuda...
+
+--- Testing SYMMETRIC T_CUT = 0.5 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=0.5: 0.3314
+
+--- Testing SYMMETRIC T_CUT = 0.8 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=0.8: 0.2740
+
+--- Testing SYMMETRIC T_CUT = 1.1 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=1.1: 0.2547
+
+--- Testing SYMMETRIC T_CUT = 1.4 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=1.4: 0.2444
+
+--- Testing SYMMETRIC T_CUT = 1.7 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=1.7: 0.2320
+
+--- Testing SYMMETRIC T_CUT = 2.0 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=2.0: 0.2226
+
+--- Testing SYMMETRIC T_CUT = 2.3 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=2.3: 0.2127
+
+--- Testing SYMMETRIC T_CUT = 2.6 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=2.6: 0.2071
+
+--- Testing SYMMETRIC T_CUT = 2.9 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=2.9: 0.2017
+
+--- Testing SYMMETRIC T_CUT = 3.2 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=3.2: 0.1990
+
+--- Testing SYMMETRIC T_CUT = 3.5 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Symmetric T_CUT=3.5: 0.2010
+
+Symmetric Study complete!
+T_CUTs: [0.5, 0.8, 1.1, 1.4, 1.7, 2.0, 2.3, 2.6, 2.9, 3.2, 3.5]
+Results: [np.float64(0.3314239781651156), np.float64(0.27401786761182806), np.float64(0.2547379934135025), np.float64(0.24437073228415798), np.float64(0.23199203130511376), np.float64(0.22262301776178267), np.float64(0.21271261145152293), np.float64(0.20713631355041767), np.float64(0.20166323014489043), np.float64(0.19898288175245682), np.float64(0.20095264619169095)]

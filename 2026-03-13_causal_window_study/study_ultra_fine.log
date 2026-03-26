@@ -1,0 +1,44 @@
+Starting ASYMMETRIC ULTRA-FINE Study on cuda...
+
+--- Testing ULTRA-FINE T_CUT_half = 0.0001 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Ultra-Fine T_CUT_half=0.0001: 0.9238
+
+--- Testing ULTRA-FINE T_CUT_half = 0.0005 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Ultra-Fine T_CUT_half=0.0005: 0.9267
+
+--- Testing ULTRA-FINE T_CUT_half = 0.0010 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for Ultra-Fine T_CUT_half=0.0010: 0.9251
+
+Ultra-Fine Study complete!
+T_CUTs: [0.0001, 0.0005, 0.001]
+Results: [np.float64(0.9237851373456698), np.float64(0.9266697304856893), np.float64(0.925062374697736)]

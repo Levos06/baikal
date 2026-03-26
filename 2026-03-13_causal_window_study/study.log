@@ -1,0 +1,108 @@
+
+--- Testing T_CUT = 3 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=3: 0.2011
+
+--- Testing T_CUT = 6 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=6: 0.1654
+
+--- Testing T_CUT = 9 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=9: 0.0912
+
+--- Testing T_CUT = 12 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=12: 0.0839
+
+--- Testing T_CUT = 15 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=15: 0.0802
+
+--- Testing T_CUT = 18 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=18: 0.0796
+
+--- Testing T_CUT = 21 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=21: 0.0796
+
+--- Testing T_CUT = 24 ns ---
+Epoch 1 completed
+Epoch 2 completed
+Epoch 3 completed
+Epoch 4 completed
+Epoch 5 completed
+Epoch 6 completed
+Epoch 7 completed
+Epoch 8 completed
+Epoch 9 completed
+Epoch 10 completed
+Final V-P@R0.9 for T_CUT=24: 0.0787
+
+Study complete!
+T_CUTs: [3, 6, 9, 12, 15, 18, 21, 24]
+Results: [np.float64(0.20108469203998028), np.float64(0.165375562457868), np.float64(0.09122301872889346), np.float64(0.08386887977083304), np.float64(0.08023445390995373), np.float64(0.07964735368772506), np.float64(0.07959493884621598), np.float64(0.07872409156438856)]

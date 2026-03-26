@@ -1,0 +1,20 @@
+Final script started!
+Using device: cuda
+Final training with k=2, batch_size=512, NO DROPOUT, FIXED LOSS
+Starting training for up to 15 epochs...
+Epoch 001 | 17.9s | Train Loss: 0.4653 | Val Loss: 0.3212 | Val Prec: 0.5388 | Val Rec: 0.1758
+Epoch 002 | 17.8s | Train Loss: 0.2883 | Val Loss: 0.2613 | Val Prec: 0.4922 | Val Rec: 0.3556
+Epoch 003 | 17.9s | Train Loss: 0.2475 | Val Loss: 0.2416 | Val Prec: 0.4950 | Val Rec: 0.4778
+Epoch 004 | 17.9s | Train Loss: 0.2304 | Val Loss: 0.2280 | Val Prec: 0.4910 | Val Rec: 0.5634
+Epoch 005 | 17.8s | Train Loss: 0.2242 | Val Loss: 0.2213 | Val Prec: 0.4946 | Val Rec: 0.5961
+Epoch 006 | 18.1s | Train Loss: 0.2183 | Val Loss: 0.2165 | Val Prec: 0.4922 | Val Rec: 0.6295
+Epoch 007 | 17.8s | Train Loss: 0.2148 | Val Loss: 0.2145 | Val Prec: 0.4954 | Val Rec: 0.6434
+Epoch 008 | 18.0s | Train Loss: 0.2149 | Val Loss: 0.2260 | Val Prec: 0.4957 | Val Rec: 0.6539
+Epoch 009 | 17.8s | Train Loss: 0.2137 | Val Loss: 0.2108 | Val Prec: 0.4994 | Val Rec: 0.6567
+Epoch 010 | 17.9s | Train Loss: 0.2101 | Val Loss: 0.2097 | Val Prec: 0.4999 | Val Rec: 0.6623
+Epoch 011 | 18.0s | Train Loss: 0.2094 | Val Loss: 0.2088 | Val Prec: 0.4946 | Val Rec: 0.6761
+Epoch 012 | 18.2s | Train Loss: 0.2090 | Val Loss: 0.2093 | Val Prec: 0.4952 | Val Rec: 0.6792
+Epoch 013 | 18.1s | Train Loss: 0.2086 | Val Loss: 0.2078 | Val Prec: 0.4938 | Val Rec: 0.6857
+Epoch 014 | 17.9s | Train Loss: 0.2077 | Val Loss: 0.2080 | Val Prec: 0.4959 | Val Rec: 0.6860
+Epoch 015 | 17.7s | Train Loss: 0.2073 | Val Loss: 0.2071 | Val Prec: 0.4980 | Val Rec: 0.6853
+Plots saved to 2026-03-07_investigation_of_2026-02-28_results/plots

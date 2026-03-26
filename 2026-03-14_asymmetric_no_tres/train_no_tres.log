@@ -1,0 +1,3 @@
+Device: cuda | Experiment: NO T_RES (12 feat) | Window: 1.0ns
+Epoch 001 | Time: 79.7s | T-Loss: 0.1904 | V-Loss: 0.1866 | T-P@R0.9: 0.1325 | V-P@R0.9: 0.1302
+Epoch 002 | Time: 79.3s | T-Loss: 0.1717 | V-Loss: 0.1691 | T-P@R0.9: 0.1725 | V-P@R0.9: 0.1695
