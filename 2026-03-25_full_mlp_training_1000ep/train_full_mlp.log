@@ -1783,3 +1783,6 @@ Epoch 0557 | Time: 89.4s | Opt: Multiprocessing (n=4)
 Epoch 0558 | Time: 106.7s | Opt: Multiprocessing (n=4)
   Train: Loss 0.0315 | Prec 0.9311 | Rec 0.9082 | P@R0.9 0.9376
   Val  : Loss 0.0368 | Prec 0.9100 | Rec 0.8807 | P@R0.9 0.8861
+Epoch 0559 | Time: 107.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9312 | Rec 0.9048 | P@R0.9 0.9353
+  Val  : Loss 0.0367 | Prec 0.9105 | Rec 0.8815 | P@R0.9 0.8873

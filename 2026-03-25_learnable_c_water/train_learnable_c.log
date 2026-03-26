@@ -1603,3 +1603,6 @@ Epoch 0525 | Time: 114.9s | C_Water: 0.225912 | Opt: Multiprocessing
 Epoch 0526 | Time: 111.6s | C_Water: 0.225913 | Opt: Multiprocessing
   Train: Loss 0.0322 | Prec 0.9339 | Rec 0.8991 | P@R0.9 0.9330
   Val  : Loss 0.0367 | Prec 0.9136 | Rec 0.8784 | P@R0.9 0.8863
+Epoch 0527 | Time: 108.3s | C_Water: 0.225914 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9376 | Rec 0.8968 | P@R0.9 0.9354
+  Val  : Loss 0.0366 | Prec 0.9196 | Rec 0.8720 | P@R0.9 0.8860
