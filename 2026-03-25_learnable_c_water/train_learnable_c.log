@@ -1576,3 +1576,30 @@ Epoch 0516 | Time: 117.2s | C_Water: 0.225902 | Opt: Multiprocessing
 Epoch 0517 | Time: 118.8s | C_Water: 0.225903 | Opt: Multiprocessing
   Train: Loss 0.0327 | Prec 0.9355 | Rec 0.9037 | P@R0.9 0.9383
   Val  : Loss 0.0367 | Prec 0.9163 | Rec 0.8743 | P@R0.9 0.8862
+Epoch 0518 | Time: 92.7s | C_Water: 0.225904 | Opt: Multiprocessing
+  Train: Loss 0.0325 | Prec 0.9316 | Rec 0.8988 | P@R0.9 0.9306
+  Val  : Loss 0.0371 | Prec 0.9140 | Rec 0.8755 | P@R0.9 0.8851
+Epoch 0519 | Time: 118.1s | C_Water: 0.225905 | Opt: Multiprocessing
+  Train: Loss 0.0335 | Prec 0.9357 | Rec 0.9053 | P@R0.9 0.9400
+  Val  : Loss 0.0366 | Prec 0.9130 | Rec 0.8792 | P@R0.9 0.8881
+Epoch 0520 | Time: 111.9s | C_Water: 0.225906 | Opt: Multiprocessing
+  Train: Loss 0.0325 | Prec 0.9358 | Rec 0.9025 | P@R0.9 0.9382
+  Val  : Loss 0.0370 | Prec 0.9150 | Rec 0.8733 | P@R0.9 0.8844
+Epoch 0521 | Time: 111.3s | C_Water: 0.225907 | Opt: Multiprocessing
+  Train: Loss 0.0338 | Prec 0.9356 | Rec 0.9022 | P@R0.9 0.9374
+  Val  : Loss 0.0370 | Prec 0.9157 | Rec 0.8738 | P@R0.9 0.8848
+Epoch 0522 | Time: 107.0s | C_Water: 0.225908 | Opt: Multiprocessing
+  Train: Loss 0.0332 | Prec 0.9328 | Rec 0.9030 | P@R0.9 0.9352
+  Val  : Loss 0.0369 | Prec 0.9132 | Rec 0.8776 | P@R0.9 0.8865
+Epoch 0523 | Time: 103.2s | C_Water: 0.225909 | Opt: Multiprocessing
+  Train: Loss 0.0329 | Prec 0.9322 | Rec 0.9008 | P@R0.9 0.9330
+  Val  : Loss 0.0373 | Prec 0.9127 | Rec 0.8746 | P@R0.9 0.8838
+Epoch 0524 | Time: 100.5s | C_Water: 0.225911 | Opt: Multiprocessing
+  Train: Loss 0.0327 | Prec 0.9350 | Rec 0.9071 | P@R0.9 0.9407
+  Val  : Loss 0.0369 | Prec 0.9132 | Rec 0.8753 | P@R0.9 0.8855
+Epoch 0525 | Time: 114.9s | C_Water: 0.225912 | Opt: Multiprocessing
+  Train: Loss 0.0331 | Prec 0.9316 | Rec 0.9004 | P@R0.9 0.9320
+  Val  : Loss 0.0367 | Prec 0.9118 | Rec 0.8781 | P@R0.9 0.8857
+Epoch 0526 | Time: 111.6s | C_Water: 0.225913 | Opt: Multiprocessing
+  Train: Loss 0.0322 | Prec 0.9339 | Rec 0.8991 | P@R0.9 0.9330
+  Val  : Loss 0.0367 | Prec 0.9136 | Rec 0.8784 | P@R0.9 0.8863

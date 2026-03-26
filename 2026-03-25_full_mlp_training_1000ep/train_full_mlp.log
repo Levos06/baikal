@@ -1753,3 +1753,33 @@ Epoch 0547 | Time: 99.0s | Opt: Multiprocessing (n=4)
 Epoch 0548 | Time: 93.9s | Opt: Multiprocessing (n=4)
   Train: Loss 0.0323 | Prec 0.9326 | Rec 0.9034 | P@R0.9 0.9357
   Val  : Loss 0.0370 | Prec 0.9116 | Rec 0.8787 | P@R0.9 0.8854
+Epoch 0549 | Time: 90.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9346 | Rec 0.8999 | P@R0.9 0.9346
+  Val  : Loss 0.0365 | Prec 0.9178 | Rec 0.8731 | P@R0.9 0.8879
+Epoch 0550 | Time: 96.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0329 | Prec 0.9369 | Rec 0.8997 | P@R0.9 0.9367
+  Val  : Loss 0.0367 | Prec 0.9173 | Rec 0.8741 | P@R0.9 0.8888
+Epoch 0551 | Time: 91.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9382 | Rec 0.8985 | P@R0.9 0.9370
+  Val  : Loss 0.0365 | Prec 0.9184 | Rec 0.8736 | P@R0.9 0.8885
+Epoch 0552 | Time: 98.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9358 | Rec 0.8978 | P@R0.9 0.9341
+  Val  : Loss 0.0367 | Prec 0.9172 | Rec 0.8740 | P@R0.9 0.8847
+Epoch 0553 | Time: 100.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9358 | Rec 0.9003 | P@R0.9 0.9362
+  Val  : Loss 0.0365 | Prec 0.9177 | Rec 0.8752 | P@R0.9 0.8893
+Epoch 0554 | Time: 96.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9316 | Rec 0.8979 | P@R0.9 0.9299
+  Val  : Loss 0.0364 | Prec 0.9153 | Rec 0.8763 | P@R0.9 0.8889
+Epoch 0555 | Time: 95.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0335 | Prec 0.9358 | Rec 0.8979 | P@R0.9 0.9342
+  Val  : Loss 0.0367 | Prec 0.9157 | Rec 0.8741 | P@R0.9 0.8866
+Epoch 0556 | Time: 92.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0329 | Prec 0.9369 | Rec 0.9048 | P@R0.9 0.9399
+  Val  : Loss 0.0365 | Prec 0.9139 | Rec 0.8767 | P@R0.9 0.8870
+Epoch 0557 | Time: 89.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0339 | Prec 0.9342 | Rec 0.9019 | P@R0.9 0.9360
+  Val  : Loss 0.0368 | Prec 0.9135 | Rec 0.8767 | P@R0.9 0.8850
+Epoch 0558 | Time: 106.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9311 | Rec 0.9082 | P@R0.9 0.9376
+  Val  : Loss 0.0368 | Prec 0.9100 | Rec 0.8807 | P@R0.9 0.8861
