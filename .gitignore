@@ -5,5 +5,4 @@ __pycache__/
 venv/
 data_processed/
 **/checkpoints/
-**/plots/
 **/adj_matrices/
