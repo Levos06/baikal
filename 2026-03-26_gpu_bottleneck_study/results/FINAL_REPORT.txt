@@ -1,0 +1,28 @@
+=== GPU BOTTLENECK STUDY FINAL REPORT ===
+
+--- Pure I/O ---
+Starting Pure I/O Test...
+Processed 50048 events in 26.81s
+Throughput: 1866.83 events/s
+
+--- Preprocessing (Features) ---
+Starting Preprocessing Test on cuda...
+Processed 100096 events with features in 12.29s
+Throughput: 8144.03 events/s
+
+--- Worker Scaling ---
+Scaling Results:
+Workers  0:  3022.60 events/s
+Workers  2:  3980.16 events/s
+Workers  4:  5031.09 events/s
+Workers  8:  1105.63 events/s
+
+--- Synthetic GPU Max ---
+Starting Synthetic GPU Test on cuda...
+Max Theoretical Throughput: 8037.94 events/s
+
+--- Batch Size Scaling ---
+BS  128:  4898.91 events/s
+BS  256: 23702.94 events/s
+BS  512: 26156.21 events/s
+BS 1024: 28428.94 events/s

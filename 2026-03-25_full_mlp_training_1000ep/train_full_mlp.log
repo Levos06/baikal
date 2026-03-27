@@ -1786,3 +1786,1326 @@ Epoch 0558 | Time: 106.7s | Opt: Multiprocessing (n=4)
 Epoch 0559 | Time: 107.9s | Opt: Multiprocessing (n=4)
   Train: Loss 0.0325 | Prec 0.9312 | Rec 0.9048 | P@R0.9 0.9353
   Val  : Loss 0.0367 | Prec 0.9105 | Rec 0.8815 | P@R0.9 0.8873
+Epoch 0560 | Time: 80.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0322 | Prec 0.9383 | Rec 0.8988 | P@R0.9 0.9373
+  Val  : Loss 0.0366 | Prec 0.9193 | Rec 0.8712 | P@R0.9 0.8880
+Epoch 0561 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9303 | Rec 0.9080 | P@R0.9 0.9378
+  Val  : Loss 0.0367 | Prec 0.9088 | Rec 0.8821 | P@R0.9 0.8862
+Epoch 0562 | Time: 95.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9362 | Rec 0.8965 | P@R0.9 0.9333
+  Val  : Loss 0.0363 | Prec 0.9193 | Rec 0.8734 | P@R0.9 0.8882
+Epoch 0563 | Time: 106.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9359 | Rec 0.9085 | P@R0.9 0.9424
+  Val  : Loss 0.0365 | Prec 0.9126 | Rec 0.8795 | P@R0.9 0.8880
+Epoch 0564 | Time: 98.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9367 | Rec 0.9077 | P@R0.9 0.9430
+  Val  : Loss 0.0361 | Prec 0.9116 | Rec 0.8827 | P@R0.9 0.8904
+Epoch 0565 | Time: 99.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9357 | Rec 0.9030 | P@R0.9 0.9385
+  Val  : Loss 0.0367 | Prec 0.9160 | Rec 0.8754 | P@R0.9 0.8877
+Epoch 0566 | Time: 89.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9351 | Rec 0.9044 | P@R0.9 0.9398
+  Val  : Loss 0.0362 | Prec 0.9145 | Rec 0.8798 | P@R0.9 0.8905
+Epoch 0567 | Time: 101.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9359 | Rec 0.9080 | P@R0.9 0.9423
+  Val  : Loss 0.0369 | Prec 0.9141 | Rec 0.8764 | P@R0.9 0.8866
+Epoch 0568 | Time: 101.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9315 | Rec 0.9038 | P@R0.9 0.9358
+  Val  : Loss 0.0366 | Prec 0.9113 | Rec 0.8817 | P@R0.9 0.8881
+Epoch 0569 | Time: 103.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0332 | Prec 0.9312 | Rec 0.9091 | P@R0.9 0.9386
+  Val  : Loss 0.0369 | Prec 0.9111 | Rec 0.8793 | P@R0.9 0.8853
+Epoch 0570 | Time: 104.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9346 | Rec 0.9018 | P@R0.9 0.9360
+  Val  : Loss 0.0364 | Prec 0.9153 | Rec 0.8763 | P@R0.9 0.8887
+Epoch 0571 | Time: 97.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0336 | Prec 0.9371 | Rec 0.9025 | P@R0.9 0.9389
+  Val  : Loss 0.0366 | Prec 0.9158 | Rec 0.8763 | P@R0.9 0.8883
+Epoch 0572 | Time: 101.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0326 | Prec 0.9390 | Rec 0.9020 | P@R0.9 0.9404
+  Val  : Loss 0.0363 | Prec 0.9177 | Rec 0.8772 | P@R0.9 0.8912
+Epoch 0573 | Time: 93.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9346 | Rec 0.9080 | P@R0.9 0.9416
+  Val  : Loss 0.0368 | Prec 0.9134 | Rec 0.8786 | P@R0.9 0.8867
+Epoch 0574 | Time: 105.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9342 | Rec 0.9063 | P@R0.9 0.9398
+  Val  : Loss 0.0366 | Prec 0.9146 | Rec 0.8779 | P@R0.9 0.8873
+Epoch 0575 | Time: 104.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0332 | Prec 0.9296 | Rec 0.9056 | P@R0.9 0.9348
+  Val  : Loss 0.0367 | Prec 0.9101 | Rec 0.8831 | P@R0.9 0.8887
+Epoch 0576 | Time: 107.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9374 | Rec 0.9011 | P@R0.9 0.9383
+  Val  : Loss 0.0362 | Prec 0.9162 | Rec 0.8778 | P@R0.9 0.8904
+Epoch 0577 | Time: 101.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0327 | Prec 0.9322 | Rec 0.8980 | P@R0.9 0.9307
+  Val  : Loss 0.0364 | Prec 0.9174 | Rec 0.8748 | P@R0.9 0.8889
+Epoch 0578 | Time: 101.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0328 | Prec 0.9321 | Rec 0.9069 | P@R0.9 0.9379
+  Val  : Loss 0.0363 | Prec 0.9111 | Rec 0.8830 | P@R0.9 0.8899
+Epoch 0579 | Time: 108.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0326 | Prec 0.9363 | Rec 0.9045 | P@R0.9 0.9400
+  Val  : Loss 0.0367 | Prec 0.9145 | Rec 0.8768 | P@R0.9 0.8869
+Epoch 0580 | Time: 102.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9370 | Rec 0.9068 | P@R0.9 0.9423
+  Val  : Loss 0.0366 | Prec 0.9129 | Rec 0.8789 | P@R0.9 0.8884
+Epoch 0581 | Time: 98.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9392 | Rec 0.8999 | P@R0.9 0.9391
+  Val  : Loss 0.0367 | Prec 0.9190 | Rec 0.8714 | P@R0.9 0.8873
+Epoch 0582 | Time: 103.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9345 | Rec 0.9070 | P@R0.9 0.9408
+  Val  : Loss 0.0367 | Prec 0.9115 | Rec 0.8784 | P@R0.9 0.8853
+Epoch 0583 | Time: 96.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9385 | Rec 0.8987 | P@R0.9 0.9376
+  Val  : Loss 0.0365 | Prec 0.9182 | Rec 0.8737 | P@R0.9 0.8889
+Epoch 0584 | Time: 114.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9370 | Rec 0.9045 | P@R0.9 0.9405
+  Val  : Loss 0.0364 | Prec 0.9157 | Rec 0.8777 | P@R0.9 0.8888
+Epoch 0585 | Time: 97.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9354 | Rec 0.9029 | P@R0.9 0.9375
+  Val  : Loss 0.0364 | Prec 0.9160 | Rec 0.8764 | P@R0.9 0.8894
+Epoch 0586 | Time: 112.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9385 | Rec 0.9065 | P@R0.9 0.9434
+  Val  : Loss 0.0366 | Prec 0.9141 | Rec 0.8762 | P@R0.9 0.8875
+Epoch 0587 | Time: 95.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0327 | Prec 0.9308 | Rec 0.9067 | P@R0.9 0.9362
+  Val  : Loss 0.0365 | Prec 0.9099 | Rec 0.8822 | P@R0.9 0.8883
+Epoch 0588 | Time: 103.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0329 | Prec 0.9395 | Rec 0.8956 | P@R0.9 0.9359
+  Val  : Loss 0.0363 | Prec 0.9217 | Rec 0.8716 | P@R0.9 0.8911
+Epoch 0589 | Time: 97.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0326 | Prec 0.9319 | Rec 0.9072 | P@R0.9 0.9382
+  Val  : Loss 0.0364 | Prec 0.9094 | Rec 0.8832 | P@R0.9 0.8883
+Epoch 0590 | Time: 97.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0328 | Prec 0.9369 | Rec 0.9019 | P@R0.9 0.9383
+  Val  : Loss 0.0362 | Prec 0.9177 | Rec 0.8752 | P@R0.9 0.8906
+Epoch 0591 | Time: 105.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9376 | Rec 0.8971 | P@R0.9 0.9356
+  Val  : Loss 0.0365 | Prec 0.9200 | Rec 0.8723 | P@R0.9 0.8901
+Epoch 0592 | Time: 140.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9327 | Rec 0.9052 | P@R0.9 0.9377
+  Val  : Loss 0.0364 | Prec 0.9136 | Rec 0.8796 | P@R0.9 0.8900
+Epoch 0593 | Time: 109.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9350 | Rec 0.9129 | P@R0.9 0.9458
+  Val  : Loss 0.0369 | Prec 0.9076 | Rec 0.8834 | P@R0.9 0.8858
+Epoch 0594 | Time: 94.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0335 | Prec 0.9366 | Rec 0.9052 | P@R0.9 0.9409
+  Val  : Loss 0.0367 | Prec 0.9150 | Rec 0.8765 | P@R0.9 0.8877
+Epoch 0595 | Time: 96.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9356 | Rec 0.9055 | P@R0.9 0.9397
+  Val  : Loss 0.0365 | Prec 0.9131 | Rec 0.8792 | P@R0.9 0.8890
+Epoch 0596 | Time: 96.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9382 | Rec 0.9056 | P@R0.9 0.9425
+  Val  : Loss 0.0366 | Prec 0.9149 | Rec 0.8761 | P@R0.9 0.8875
+Epoch 0597 | Time: 99.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9315 | Rec 0.9122 | P@R0.9 0.9419
+  Val  : Loss 0.0363 | Prec 0.9091 | Rec 0.8844 | P@R0.9 0.8892
+Epoch 0598 | Time: 95.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0339 | Prec 0.9350 | Rec 0.9018 | P@R0.9 0.9366
+  Val  : Loss 0.0366 | Prec 0.9153 | Rec 0.8767 | P@R0.9 0.8877
+Epoch 0599 | Time: 96.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9361 | Rec 0.9047 | P@R0.9 0.9399
+  Val  : Loss 0.0361 | Prec 0.9180 | Rec 0.8762 | P@R0.9 0.8910
+Epoch 0600 | Time: 102.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0331 | Prec 0.9340 | Rec 0.9013 | P@R0.9 0.9353
+  Val  : Loss 0.0364 | Prec 0.9139 | Rec 0.8778 | P@R0.9 0.8884
+Epoch 0601 | Time: 86.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9376 | Rec 0.9048 | P@R0.9 0.9412
+  Val  : Loss 0.0364 | Prec 0.9142 | Rec 0.8784 | P@R0.9 0.8887
+Epoch 0602 | Time: 95.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9313 | Rec 0.9058 | P@R0.9 0.9366
+  Val  : Loss 0.0365 | Prec 0.9126 | Rec 0.8795 | P@R0.9 0.8882
+Epoch 0603 | Time: 77.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9332 | Rec 0.9040 | P@R0.9 0.9374
+  Val  : Loss 0.0367 | Prec 0.9117 | Rec 0.8797 | P@R0.9 0.8868
+Epoch 0604 | Time: 90.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9307 | Rec 0.9131 | P@R0.9 0.9418
+  Val  : Loss 0.0367 | Prec 0.9070 | Rec 0.8849 | P@R0.9 0.8884
+Epoch 0605 | Time: 94.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0334 | Prec 0.9313 | Rec 0.9018 | P@R0.9 0.9330
+  Val  : Loss 0.0366 | Prec 0.9133 | Rec 0.8778 | P@R0.9 0.8875
+Epoch 0606 | Time: 86.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9361 | Rec 0.9045 | P@R0.9 0.9403
+  Val  : Loss 0.0367 | Prec 0.9138 | Rec 0.8767 | P@R0.9 0.8871
+Epoch 0607 | Time: 87.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0331 | Prec 0.9342 | Rec 0.9044 | P@R0.9 0.9377
+  Val  : Loss 0.0361 | Prec 0.9127 | Rec 0.8813 | P@R0.9 0.8914
+Epoch 0608 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9325 | Rec 0.9065 | P@R0.9 0.9377
+  Val  : Loss 0.0363 | Prec 0.9067 | Rec 0.8854 | P@R0.9 0.8883
+Epoch 0609 | Time: 109.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9375 | Rec 0.9086 | P@R0.9 0.9445
+  Val  : Loss 0.0362 | Prec 0.9153 | Rec 0.8785 | P@R0.9 0.8894
+Epoch 0610 | Time: 89.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0330 | Prec 0.9324 | Rec 0.9035 | P@R0.9 0.9350
+  Val  : Loss 0.0365 | Prec 0.9121 | Rec 0.8808 | P@R0.9 0.8875
+Epoch 0611 | Time: 77.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0334 | Prec 0.9310 | Rec 0.9076 | P@R0.9 0.9377
+  Val  : Loss 0.0363 | Prec 0.9079 | Rec 0.8866 | P@R0.9 0.8911
+Epoch 0612 | Time: 103.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9310 | Rec 0.9057 | P@R0.9 0.9359
+  Val  : Loss 0.0367 | Prec 0.9124 | Rec 0.8797 | P@R0.9 0.8870
+Epoch 0613 | Time: 109.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9374 | Rec 0.9005 | P@R0.9 0.9379
+  Val  : Loss 0.0362 | Prec 0.9162 | Rec 0.8783 | P@R0.9 0.8897
+Epoch 0614 | Time: 102.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9398 | Rec 0.9063 | P@R0.9 0.9449
+  Val  : Loss 0.0362 | Prec 0.9179 | Rec 0.8757 | P@R0.9 0.8901
+Epoch 0615 | Time: 92.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9316 | Rec 0.9057 | P@R0.9 0.9372
+  Val  : Loss 0.0367 | Prec 0.9095 | Rec 0.8832 | P@R0.9 0.8887
+Epoch 0616 | Time: 89.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9352 | Rec 0.9045 | P@R0.9 0.9389
+  Val  : Loss 0.0363 | Prec 0.9152 | Rec 0.8785 | P@R0.9 0.8883
+Epoch 0617 | Time: 111.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0330 | Prec 0.9334 | Rec 0.9090 | P@R0.9 0.9406
+  Val  : Loss 0.0364 | Prec 0.9139 | Rec 0.8798 | P@R0.9 0.8905
+Epoch 0618 | Time: 94.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9355 | Rec 0.9052 | P@R0.9 0.9400
+  Val  : Loss 0.0360 | Prec 0.9135 | Rec 0.8825 | P@R0.9 0.8912
+Epoch 0619 | Time: 88.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9332 | Rec 0.9079 | P@R0.9 0.9393
+  Val  : Loss 0.0368 | Prec 0.9135 | Rec 0.8768 | P@R0.9 0.8865
+Epoch 0620 | Time: 95.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9348 | Rec 0.9017 | P@R0.9 0.9365
+  Val  : Loss 0.0363 | Prec 0.9168 | Rec 0.8765 | P@R0.9 0.8898
+Epoch 0621 | Time: 90.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9340 | Rec 0.9004 | P@R0.9 0.9343
+  Val  : Loss 0.0365 | Prec 0.9127 | Rec 0.8788 | P@R0.9 0.8876
+Epoch 0622 | Time: 86.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9365 | Rec 0.9036 | P@R0.9 0.9391
+  Val  : Loss 0.0362 | Prec 0.9172 | Rec 0.8764 | P@R0.9 0.8919
+Epoch 0623 | Time: 91.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9375 | Rec 0.8994 | P@R0.9 0.9371
+  Val  : Loss 0.0364 | Prec 0.9169 | Rec 0.8756 | P@R0.9 0.8883
+Epoch 0624 | Time: 99.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9372 | Rec 0.9029 | P@R0.9 0.9398
+  Val  : Loss 0.0362 | Prec 0.9171 | Rec 0.8780 | P@R0.9 0.8913
+Epoch 0625 | Time: 83.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9372 | Rec 0.9018 | P@R0.9 0.9385
+  Val  : Loss 0.0364 | Prec 0.9188 | Rec 0.8749 | P@R0.9 0.8900
+Epoch 0626 | Time: 89.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9386 | Rec 0.9029 | P@R0.9 0.9406
+  Val  : Loss 0.0362 | Prec 0.9180 | Rec 0.8773 | P@R0.9 0.8910
+Epoch 0627 | Time: 97.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9346 | Rec 0.9043 | P@R0.9 0.9383
+  Val  : Loss 0.0363 | Prec 0.9138 | Rec 0.8791 | P@R0.9 0.8892
+Epoch 0628 | Time: 86.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0322 | Prec 0.9374 | Rec 0.9046 | P@R0.9 0.9416
+  Val  : Loss 0.0362 | Prec 0.9159 | Rec 0.8778 | P@R0.9 0.8893
+Epoch 0629 | Time: 89.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9412 | Rec 0.9080 | P@R0.9 0.9481
+  Val  : Loss 0.0367 | Prec 0.9142 | Rec 0.8772 | P@R0.9 0.8891
+Epoch 0630 | Time: 97.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0342 | Prec 0.9337 | Rec 0.9077 | P@R0.9 0.9400
+  Val  : Loss 0.0360 | Prec 0.9126 | Rec 0.8831 | P@R0.9 0.8931
+Epoch 0631 | Time: 90.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9386 | Rec 0.9066 | P@R0.9 0.9434
+  Val  : Loss 0.0361 | Prec 0.9161 | Rec 0.8784 | P@R0.9 0.8926
+Epoch 0632 | Time: 88.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9391 | Rec 0.9028 | P@R0.9 0.9415
+  Val  : Loss 0.0362 | Prec 0.9183 | Rec 0.8758 | P@R0.9 0.8903
+Epoch 0633 | Time: 107.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9338 | Rec 0.9132 | P@R0.9 0.9447
+  Val  : Loss 0.0362 | Prec 0.9114 | Rec 0.8827 | P@R0.9 0.8910
+Epoch 0634 | Time: 94.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9339 | Rec 0.9055 | P@R0.9 0.9385
+  Val  : Loss 0.0363 | Prec 0.9134 | Rec 0.8804 | P@R0.9 0.8904
+Epoch 0635 | Time: 99.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9342 | Rec 0.9077 | P@R0.9 0.9406
+  Val  : Loss 0.0365 | Prec 0.9121 | Rec 0.8795 | P@R0.9 0.8882
+Epoch 0636 | Time: 96.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0332 | Prec 0.9359 | Rec 0.8997 | P@R0.9 0.9358
+  Val  : Loss 0.0362 | Prec 0.9157 | Rec 0.8776 | P@R0.9 0.8899
+Epoch 0637 | Time: 103.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9372 | Rec 0.9024 | P@R0.9 0.9390
+  Val  : Loss 0.0361 | Prec 0.9184 | Rec 0.8746 | P@R0.9 0.8908
+Epoch 0638 | Time: 77.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0334 | Prec 0.9381 | Rec 0.8973 | P@R0.9 0.9361
+  Val  : Loss 0.0363 | Prec 0.9204 | Rec 0.8726 | P@R0.9 0.8900
+Epoch 0639 | Time: 89.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9384 | Rec 0.9033 | P@R0.9 0.9408
+  Val  : Loss 0.0359 | Prec 0.9166 | Rec 0.8793 | P@R0.9 0.8910
+Epoch 0640 | Time: 86.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9348 | Rec 0.9059 | P@R0.9 0.9400
+  Val  : Loss 0.0364 | Prec 0.9138 | Rec 0.8795 | P@R0.9 0.8885
+Epoch 0641 | Time: 99.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9372 | Rec 0.9042 | P@R0.9 0.9404
+  Val  : Loss 0.0357 | Prec 0.9165 | Rec 0.8798 | P@R0.9 0.8938
+Epoch 0642 | Time: 98.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9317 | Rec 0.9056 | P@R0.9 0.9362
+  Val  : Loss 0.0361 | Prec 0.9118 | Rec 0.8831 | P@R0.9 0.8923
+Epoch 0643 | Time: 88.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9367 | Rec 0.9006 | P@R0.9 0.9371
+  Val  : Loss 0.0363 | Prec 0.9179 | Rec 0.8757 | P@R0.9 0.8904
+Epoch 0644 | Time: 106.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0332 | Prec 0.9358 | Rec 0.9063 | P@R0.9 0.9408
+  Val  : Loss 0.0362 | Prec 0.9155 | Rec 0.8788 | P@R0.9 0.8896
+Epoch 0645 | Time: 99.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9372 | Rec 0.9096 | P@R0.9 0.9449
+  Val  : Loss 0.0365 | Prec 0.9149 | Rec 0.8774 | P@R0.9 0.8884
+Epoch 0646 | Time: 97.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9369 | Rec 0.9071 | P@R0.9 0.9428
+  Val  : Loss 0.0363 | Prec 0.9155 | Rec 0.8791 | P@R0.9 0.8907
+Epoch 0647 | Time: 85.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9368 | Rec 0.9115 | P@R0.9 0.9466
+  Val  : Loss 0.0365 | Prec 0.9122 | Rec 0.8816 | P@R0.9 0.8897
+Epoch 0648 | Time: 98.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9378 | Rec 0.9090 | P@R0.9 0.9448
+  Val  : Loss 0.0362 | Prec 0.9139 | Rec 0.8800 | P@R0.9 0.8920
+Epoch 0649 | Time: 81.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9323 | Rec 0.9095 | P@R0.9 0.9418
+  Val  : Loss 0.0367 | Prec 0.9089 | Rec 0.8826 | P@R0.9 0.8871
+Epoch 0650 | Time: 87.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9403 | Rec 0.9005 | P@R0.9 0.9406
+  Val  : Loss 0.0357 | Prec 0.9193 | Rec 0.8766 | P@R0.9 0.8946
+Epoch 0651 | Time: 87.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9387 | Rec 0.9036 | P@R0.9 0.9418
+  Val  : Loss 0.0362 | Prec 0.9171 | Rec 0.8784 | P@R0.9 0.8919
+Epoch 0652 | Time: 79.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9367 | Rec 0.9020 | P@R0.9 0.9384
+  Val  : Loss 0.0360 | Prec 0.9166 | Rec 0.8791 | P@R0.9 0.8940
+Epoch 0653 | Time: 90.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9357 | Rec 0.9057 | P@R0.9 0.9407
+  Val  : Loss 0.0364 | Prec 0.9120 | Rec 0.8811 | P@R0.9 0.8894
+Epoch 0654 | Time: 76.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9399 | Rec 0.9102 | P@R0.9 0.9470
+  Val  : Loss 0.0359 | Prec 0.9151 | Rec 0.8807 | P@R0.9 0.8912
+Epoch 0655 | Time: 95.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9343 | Rec 0.9053 | P@R0.9 0.9386
+  Val  : Loss 0.0364 | Prec 0.9148 | Rec 0.8783 | P@R0.9 0.8887
+Epoch 0656 | Time: 91.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9391 | Rec 0.9027 | P@R0.9 0.9413
+  Val  : Loss 0.0360 | Prec 0.9183 | Rec 0.8761 | P@R0.9 0.8915
+Epoch 0657 | Time: 85.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9374 | Rec 0.9030 | P@R0.9 0.9403
+  Val  : Loss 0.0363 | Prec 0.9154 | Rec 0.8779 | P@R0.9 0.8899
+Epoch 0658 | Time: 82.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9316 | Rec 0.9133 | P@R0.9 0.9433
+  Val  : Loss 0.0364 | Prec 0.9112 | Rec 0.8816 | P@R0.9 0.8900
+Epoch 0659 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0328 | Prec 0.9330 | Rec 0.9001 | P@R0.9 0.9330
+  Val  : Loss 0.0363 | Prec 0.9156 | Rec 0.8788 | P@R0.9 0.8900
+Epoch 0660 | Time: 92.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9360 | Rec 0.9054 | P@R0.9 0.9406
+  Val  : Loss 0.0358 | Prec 0.9146 | Rec 0.8820 | P@R0.9 0.8937
+Epoch 0661 | Time: 84.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9344 | Rec 0.9023 | P@R0.9 0.9368
+  Val  : Loss 0.0362 | Prec 0.9160 | Rec 0.8784 | P@R0.9 0.8899
+Epoch 0662 | Time: 86.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9392 | Rec 0.8991 | P@R0.9 0.9384
+  Val  : Loss 0.0366 | Prec 0.9194 | Rec 0.8730 | P@R0.9 0.8886
+Epoch 0663 | Time: 82.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9319 | Rec 0.9064 | P@R0.9 0.9378
+  Val  : Loss 0.0362 | Prec 0.9127 | Rec 0.8821 | P@R0.9 0.8904
+Epoch 0664 | Time: 84.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9384 | Rec 0.9027 | P@R0.9 0.9408
+  Val  : Loss 0.0364 | Prec 0.9176 | Rec 0.8746 | P@R0.9 0.8882
+Epoch 0665 | Time: 87.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9360 | Rec 0.9114 | P@R0.9 0.9446
+  Val  : Loss 0.0365 | Prec 0.9099 | Rec 0.8816 | P@R0.9 0.8876
+Epoch 0666 | Time: 93.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0327 | Prec 0.9390 | Rec 0.9080 | P@R0.9 0.9455
+  Val  : Loss 0.0363 | Prec 0.9165 | Rec 0.8766 | P@R0.9 0.8899
+Epoch 0667 | Time: 107.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9351 | Rec 0.9047 | P@R0.9 0.9392
+  Val  : Loss 0.0361 | Prec 0.9146 | Rec 0.8804 | P@R0.9 0.8915
+Epoch 0668 | Time: 101.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0327 | Prec 0.9347 | Rec 0.9073 | P@R0.9 0.9412
+  Val  : Loss 0.0362 | Prec 0.9115 | Rec 0.8822 | P@R0.9 0.8911
+Epoch 0669 | Time: 92.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0336 | Prec 0.9349 | Rec 0.8990 | P@R0.9 0.9339
+  Val  : Loss 0.0360 | Prec 0.9161 | Rec 0.8788 | P@R0.9 0.8926
+Epoch 0670 | Time: 77.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9389 | Rec 0.9045 | P@R0.9 0.9420
+  Val  : Loss 0.0362 | Prec 0.9175 | Rec 0.8768 | P@R0.9 0.8905
+Epoch 0671 | Time: 86.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9366 | Rec 0.9073 | P@R0.9 0.9426
+  Val  : Loss 0.0365 | Prec 0.9160 | Rec 0.8773 | P@R0.9 0.8887
+Epoch 0672 | Time: 88.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0327 | Prec 0.9352 | Rec 0.9050 | P@R0.9 0.9392
+  Val  : Loss 0.0361 | Prec 0.9158 | Rec 0.8780 | P@R0.9 0.8894
+Epoch 0673 | Time: 92.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9360 | Rec 0.9003 | P@R0.9 0.9362
+  Val  : Loss 0.0360 | Prec 0.9178 | Rec 0.8768 | P@R0.9 0.8914
+Epoch 0674 | Time: 106.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9352 | Rec 0.9041 | P@R0.9 0.9385
+  Val  : Loss 0.0358 | Prec 0.9149 | Rec 0.8813 | P@R0.9 0.8939
+Epoch 0675 | Time: 101.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9365 | Rec 0.9031 | P@R0.9 0.9388
+  Val  : Loss 0.0362 | Prec 0.9158 | Rec 0.8778 | P@R0.9 0.8886
+Epoch 0676 | Time: 101.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0329 | Prec 0.9329 | Rec 0.9058 | P@R0.9 0.9377
+  Val  : Loss 0.0366 | Prec 0.9097 | Rec 0.8826 | P@R0.9 0.8877
+Epoch 0677 | Time: 102.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9357 | Rec 0.9020 | P@R0.9 0.9373
+  Val  : Loss 0.0365 | Prec 0.9155 | Rec 0.8781 | P@R0.9 0.8898
+Epoch 0678 | Time: 99.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9368 | Rec 0.9017 | P@R0.9 0.9386
+  Val  : Loss 0.0360 | Prec 0.9162 | Rec 0.8779 | P@R0.9 0.8920
+Epoch 0679 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9377 | Rec 0.9041 | P@R0.9 0.9412
+  Val  : Loss 0.0362 | Prec 0.9178 | Rec 0.8757 | P@R0.9 0.8894
+Epoch 0680 | Time: 89.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9392 | Rec 0.9086 | P@R0.9 0.9449
+  Val  : Loss 0.0362 | Prec 0.9167 | Rec 0.8772 | P@R0.9 0.8902
+Epoch 0681 | Time: 99.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9332 | Rec 0.8999 | P@R0.9 0.9331
+  Val  : Loss 0.0360 | Prec 0.9165 | Rec 0.8786 | P@R0.9 0.8902
+Epoch 0682 | Time: 98.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0330 | Prec 0.9294 | Rec 0.9085 | P@R0.9 0.9365
+  Val  : Loss 0.0363 | Prec 0.9095 | Rec 0.8836 | P@R0.9 0.8901
+Epoch 0683 | Time: 104.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9386 | Rec 0.9081 | P@R0.9 0.9450
+  Val  : Loss 0.0358 | Prec 0.9137 | Rec 0.8831 | P@R0.9 0.8940
+Epoch 0684 | Time: 109.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9402 | Rec 0.8973 | P@R0.9 0.9384
+  Val  : Loss 0.0362 | Prec 0.9202 | Rec 0.8733 | P@R0.9 0.8897
+Epoch 0685 | Time: 103.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9338 | Rec 0.9083 | P@R0.9 0.9410
+  Val  : Loss 0.0362 | Prec 0.9114 | Rec 0.8838 | P@R0.9 0.8917
+Epoch 0686 | Time: 95.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9375 | Rec 0.9053 | P@R0.9 0.9423
+  Val  : Loss 0.0365 | Prec 0.9152 | Rec 0.8771 | P@R0.9 0.8884
+Epoch 0687 | Time: 99.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0322 | Prec 0.9347 | Rec 0.9069 | P@R0.9 0.9406
+  Val  : Loss 0.0360 | Prec 0.9139 | Rec 0.8805 | P@R0.9 0.8908
+Epoch 0688 | Time: 103.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9367 | Rec 0.9030 | P@R0.9 0.9391
+  Val  : Loss 0.0359 | Prec 0.9180 | Rec 0.8769 | P@R0.9 0.8918
+Epoch 0689 | Time: 88.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9407 | Rec 0.9028 | P@R0.9 0.9426
+  Val  : Loss 0.0357 | Prec 0.9210 | Rec 0.8753 | P@R0.9 0.8939
+Epoch 0690 | Time: 98.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0331 | Prec 0.9364 | Rec 0.9045 | P@R0.9 0.9403
+  Val  : Loss 0.0363 | Prec 0.9139 | Rec 0.8795 | P@R0.9 0.8895
+Epoch 0691 | Time: 105.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9375 | Rec 0.9020 | P@R0.9 0.9393
+  Val  : Loss 0.0360 | Prec 0.9195 | Rec 0.8746 | P@R0.9 0.8913
+Epoch 0692 | Time: 94.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0322 | Prec 0.9372 | Rec 0.9118 | P@R0.9 0.9458
+  Val  : Loss 0.0360 | Prec 0.9131 | Rec 0.8818 | P@R0.9 0.8912
+Epoch 0693 | Time: 88.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0297 | Prec 0.9384 | Rec 0.9103 | P@R0.9 0.9471
+  Val  : Loss 0.0363 | Prec 0.9130 | Rec 0.8803 | P@R0.9 0.8905
+Epoch 0694 | Time: 101.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0322 | Prec 0.9355 | Rec 0.9070 | P@R0.9 0.9408
+  Val  : Loss 0.0358 | Prec 0.9136 | Rec 0.8821 | P@R0.9 0.8939
+Epoch 0695 | Time: 100.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9350 | Rec 0.9099 | P@R0.9 0.9427
+  Val  : Loss 0.0357 | Prec 0.9121 | Rec 0.8841 | P@R0.9 0.8936
+Epoch 0696 | Time: 83.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9378 | Rec 0.9078 | P@R0.9 0.9444
+  Val  : Loss 0.0361 | Prec 0.9156 | Rec 0.8792 | P@R0.9 0.8909
+Epoch 0697 | Time: 82.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9417 | Rec 0.9065 | P@R0.9 0.9469
+  Val  : Loss 0.0361 | Prec 0.9195 | Rec 0.8755 | P@R0.9 0.8911
+Epoch 0698 | Time: 95.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9391 | Rec 0.9056 | P@R0.9 0.9433
+  Val  : Loss 0.0360 | Prec 0.9163 | Rec 0.8790 | P@R0.9 0.8922
+Epoch 0699 | Time: 92.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9317 | Rec 0.9046 | P@R0.9 0.9355
+  Val  : Loss 0.0361 | Prec 0.9127 | Rec 0.8808 | P@R0.9 0.8901
+Epoch 0700 | Time: 108.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9386 | Rec 0.9011 | P@R0.9 0.9392
+  Val  : Loss 0.0358 | Prec 0.9188 | Rec 0.8780 | P@R0.9 0.8920
+Epoch 0701 | Time: 88.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9338 | Rec 0.9121 | P@R0.9 0.9436
+  Val  : Loss 0.0363 | Prec 0.9114 | Rec 0.8830 | P@R0.9 0.8895
+Epoch 0702 | Time: 89.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0333 | Prec 0.9357 | Rec 0.9000 | P@R0.9 0.9357
+  Val  : Loss 0.0360 | Prec 0.9176 | Rec 0.8787 | P@R0.9 0.8932
+Epoch 0703 | Time: 92.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9385 | Rec 0.9045 | P@R0.9 0.9426
+  Val  : Loss 0.0362 | Prec 0.9169 | Rec 0.8765 | P@R0.9 0.8908
+Epoch 0704 | Time: 91.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9402 | Rec 0.9049 | P@R0.9 0.9441
+  Val  : Loss 0.0358 | Prec 0.9179 | Rec 0.8783 | P@R0.9 0.8931
+Epoch 0705 | Time: 93.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9386 | Rec 0.9036 | P@R0.9 0.9411
+  Val  : Loss 0.0358 | Prec 0.9188 | Rec 0.8770 | P@R0.9 0.8938
+Epoch 0706 | Time: 92.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9352 | Rec 0.9026 | P@R0.9 0.9374
+  Val  : Loss 0.0361 | Prec 0.9164 | Rec 0.8787 | P@R0.9 0.8916
+Epoch 0707 | Time: 93.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9379 | Rec 0.9049 | P@R0.9 0.9424
+  Val  : Loss 0.0360 | Prec 0.9184 | Rec 0.8774 | P@R0.9 0.8926
+Epoch 0708 | Time: 87.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9343 | Rec 0.9011 | P@R0.9 0.9352
+  Val  : Loss 0.0359 | Prec 0.9171 | Rec 0.8788 | P@R0.9 0.8932
+Epoch 0709 | Time: 106.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9324 | Rec 0.9074 | P@R0.9 0.9399
+  Val  : Loss 0.0363 | Prec 0.9134 | Rec 0.8795 | P@R0.9 0.8886
+Epoch 0710 | Time: 123.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9368 | Rec 0.9079 | P@R0.9 0.9431
+  Val  : Loss 0.0360 | Prec 0.9143 | Rec 0.8809 | P@R0.9 0.8914
+Epoch 0711 | Time: 91.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9354 | Rec 0.9049 | P@R0.9 0.9387
+  Val  : Loss 0.0357 | Prec 0.9169 | Rec 0.8805 | P@R0.9 0.8947
+Epoch 0712 | Time: 100.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0326 | Prec 0.9328 | Rec 0.9027 | P@R0.9 0.9353
+  Val  : Loss 0.0358 | Prec 0.9157 | Rec 0.8814 | P@R0.9 0.8945
+Epoch 0713 | Time: 94.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9370 | Rec 0.9062 | P@R0.9 0.9415
+  Val  : Loss 0.0363 | Prec 0.9148 | Rec 0.8775 | P@R0.9 0.8895
+Epoch 0714 | Time: 101.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9362 | Rec 0.8969 | P@R0.9 0.9332
+  Val  : Loss 0.0356 | Prec 0.9186 | Rec 0.8776 | P@R0.9 0.8936
+Epoch 0715 | Time: 105.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9310 | Rec 0.9107 | P@R0.9 0.9406
+  Val  : Loss 0.0363 | Prec 0.9089 | Rec 0.8857 | P@R0.9 0.8906
+Epoch 0716 | Time: 115.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9369 | Rec 0.9084 | P@R0.9 0.9447
+  Val  : Loss 0.0361 | Prec 0.9165 | Rec 0.8786 | P@R0.9 0.8917
+Epoch 0717 | Time: 103.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9354 | Rec 0.9104 | P@R0.9 0.9438
+  Val  : Loss 0.0361 | Prec 0.9118 | Rec 0.8829 | P@R0.9 0.8915
+Epoch 0718 | Time: 84.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9334 | Rec 0.9098 | P@R0.9 0.9423
+  Val  : Loss 0.0360 | Prec 0.9115 | Rec 0.8833 | P@R0.9 0.8919
+Epoch 0719 | Time: 97.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9371 | Rec 0.9076 | P@R0.9 0.9426
+  Val  : Loss 0.0357 | Prec 0.9154 | Rec 0.8823 | P@R0.9 0.8946
+Epoch 0720 | Time: 104.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9402 | Rec 0.9054 | P@R0.9 0.9444
+  Val  : Loss 0.0363 | Prec 0.9185 | Rec 0.8748 | P@R0.9 0.8894
+Epoch 0721 | Time: 99.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9360 | Rec 0.9034 | P@R0.9 0.9386
+  Val  : Loss 0.0360 | Prec 0.9176 | Rec 0.8776 | P@R0.9 0.8920
+Epoch 0722 | Time: 107.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9370 | Rec 0.9035 | P@R0.9 0.9397
+  Val  : Loss 0.0359 | Prec 0.9194 | Rec 0.8762 | P@R0.9 0.8936
+Epoch 0723 | Time: 105.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0330 | Prec 0.9355 | Rec 0.9040 | P@R0.9 0.9388
+  Val  : Loss 0.0360 | Prec 0.9158 | Rec 0.8783 | P@R0.9 0.8913
+Epoch 0724 | Time: 96.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9328 | Rec 0.9085 | P@R0.9 0.9408
+  Val  : Loss 0.0359 | Prec 0.9113 | Rec 0.8845 | P@R0.9 0.8930
+Epoch 0725 | Time: 97.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9391 | Rec 0.9043 | P@R0.9 0.9421
+  Val  : Loss 0.0361 | Prec 0.9186 | Rec 0.8764 | P@R0.9 0.8907
+Epoch 0726 | Time: 97.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9392 | Rec 0.9045 | P@R0.9 0.9429
+  Val  : Loss 0.0362 | Prec 0.9170 | Rec 0.8770 | P@R0.9 0.8910
+Epoch 0727 | Time: 89.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9275 | Rec 0.9095 | P@R0.9 0.9363
+  Val  : Loss 0.0362 | Prec 0.9089 | Rec 0.8856 | P@R0.9 0.8910
+Epoch 0728 | Time: 97.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9367 | Rec 0.9120 | P@R0.9 0.9466
+  Val  : Loss 0.0360 | Prec 0.9134 | Rec 0.8824 | P@R0.9 0.8928
+Epoch 0729 | Time: 85.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9364 | Rec 0.9050 | P@R0.9 0.9405
+  Val  : Loss 0.0363 | Prec 0.9154 | Rec 0.8782 | P@R0.9 0.8901
+Epoch 0730 | Time: 99.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9353 | Rec 0.9089 | P@R0.9 0.9422
+  Val  : Loss 0.0359 | Prec 0.9138 | Rec 0.8822 | P@R0.9 0.8936
+Epoch 0731 | Time: 82.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9426 | Rec 0.9037 | P@R0.9 0.9454
+  Val  : Loss 0.0356 | Prec 0.9215 | Rec 0.8757 | P@R0.9 0.8948
+Epoch 0732 | Time: 98.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9331 | Rec 0.8985 | P@R0.9 0.9318
+  Val  : Loss 0.0361 | Prec 0.9156 | Rec 0.8791 | P@R0.9 0.8920
+Epoch 0733 | Time: 94.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9378 | Rec 0.9034 | P@R0.9 0.9407
+  Val  : Loss 0.0356 | Prec 0.9206 | Rec 0.8764 | P@R0.9 0.8951
+Epoch 0734 | Time: 91.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9376 | Rec 0.9096 | P@R0.9 0.9447
+  Val  : Loss 0.0360 | Prec 0.9152 | Rec 0.8797 | P@R0.9 0.8915
+Epoch 0735 | Time: 100.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9322 | Rec 0.9092 | P@R0.9 0.9397
+  Val  : Loss 0.0359 | Prec 0.9139 | Rec 0.8832 | P@R0.9 0.8935
+Epoch 0736 | Time: 96.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0329 | Prec 0.9340 | Rec 0.9077 | P@R0.9 0.9413
+  Val  : Loss 0.0361 | Prec 0.9117 | Rec 0.8836 | P@R0.9 0.8919
+Epoch 0737 | Time: 87.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9380 | Rec 0.9040 | P@R0.9 0.9413
+  Val  : Loss 0.0360 | Prec 0.9163 | Rec 0.8787 | P@R0.9 0.8919
+Epoch 0738 | Time: 87.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9330 | Rec 0.9057 | P@R0.9 0.9380
+  Val  : Loss 0.0356 | Prec 0.9158 | Rec 0.8811 | P@R0.9 0.8943
+Epoch 0739 | Time: 87.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0328 | Prec 0.9370 | Rec 0.9011 | P@R0.9 0.9379
+  Val  : Loss 0.0361 | Prec 0.9197 | Rec 0.8742 | P@R0.9 0.8910
+Epoch 0740 | Time: 90.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9342 | Rec 0.9037 | P@R0.9 0.9373
+  Val  : Loss 0.0359 | Prec 0.9154 | Rec 0.8805 | P@R0.9 0.8914
+Epoch 0741 | Time: 93.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9366 | Rec 0.9068 | P@R0.9 0.9425
+  Val  : Loss 0.0359 | Prec 0.9156 | Rec 0.8807 | P@R0.9 0.8937
+Epoch 0742 | Time: 85.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9338 | Rec 0.9055 | P@R0.9 0.9388
+  Val  : Loss 0.0359 | Prec 0.9123 | Rec 0.8838 | P@R0.9 0.8932
+Epoch 0743 | Time: 78.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9367 | Rec 0.9080 | P@R0.9 0.9434
+  Val  : Loss 0.0361 | Prec 0.9177 | Rec 0.8781 | P@R0.9 0.8916
+Epoch 0744 | Time: 86.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9380 | Rec 0.9075 | P@R0.9 0.9437
+  Val  : Loss 0.0360 | Prec 0.9145 | Rec 0.8811 | P@R0.9 0.8935
+Epoch 0745 | Time: 73.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0332 | Prec 0.9351 | Rec 0.9017 | P@R0.9 0.9368
+  Val  : Loss 0.0356 | Prec 0.9162 | Rec 0.8817 | P@R0.9 0.8939
+Epoch 0746 | Time: 75.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9335 | Rec 0.9072 | P@R0.9 0.9405
+  Val  : Loss 0.0359 | Prec 0.9147 | Rec 0.8821 | P@R0.9 0.8928
+Epoch 0747 | Time: 83.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9368 | Rec 0.9082 | P@R0.9 0.9432
+  Val  : Loss 0.0360 | Prec 0.9145 | Rec 0.8802 | P@R0.9 0.8921
+Epoch 0748 | Time: 73.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9383 | Rec 0.9008 | P@R0.9 0.9389
+  Val  : Loss 0.0358 | Prec 0.9185 | Rec 0.8779 | P@R0.9 0.8928
+Epoch 0749 | Time: 92.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9338 | Rec 0.9047 | P@R0.9 0.9374
+  Val  : Loss 0.0360 | Prec 0.9160 | Rec 0.8784 | P@R0.9 0.8919
+Epoch 0750 | Time: 87.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9430 | Rec 0.9038 | P@R0.9 0.9461
+  Val  : Loss 0.0357 | Prec 0.9222 | Rec 0.8740 | P@R0.9 0.8940
+Epoch 0751 | Time: 94.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9360 | Rec 0.9033 | P@R0.9 0.9396
+  Val  : Loss 0.0357 | Prec 0.9165 | Rec 0.8796 | P@R0.9 0.8934
+Epoch 0752 | Time: 92.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9303 | Rec 0.9100 | P@R0.9 0.9394
+  Val  : Loss 0.0359 | Prec 0.9112 | Rec 0.8851 | P@R0.9 0.8936
+Epoch 0753 | Time: 96.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9337 | Rec 0.9056 | P@R0.9 0.9383
+  Val  : Loss 0.0360 | Prec 0.9140 | Rec 0.8814 | P@R0.9 0.8915
+Epoch 0754 | Time: 95.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9384 | Rec 0.9061 | P@R0.9 0.9433
+  Val  : Loss 0.0360 | Prec 0.9158 | Rec 0.8797 | P@R0.9 0.8921
+Epoch 0755 | Time: 88.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9392 | Rec 0.9048 | P@R0.9 0.9433
+  Val  : Loss 0.0355 | Prec 0.9177 | Rec 0.8797 | P@R0.9 0.8937
+Epoch 0756 | Time: 97.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0326 | Prec 0.9367 | Rec 0.8990 | P@R0.9 0.9362
+  Val  : Loss 0.0357 | Prec 0.9188 | Rec 0.8778 | P@R0.9 0.8921
+Epoch 0757 | Time: 98.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0327 | Prec 0.9407 | Rec 0.8991 | P@R0.9 0.9399
+  Val  : Loss 0.0358 | Prec 0.9220 | Rec 0.8749 | P@R0.9 0.8933
+Epoch 0758 | Time: 95.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9355 | Rec 0.9102 | P@R0.9 0.9433
+  Val  : Loss 0.0358 | Prec 0.9143 | Rec 0.8810 | P@R0.9 0.8934
+Epoch 0759 | Time: 94.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9393 | Rec 0.9041 | P@R0.9 0.9425
+  Val  : Loss 0.0358 | Prec 0.9203 | Rec 0.8763 | P@R0.9 0.8937
+Epoch 0760 | Time: 94.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9358 | Rec 0.9103 | P@R0.9 0.9448
+  Val  : Loss 0.0365 | Prec 0.9126 | Rec 0.8803 | P@R0.9 0.8873
+Epoch 0761 | Time: 98.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9372 | Rec 0.9031 | P@R0.9 0.9400
+  Val  : Loss 0.0358 | Prec 0.9191 | Rec 0.8780 | P@R0.9 0.8934
+Epoch 0762 | Time: 96.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9393 | Rec 0.9113 | P@R0.9 0.9480
+  Val  : Loss 0.0360 | Prec 0.9154 | Rec 0.8811 | P@R0.9 0.8915
+Epoch 0763 | Time: 94.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9361 | Rec 0.9079 | P@R0.9 0.9430
+  Val  : Loss 0.0358 | Prec 0.9160 | Rec 0.8804 | P@R0.9 0.8926
+Epoch 0764 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9385 | Rec 0.9093 | P@R0.9 0.9455
+  Val  : Loss 0.0363 | Prec 0.9166 | Rec 0.8783 | P@R0.9 0.8906
+Epoch 0765 | Time: 109.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9400 | Rec 0.9010 | P@R0.9 0.9406
+  Val  : Loss 0.0358 | Prec 0.9217 | Rec 0.8752 | P@R0.9 0.8939
+Epoch 0766 | Time: 91.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9304 | Rec 0.9016 | P@R0.9 0.9322
+  Val  : Loss 0.0359 | Prec 0.9154 | Rec 0.8811 | P@R0.9 0.8934
+Epoch 0767 | Time: 116.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9345 | Rec 0.9150 | P@R0.9 0.9457
+  Val  : Loss 0.0357 | Prec 0.9093 | Rec 0.8882 | P@R0.9 0.8950
+Epoch 0768 | Time: 98.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9376 | Rec 0.9070 | P@R0.9 0.9435
+  Val  : Loss 0.0359 | Prec 0.9173 | Rec 0.8788 | P@R0.9 0.8917
+Epoch 0769 | Time: 107.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9353 | Rec 0.9094 | P@R0.9 0.9433
+  Val  : Loss 0.0360 | Prec 0.9132 | Rec 0.8826 | P@R0.9 0.8920
+Epoch 0770 | Time: 101.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9350 | Rec 0.8996 | P@R0.9 0.9347
+  Val  : Loss 0.0359 | Prec 0.9184 | Rec 0.8771 | P@R0.9 0.8919
+Epoch 0771 | Time: 105.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0326 | Prec 0.9404 | Rec 0.9089 | P@R0.9 0.9470
+  Val  : Loss 0.0358 | Prec 0.9165 | Rec 0.8797 | P@R0.9 0.8920
+Epoch 0772 | Time: 96.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9371 | Rec 0.9078 | P@R0.9 0.9433
+  Val  : Loss 0.0355 | Prec 0.9177 | Rec 0.8795 | P@R0.9 0.8953
+Epoch 0773 | Time: 98.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9312 | Rec 0.9105 | P@R0.9 0.9403
+  Val  : Loss 0.0359 | Prec 0.9101 | Rec 0.8864 | P@R0.9 0.8930
+Epoch 0774 | Time: 100.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9367 | Rec 0.9016 | P@R0.9 0.9380
+  Val  : Loss 0.0359 | Prec 0.9177 | Rec 0.8786 | P@R0.9 0.8923
+Epoch 0775 | Time: 89.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9281 | Rec 0.9064 | P@R0.9 0.9341
+  Val  : Loss 0.0359 | Prec 0.9106 | Rec 0.8856 | P@R0.9 0.8922
+Epoch 0776 | Time: 94.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9371 | Rec 0.9113 | P@R0.9 0.9470
+  Val  : Loss 0.0357 | Prec 0.9140 | Rec 0.8835 | P@R0.9 0.8948
+Epoch 0777 | Time: 94.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9410 | Rec 0.8976 | P@R0.9 0.9392
+  Val  : Loss 0.0357 | Prec 0.9227 | Rec 0.8742 | P@R0.9 0.8943
+Epoch 0778 | Time: 85.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9355 | Rec 0.9040 | P@R0.9 0.9388
+  Val  : Loss 0.0356 | Prec 0.9163 | Rec 0.8817 | P@R0.9 0.8942
+Epoch 0779 | Time: 82.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9321 | Rec 0.9153 | P@R0.9 0.9449
+  Val  : Loss 0.0361 | Prec 0.9076 | Rec 0.8878 | P@R0.9 0.8932
+Epoch 0780 | Time: 103.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9366 | Rec 0.9105 | P@R0.9 0.9453
+  Val  : Loss 0.0360 | Prec 0.9137 | Rec 0.8822 | P@R0.9 0.8931
+Epoch 0781 | Time: 92.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9384 | Rec 0.9025 | P@R0.9 0.9404
+  Val  : Loss 0.0357 | Prec 0.9199 | Rec 0.8764 | P@R0.9 0.8938
+Epoch 0782 | Time: 90.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9391 | Rec 0.9087 | P@R0.9 0.9460
+  Val  : Loss 0.0359 | Prec 0.9173 | Rec 0.8778 | P@R0.9 0.8915
+Epoch 0783 | Time: 90.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9387 | Rec 0.9045 | P@R0.9 0.9421
+  Val  : Loss 0.0363 | Prec 0.9161 | Rec 0.8773 | P@R0.9 0.8905
+Epoch 0784 | Time: 93.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9391 | Rec 0.9072 | P@R0.9 0.9439
+  Val  : Loss 0.0358 | Prec 0.9178 | Rec 0.8790 | P@R0.9 0.8941
+Epoch 0785 | Time: 88.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0297 | Prec 0.9398 | Rec 0.9068 | P@R0.9 0.9456
+  Val  : Loss 0.0358 | Prec 0.9202 | Rec 0.8751 | P@R0.9 0.8936
+Epoch 0786 | Time: 92.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9333 | Rec 0.9124 | P@R0.9 0.9436
+  Val  : Loss 0.0358 | Prec 0.9101 | Rec 0.8870 | P@R0.9 0.8945
+Epoch 0787 | Time: 86.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9354 | Rec 0.9044 | P@R0.9 0.9390
+  Val  : Loss 0.0355 | Prec 0.9166 | Rec 0.8813 | P@R0.9 0.8940
+Epoch 0788 | Time: 97.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9375 | Rec 0.8997 | P@R0.9 0.9373
+  Val  : Loss 0.0359 | Prec 0.9189 | Rec 0.8759 | P@R0.9 0.8929
+Epoch 0789 | Time: 90.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9362 | Rec 0.9077 | P@R0.9 0.9426
+  Val  : Loss 0.0359 | Prec 0.9162 | Rec 0.8792 | P@R0.9 0.8907
+Epoch 0790 | Time: 87.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9410 | Rec 0.9023 | P@R0.9 0.9426
+  Val  : Loss 0.0359 | Prec 0.9186 | Rec 0.8771 | P@R0.9 0.8930
+Epoch 0791 | Time: 85.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9355 | Rec 0.9090 | P@R0.9 0.9433
+  Val  : Loss 0.0355 | Prec 0.9145 | Rec 0.8834 | P@R0.9 0.8957
+Epoch 0792 | Time: 103.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9388 | Rec 0.9043 | P@R0.9 0.9421
+  Val  : Loss 0.0357 | Prec 0.9188 | Rec 0.8770 | P@R0.9 0.8939
+Epoch 0793 | Time: 89.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9372 | Rec 0.9107 | P@R0.9 0.9448
+  Val  : Loss 0.0356 | Prec 0.9158 | Rec 0.8802 | P@R0.9 0.8940
+Epoch 0794 | Time: 86.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9356 | Rec 0.9121 | P@R0.9 0.9449
+  Val  : Loss 0.0355 | Prec 0.9128 | Rec 0.8847 | P@R0.9 0.8959
+Epoch 0795 | Time: 95.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9374 | Rec 0.9076 | P@R0.9 0.9436
+  Val  : Loss 0.0361 | Prec 0.9177 | Rec 0.8769 | P@R0.9 0.8918
+Epoch 0796 | Time: 93.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9365 | Rec 0.9074 | P@R0.9 0.9423
+  Val  : Loss 0.0357 | Prec 0.9174 | Rec 0.8802 | P@R0.9 0.8938
+Epoch 0797 | Time: 88.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9371 | Rec 0.8995 | P@R0.9 0.9366
+  Val  : Loss 0.0358 | Prec 0.9187 | Rec 0.8777 | P@R0.9 0.8944
+Epoch 0798 | Time: 87.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9350 | Rec 0.9040 | P@R0.9 0.9383
+  Val  : Loss 0.0364 | Prec 0.9155 | Rec 0.8781 | P@R0.9 0.8893
+Epoch 0799 | Time: 88.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9366 | Rec 0.8999 | P@R0.9 0.9365
+  Val  : Loss 0.0358 | Prec 0.9198 | Rec 0.8772 | P@R0.9 0.8942
+Epoch 0800 | Time: 87.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0300 | Prec 0.9395 | Rec 0.9051 | P@R0.9 0.9434
+  Val  : Loss 0.0354 | Prec 0.9204 | Rec 0.8771 | P@R0.9 0.8952
+Epoch 0801 | Time: 102.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0299 | Prec 0.9346 | Rec 0.9083 | P@R0.9 0.9412
+  Val  : Loss 0.0356 | Prec 0.9152 | Rec 0.8827 | P@R0.9 0.8946
+Epoch 0802 | Time: 93.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9343 | Rec 0.9114 | P@R0.9 0.9431
+  Val  : Loss 0.0358 | Prec 0.9144 | Rec 0.8833 | P@R0.9 0.8943
+Epoch 0803 | Time: 100.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9396 | Rec 0.9092 | P@R0.9 0.9468
+  Val  : Loss 0.0357 | Prec 0.9156 | Rec 0.8816 | P@R0.9 0.8957
+Epoch 0804 | Time: 96.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9338 | Rec 0.9017 | P@R0.9 0.9351
+  Val  : Loss 0.0357 | Prec 0.9149 | Rec 0.8815 | P@R0.9 0.8947
+Epoch 0805 | Time: 100.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9370 | Rec 0.9099 | P@R0.9 0.9453
+  Val  : Loss 0.0360 | Prec 0.9149 | Rec 0.8806 | P@R0.9 0.8930
+Epoch 0806 | Time: 97.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9373 | Rec 0.9083 | P@R0.9 0.9439
+  Val  : Loss 0.0357 | Prec 0.9164 | Rec 0.8794 | P@R0.9 0.8924
+Epoch 0807 | Time: 98.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0322 | Prec 0.9384 | Rec 0.9039 | P@R0.9 0.9412
+  Val  : Loss 0.0359 | Prec 0.9172 | Rec 0.8784 | P@R0.9 0.8926
+Epoch 0808 | Time: 98.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9383 | Rec 0.9017 | P@R0.9 0.9396
+  Val  : Loss 0.0362 | Prec 0.9215 | Rec 0.8722 | P@R0.9 0.8915
+Epoch 0809 | Time: 108.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0321 | Prec 0.9341 | Rec 0.9005 | P@R0.9 0.9345
+  Val  : Loss 0.0356 | Prec 0.9177 | Rec 0.8795 | P@R0.9 0.8947
+Epoch 0810 | Time: 98.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9419 | Rec 0.9065 | P@R0.9 0.9473
+  Val  : Loss 0.0356 | Prec 0.9195 | Rec 0.8765 | P@R0.9 0.8940
+Epoch 0811 | Time: 95.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9345 | Rec 0.9098 | P@R0.9 0.9433
+  Val  : Loss 0.0356 | Prec 0.9139 | Rec 0.8836 | P@R0.9 0.8954
+Epoch 0812 | Time: 98.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9354 | Rec 0.9045 | P@R0.9 0.9386
+  Val  : Loss 0.0358 | Prec 0.9190 | Rec 0.8773 | P@R0.9 0.8931
+Epoch 0813 | Time: 97.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9351 | Rec 0.9102 | P@R0.9 0.9432
+  Val  : Loss 0.0359 | Prec 0.9134 | Rec 0.8826 | P@R0.9 0.8931
+Epoch 0814 | Time: 111.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9345 | Rec 0.9135 | P@R0.9 0.9460
+  Val  : Loss 0.0355 | Prec 0.9120 | Rec 0.8855 | P@R0.9 0.8946
+Epoch 0815 | Time: 99.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9376 | Rec 0.9087 | P@R0.9 0.9442
+  Val  : Loss 0.0356 | Prec 0.9177 | Rec 0.8797 | P@R0.9 0.8948
+Epoch 0816 | Time: 106.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0299 | Prec 0.9418 | Rec 0.9124 | P@R0.9 0.9513
+  Val  : Loss 0.0361 | Prec 0.9160 | Rec 0.8797 | P@R0.9 0.8918
+Epoch 0817 | Time: 114.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9390 | Rec 0.9087 | P@R0.9 0.9454
+  Val  : Loss 0.0360 | Prec 0.9165 | Rec 0.8792 | P@R0.9 0.8914
+Epoch 0818 | Time: 95.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9361 | Rec 0.9012 | P@R0.9 0.9371
+  Val  : Loss 0.0360 | Prec 0.9165 | Rec 0.8787 | P@R0.9 0.8924
+Epoch 0819 | Time: 102.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9366 | Rec 0.9088 | P@R0.9 0.9437
+  Val  : Loss 0.0357 | Prec 0.9140 | Rec 0.8835 | P@R0.9 0.8949
+Epoch 0820 | Time: 97.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9353 | Rec 0.9107 | P@R0.9 0.9446
+  Val  : Loss 0.0355 | Prec 0.9135 | Rec 0.8840 | P@R0.9 0.8954
+Epoch 0821 | Time: 97.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9342 | Rec 0.9073 | P@R0.9 0.9395
+  Val  : Loss 0.0357 | Prec 0.9141 | Rec 0.8826 | P@R0.9 0.8948
+Epoch 0822 | Time: 99.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0328 | Prec 0.9378 | Rec 0.9070 | P@R0.9 0.9435
+  Val  : Loss 0.0354 | Prec 0.9154 | Rec 0.8832 | P@R0.9 0.8952
+Epoch 0823 | Time: 107.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0324 | Prec 0.9381 | Rec 0.9005 | P@R0.9 0.9386
+  Val  : Loss 0.0358 | Prec 0.9204 | Rec 0.8757 | P@R0.9 0.8930
+Epoch 0824 | Time: 98.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9327 | Rec 0.9093 | P@R0.9 0.9417
+  Val  : Loss 0.0357 | Prec 0.9115 | Rec 0.8856 | P@R0.9 0.8945
+Epoch 0825 | Time: 95.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9390 | Rec 0.9043 | P@R0.9 0.9425
+  Val  : Loss 0.0358 | Prec 0.9191 | Rec 0.8762 | P@R0.9 0.8928
+Epoch 0826 | Time: 102.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0298 | Prec 0.9379 | Rec 0.9117 | P@R0.9 0.9474
+  Val  : Loss 0.0357 | Prec 0.9122 | Rec 0.8853 | P@R0.9 0.8938
+Epoch 0827 | Time: 105.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9387 | Rec 0.9069 | P@R0.9 0.9436
+  Val  : Loss 0.0355 | Prec 0.9177 | Rec 0.8798 | P@R0.9 0.8951
+Epoch 0828 | Time: 101.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9335 | Rec 0.9065 | P@R0.9 0.9394
+  Val  : Loss 0.0357 | Prec 0.9152 | Rec 0.8815 | P@R0.9 0.8957
+Epoch 0829 | Time: 109.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0301 | Prec 0.9380 | Rec 0.9079 | P@R0.9 0.9447
+  Val  : Loss 0.0356 | Prec 0.9147 | Rec 0.8822 | P@R0.9 0.8942
+Epoch 0830 | Time: 112.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9379 | Rec 0.9075 | P@R0.9 0.9437
+  Val  : Loss 0.0353 | Prec 0.9169 | Rec 0.8817 | P@R0.9 0.8967
+Epoch 0831 | Time: 108.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9378 | Rec 0.9037 | P@R0.9 0.9406
+  Val  : Loss 0.0354 | Prec 0.9191 | Rec 0.8785 | P@R0.9 0.8946
+Epoch 0832 | Time: 101.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0301 | Prec 0.9398 | Rec 0.9112 | P@R0.9 0.9479
+  Val  : Loss 0.0356 | Prec 0.9181 | Rec 0.8792 | P@R0.9 0.8933
+Epoch 0833 | Time: 107.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9351 | Rec 0.9075 | P@R0.9 0.9408
+  Val  : Loss 0.0358 | Prec 0.9174 | Rec 0.8795 | P@R0.9 0.8914
+Epoch 0834 | Time: 115.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9338 | Rec 0.9076 | P@R0.9 0.9404
+  Val  : Loss 0.0358 | Prec 0.9134 | Rec 0.8828 | P@R0.9 0.8936
+Epoch 0835 | Time: 99.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9300 | Rec 0.9104 | P@R0.9 0.9391
+  Val  : Loss 0.0356 | Prec 0.9130 | Rec 0.8848 | P@R0.9 0.8958
+Epoch 0836 | Time: 97.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9403 | Rec 0.9076 | P@R0.9 0.9466
+  Val  : Loss 0.0361 | Prec 0.9174 | Rec 0.8773 | P@R0.9 0.8926
+Epoch 0837 | Time: 106.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0327 | Prec 0.9326 | Rec 0.9076 | P@R0.9 0.9389
+  Val  : Loss 0.0358 | Prec 0.9118 | Rec 0.8841 | P@R0.9 0.8942
+Epoch 0838 | Time: 105.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9374 | Rec 0.9104 | P@R0.9 0.9465
+  Val  : Loss 0.0356 | Prec 0.9149 | Rec 0.8825 | P@R0.9 0.8945
+Epoch 0839 | Time: 109.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9352 | Rec 0.9111 | P@R0.9 0.9439
+  Val  : Loss 0.0357 | Prec 0.9154 | Rec 0.8808 | P@R0.9 0.8946
+Epoch 0840 | Time: 102.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9399 | Rec 0.9082 | P@R0.9 0.9462
+  Val  : Loss 0.0358 | Prec 0.9177 | Rec 0.8792 | P@R0.9 0.8929
+Epoch 0841 | Time: 105.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9344 | Rec 0.9134 | P@R0.9 0.9447
+  Val  : Loss 0.0356 | Prec 0.9120 | Rec 0.8852 | P@R0.9 0.8941
+Epoch 0842 | Time: 107.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9395 | Rec 0.9079 | P@R0.9 0.9458
+  Val  : Loss 0.0356 | Prec 0.9174 | Rec 0.8793 | P@R0.9 0.8941
+Epoch 0843 | Time: 90.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9359 | Rec 0.9082 | P@R0.9 0.9420
+  Val  : Loss 0.0356 | Prec 0.9132 | Rec 0.8837 | P@R0.9 0.8947
+Epoch 0844 | Time: 99.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9337 | Rec 0.9045 | P@R0.9 0.9378
+  Val  : Loss 0.0356 | Prec 0.9131 | Rec 0.8833 | P@R0.9 0.8938
+Epoch 0845 | Time: 107.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0301 | Prec 0.9363 | Rec 0.9113 | P@R0.9 0.9457
+  Val  : Loss 0.0353 | Prec 0.9146 | Rec 0.8848 | P@R0.9 0.8967
+Epoch 0846 | Time: 104.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9345 | Rec 0.9110 | P@R0.9 0.9430
+  Val  : Loss 0.0358 | Prec 0.9130 | Rec 0.8826 | P@R0.9 0.8940
+Epoch 0847 | Time: 107.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9344 | Rec 0.9048 | P@R0.9 0.9387
+  Val  : Loss 0.0354 | Prec 0.9156 | Rec 0.8838 | P@R0.9 0.8965
+Epoch 0848 | Time: 102.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9410 | Rec 0.9027 | P@R0.9 0.9428
+  Val  : Loss 0.0358 | Prec 0.9206 | Rec 0.8757 | P@R0.9 0.8919
+Epoch 0849 | Time: 102.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9370 | Rec 0.8993 | P@R0.9 0.9365
+  Val  : Loss 0.0362 | Prec 0.9200 | Rec 0.8751 | P@R0.9 0.8930
+Epoch 0850 | Time: 93.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9336 | Rec 0.9059 | P@R0.9 0.9390
+  Val  : Loss 0.0353 | Prec 0.9168 | Rec 0.8837 | P@R0.9 0.8988
+Epoch 0851 | Time: 101.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9411 | Rec 0.8998 | P@R0.9 0.9409
+  Val  : Loss 0.0358 | Prec 0.9200 | Rec 0.8760 | P@R0.9 0.8923
+Epoch 0852 | Time: 100.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9382 | Rec 0.9067 | P@R0.9 0.9431
+  Val  : Loss 0.0362 | Prec 0.9161 | Rec 0.8784 | P@R0.9 0.8910
+Epoch 0853 | Time: 106.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0298 | Prec 0.9394 | Rec 0.9065 | P@R0.9 0.9447
+  Val  : Loss 0.0356 | Prec 0.9185 | Rec 0.8776 | P@R0.9 0.8945
+Epoch 0854 | Time: 103.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9376 | Rec 0.9086 | P@R0.9 0.9448
+  Val  : Loss 0.0356 | Prec 0.9150 | Rec 0.8823 | P@R0.9 0.8954
+Epoch 0855 | Time: 98.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9384 | Rec 0.9036 | P@R0.9 0.9412
+  Val  : Loss 0.0353 | Prec 0.9209 | Rec 0.8776 | P@R0.9 0.8971
+Epoch 0856 | Time: 108.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9362 | Rec 0.9061 | P@R0.9 0.9416
+  Val  : Loss 0.0358 | Prec 0.9154 | Rec 0.8811 | P@R0.9 0.8929
+Epoch 0857 | Time: 98.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9385 | Rec 0.9029 | P@R0.9 0.9410
+  Val  : Loss 0.0355 | Prec 0.9205 | Rec 0.8771 | P@R0.9 0.8952
+Epoch 0858 | Time: 88.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9341 | Rec 0.9123 | P@R0.9 0.9443
+  Val  : Loss 0.0358 | Prec 0.9136 | Rec 0.8831 | P@R0.9 0.8934
+Epoch 0859 | Time: 114.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9403 | Rec 0.9082 | P@R0.9 0.9465
+  Val  : Loss 0.0361 | Prec 0.9179 | Rec 0.8774 | P@R0.9 0.8922
+Epoch 0860 | Time: 83.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0301 | Prec 0.9398 | Rec 0.9130 | P@R0.9 0.9507
+  Val  : Loss 0.0354 | Prec 0.9142 | Rec 0.8831 | P@R0.9 0.8949
+Epoch 0861 | Time: 90.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9412 | Rec 0.9074 | P@R0.9 0.9469
+  Val  : Loss 0.0356 | Prec 0.9190 | Rec 0.8776 | P@R0.9 0.8941
+Epoch 0862 | Time: 98.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9354 | Rec 0.9056 | P@R0.9 0.9398
+  Val  : Loss 0.0357 | Prec 0.9147 | Rec 0.8816 | P@R0.9 0.8946
+Epoch 0863 | Time: 98.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9413 | Rec 0.9058 | P@R0.9 0.9458
+  Val  : Loss 0.0354 | Prec 0.9185 | Rec 0.8787 | P@R0.9 0.8954
+Epoch 0864 | Time: 111.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9329 | Rec 0.9057 | P@R0.9 0.9381
+  Val  : Loss 0.0356 | Prec 0.9140 | Rec 0.8838 | P@R0.9 0.8950
+Epoch 0865 | Time: 105.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9363 | Rec 0.9105 | P@R0.9 0.9453
+  Val  : Loss 0.0355 | Prec 0.9144 | Rec 0.8840 | P@R0.9 0.8952
+Epoch 0866 | Time: 86.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0298 | Prec 0.9411 | Rec 0.9090 | P@R0.9 0.9476
+  Val  : Loss 0.0353 | Prec 0.9182 | Rec 0.8800 | P@R0.9 0.8962
+Epoch 0867 | Time: 101.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9396 | Rec 0.9103 | P@R0.9 0.9480
+  Val  : Loss 0.0356 | Prec 0.9167 | Rec 0.8807 | P@R0.9 0.8952
+Epoch 0868 | Time: 93.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9382 | Rec 0.9099 | P@R0.9 0.9454
+  Val  : Loss 0.0354 | Prec 0.9158 | Rec 0.8824 | P@R0.9 0.8972
+Epoch 0869 | Time: 95.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9344 | Rec 0.9102 | P@R0.9 0.9428
+  Val  : Loss 0.0359 | Prec 0.9138 | Rec 0.8828 | P@R0.9 0.8939
+Epoch 0870 | Time: 89.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9343 | Rec 0.9075 | P@R0.9 0.9400
+  Val  : Loss 0.0354 | Prec 0.9140 | Rec 0.8855 | P@R0.9 0.8959
+Epoch 0871 | Time: 99.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9346 | Rec 0.9053 | P@R0.9 0.9391
+  Val  : Loss 0.0354 | Prec 0.9167 | Rec 0.8812 | P@R0.9 0.8963
+Epoch 0872 | Time: 154.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9405 | Rec 0.9046 | P@R0.9 0.9439
+  Val  : Loss 0.0354 | Prec 0.9218 | Rec 0.8760 | P@R0.9 0.8971
+Epoch 0873 | Time: 106.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9355 | Rec 0.9057 | P@R0.9 0.9409
+  Val  : Loss 0.0350 | Prec 0.9161 | Rec 0.8853 | P@R0.9 0.8993
+Epoch 0874 | Time: 105.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9355 | Rec 0.9069 | P@R0.9 0.9411
+  Val  : Loss 0.0355 | Prec 0.9154 | Rec 0.8821 | P@R0.9 0.8956
+Epoch 0875 | Time: 111.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9377 | Rec 0.9082 | P@R0.9 0.9444
+  Val  : Loss 0.0354 | Prec 0.9157 | Rec 0.8834 | P@R0.9 0.8963
+Epoch 0876 | Time: 92.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9385 | Rec 0.9112 | P@R0.9 0.9472
+  Val  : Loss 0.0359 | Prec 0.9158 | Rec 0.8788 | P@R0.9 0.8926
+Epoch 0877 | Time: 94.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9389 | Rec 0.9069 | P@R0.9 0.9446
+  Val  : Loss 0.0356 | Prec 0.9188 | Rec 0.8787 | P@R0.9 0.8950
+Epoch 0878 | Time: 92.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9389 | Rec 0.9108 | P@R0.9 0.9467
+  Val  : Loss 0.0354 | Prec 0.9168 | Rec 0.8822 | P@R0.9 0.8966
+Epoch 0879 | Time: 122.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9372 | Rec 0.9063 | P@R0.9 0.9425
+  Val  : Loss 0.0355 | Prec 0.9146 | Rec 0.8835 | P@R0.9 0.8961
+Epoch 0880 | Time: 107.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9325 | Rec 0.9059 | P@R0.9 0.9387
+  Val  : Loss 0.0358 | Prec 0.9125 | Rec 0.8852 | P@R0.9 0.8952
+Epoch 0881 | Time: 90.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9378 | Rec 0.9061 | P@R0.9 0.9424
+  Val  : Loss 0.0356 | Prec 0.9170 | Rec 0.8799 | P@R0.9 0.8945
+Epoch 0882 | Time: 87.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9356 | Rec 0.9098 | P@R0.9 0.9433
+  Val  : Loss 0.0358 | Prec 0.9147 | Rec 0.8830 | P@R0.9 0.8942
+Epoch 0883 | Time: 101.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9374 | Rec 0.9100 | P@R0.9 0.9456
+  Val  : Loss 0.0358 | Prec 0.9160 | Rec 0.8810 | P@R0.9 0.8932
+Epoch 0884 | Time: 103.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9375 | Rec 0.9133 | P@R0.9 0.9485
+  Val  : Loss 0.0356 | Prec 0.9141 | Rec 0.8841 | P@R0.9 0.8950
+Epoch 0885 | Time: 102.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9351 | Rec 0.9118 | P@R0.9 0.9453
+  Val  : Loss 0.0354 | Prec 0.9116 | Rec 0.8862 | P@R0.9 0.8958
+Epoch 0886 | Time: 96.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9380 | Rec 0.9064 | P@R0.9 0.9437
+  Val  : Loss 0.0353 | Prec 0.9177 | Rec 0.8813 | P@R0.9 0.8957
+Epoch 0887 | Time: 91.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9328 | Rec 0.9139 | P@R0.9 0.9444
+  Val  : Loss 0.0358 | Prec 0.9100 | Rec 0.8867 | P@R0.9 0.8933
+Epoch 0888 | Time: 105.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9384 | Rec 0.9039 | P@R0.9 0.9418
+  Val  : Loss 0.0355 | Prec 0.9182 | Rec 0.8795 | P@R0.9 0.8941
+Epoch 0889 | Time: 93.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9381 | Rec 0.9038 | P@R0.9 0.9407
+  Val  : Loss 0.0354 | Prec 0.9190 | Rec 0.8784 | P@R0.9 0.8950
+Epoch 0890 | Time: 94.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9385 | Rec 0.9064 | P@R0.9 0.9435
+  Val  : Loss 0.0354 | Prec 0.9172 | Rec 0.8821 | P@R0.9 0.8968
+Epoch 0891 | Time: 106.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0297 | Prec 0.9378 | Rec 0.9160 | P@R0.9 0.9501
+  Val  : Loss 0.0354 | Prec 0.9152 | Rec 0.8831 | P@R0.9 0.8951
+Epoch 0892 | Time: 112.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9390 | Rec 0.9076 | P@R0.9 0.9449
+  Val  : Loss 0.0355 | Prec 0.9175 | Rec 0.8806 | P@R0.9 0.8951
+Epoch 0893 | Time: 90.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0316 | Prec 0.9385 | Rec 0.9075 | P@R0.9 0.9447
+  Val  : Loss 0.0353 | Prec 0.9184 | Rec 0.8807 | P@R0.9 0.8950
+Epoch 0894 | Time: 99.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9358 | Rec 0.9075 | P@R0.9 0.9421
+  Val  : Loss 0.0353 | Prec 0.9158 | Rec 0.8828 | P@R0.9 0.8955
+Epoch 0895 | Time: 98.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9342 | Rec 0.9052 | P@R0.9 0.9390
+  Val  : Loss 0.0355 | Prec 0.9155 | Rec 0.8827 | P@R0.9 0.8955
+Epoch 0896 | Time: 89.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0298 | Prec 0.9392 | Rec 0.9117 | P@R0.9 0.9483
+  Val  : Loss 0.0353 | Prec 0.9166 | Rec 0.8818 | P@R0.9 0.8962
+Epoch 0897 | Time: 86.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9400 | Rec 0.9123 | P@R0.9 0.9487
+  Val  : Loss 0.0353 | Prec 0.9175 | Rec 0.8820 | P@R0.9 0.8964
+Epoch 0898 | Time: 104.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9362 | Rec 0.9049 | P@R0.9 0.9405
+  Val  : Loss 0.0352 | Prec 0.9179 | Rec 0.8811 | P@R0.9 0.8971
+Epoch 0899 | Time: 109.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9372 | Rec 0.9035 | P@R0.9 0.9402
+  Val  : Loss 0.0352 | Prec 0.9190 | Rec 0.8804 | P@R0.9 0.8979
+Epoch 0900 | Time: 104.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9370 | Rec 0.9087 | P@R0.9 0.9444
+  Val  : Loss 0.0351 | Prec 0.9159 | Rec 0.8838 | P@R0.9 0.8984
+Epoch 0901 | Time: 105.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9390 | Rec 0.9046 | P@R0.9 0.9430
+  Val  : Loss 0.0353 | Prec 0.9185 | Rec 0.8802 | P@R0.9 0.8969
+Epoch 0902 | Time: 107.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9375 | Rec 0.9109 | P@R0.9 0.9462
+  Val  : Loss 0.0352 | Prec 0.9138 | Rec 0.8864 | P@R0.9 0.8979
+Epoch 0903 | Time: 99.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9418 | Rec 0.9068 | P@R0.9 0.9468
+  Val  : Loss 0.0353 | Prec 0.9190 | Rec 0.8790 | P@R0.9 0.8967
+Epoch 0904 | Time: 99.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9378 | Rec 0.9035 | P@R0.9 0.9409
+  Val  : Loss 0.0354 | Prec 0.9183 | Rec 0.8791 | P@R0.9 0.8956
+Epoch 0905 | Time: 94.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9395 | Rec 0.9043 | P@R0.9 0.9431
+  Val  : Loss 0.0355 | Prec 0.9184 | Rec 0.8789 | P@R0.9 0.8956
+Epoch 0906 | Time: 95.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9377 | Rec 0.9081 | P@R0.9 0.9444
+  Val  : Loss 0.0355 | Prec 0.9175 | Rec 0.8792 | P@R0.9 0.8946
+Epoch 0907 | Time: 92.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9356 | Rec 0.9118 | P@R0.9 0.9450
+  Val  : Loss 0.0350 | Prec 0.9140 | Rec 0.8865 | P@R0.9 0.8987
+Epoch 0908 | Time: 92.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9371 | Rec 0.9144 | P@R0.9 0.9480
+  Val  : Loss 0.0354 | Prec 0.9138 | Rec 0.8843 | P@R0.9 0.8963
+Epoch 0909 | Time: 103.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9369 | Rec 0.9105 | P@R0.9 0.9448
+  Val  : Loss 0.0356 | Prec 0.9145 | Rec 0.8833 | P@R0.9 0.8956
+Epoch 0910 | Time: 96.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9343 | Rec 0.9092 | P@R0.9 0.9417
+  Val  : Loss 0.0358 | Prec 0.9141 | Rec 0.8844 | P@R0.9 0.8954
+Epoch 0911 | Time: 97.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9382 | Rec 0.9057 | P@R0.9 0.9428
+  Val  : Loss 0.0355 | Prec 0.9207 | Rec 0.8770 | P@R0.9 0.8966
+Epoch 0912 | Time: 104.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9412 | Rec 0.9088 | P@R0.9 0.9476
+  Val  : Loss 0.0355 | Prec 0.9183 | Rec 0.8797 | P@R0.9 0.8955
+Epoch 0913 | Time: 102.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0301 | Prec 0.9359 | Rec 0.9150 | P@R0.9 0.9486
+  Val  : Loss 0.0355 | Prec 0.9123 | Rec 0.8862 | P@R0.9 0.8967
+Epoch 0914 | Time: 88.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9406 | Rec 0.9024 | P@R0.9 0.9424
+  Val  : Loss 0.0354 | Prec 0.9215 | Rec 0.8768 | P@R0.9 0.8955
+Epoch 0915 | Time: 106.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9354 | Rec 0.8977 | P@R0.9 0.9333
+  Val  : Loss 0.0353 | Prec 0.9216 | Rec 0.8786 | P@R0.9 0.8971
+Epoch 0916 | Time: 93.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0315 | Prec 0.9371 | Rec 0.9112 | P@R0.9 0.9456
+  Val  : Loss 0.0352 | Prec 0.9162 | Rec 0.8836 | P@R0.9 0.8967
+Epoch 0917 | Time: 105.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9349 | Rec 0.9097 | P@R0.9 0.9430
+  Val  : Loss 0.0352 | Prec 0.9158 | Rec 0.8850 | P@R0.9 0.8982
+Epoch 0918 | Time: 92.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9382 | Rec 0.9104 | P@R0.9 0.9459
+  Val  : Loss 0.0356 | Prec 0.9149 | Rec 0.8825 | P@R0.9 0.8936
+Epoch 0919 | Time: 86.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9368 | Rec 0.9114 | P@R0.9 0.9455
+  Val  : Loss 0.0358 | Prec 0.9162 | Rec 0.8817 | P@R0.9 0.8939
+Epoch 0920 | Time: 87.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0300 | Prec 0.9378 | Rec 0.9051 | P@R0.9 0.9412
+  Val  : Loss 0.0353 | Prec 0.9183 | Rec 0.8815 | P@R0.9 0.8968
+Epoch 0921 | Time: 104.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9417 | Rec 0.9073 | P@R0.9 0.9471
+  Val  : Loss 0.0355 | Prec 0.9197 | Rec 0.8777 | P@R0.9 0.8947
+Epoch 0922 | Time: 88.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9376 | Rec 0.9082 | P@R0.9 0.9441
+  Val  : Loss 0.0356 | Prec 0.9169 | Rec 0.8809 | P@R0.9 0.8945
+Epoch 0923 | Time: 88.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9357 | Rec 0.9147 | P@R0.9 0.9486
+  Val  : Loss 0.0358 | Prec 0.9108 | Rec 0.8859 | P@R0.9 0.8931
+Epoch 0924 | Time: 80.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9375 | Rec 0.9106 | P@R0.9 0.9459
+  Val  : Loss 0.0350 | Prec 0.9179 | Rec 0.8829 | P@R0.9 0.8991
+Epoch 0925 | Time: 79.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9343 | Rec 0.9046 | P@R0.9 0.9383
+  Val  : Loss 0.0352 | Prec 0.9171 | Rec 0.8825 | P@R0.9 0.8971
+Epoch 0926 | Time: 77.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9382 | Rec 0.9099 | P@R0.9 0.9464
+  Val  : Loss 0.0353 | Prec 0.9178 | Rec 0.8813 | P@R0.9 0.8967
+Epoch 0927 | Time: 88.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0298 | Prec 0.9414 | Rec 0.9056 | P@R0.9 0.9460
+  Val  : Loss 0.0354 | Prec 0.9198 | Rec 0.8779 | P@R0.9 0.8956
+Epoch 0928 | Time: 99.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9391 | Rec 0.9068 | P@R0.9 0.9448
+  Val  : Loss 0.0355 | Prec 0.9197 | Rec 0.8775 | P@R0.9 0.8957
+Epoch 0929 | Time: 80.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9419 | Rec 0.9077 | P@R0.9 0.9468
+  Val  : Loss 0.0357 | Prec 0.9241 | Rec 0.8732 | P@R0.9 0.8956
+Epoch 0930 | Time: 93.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9390 | Rec 0.9101 | P@R0.9 0.9460
+  Val  : Loss 0.0354 | Prec 0.9162 | Rec 0.8820 | P@R0.9 0.8958
+Epoch 0931 | Time: 88.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9417 | Rec 0.9049 | P@R0.9 0.9450
+  Val  : Loss 0.0357 | Prec 0.9214 | Rec 0.8756 | P@R0.9 0.8925
+Epoch 0932 | Time: 90.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9372 | Rec 0.9120 | P@R0.9 0.9472
+  Val  : Loss 0.0357 | Prec 0.9142 | Rec 0.8827 | P@R0.9 0.8939
+Epoch 0933 | Time: 88.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0314 | Prec 0.9377 | Rec 0.9117 | P@R0.9 0.9473
+  Val  : Loss 0.0358 | Prec 0.9136 | Rec 0.8823 | P@R0.9 0.8921
+Epoch 0934 | Time: 105.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9344 | Rec 0.9025 | P@R0.9 0.9364
+  Val  : Loss 0.0355 | Prec 0.9170 | Rec 0.8808 | P@R0.9 0.8944
+Epoch 0935 | Time: 95.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9326 | Rec 0.9098 | P@R0.9 0.9414
+  Val  : Loss 0.0354 | Prec 0.9146 | Rec 0.8831 | P@R0.9 0.8957
+Epoch 0936 | Time: 94.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0301 | Prec 0.9367 | Rec 0.9136 | P@R0.9 0.9475
+  Val  : Loss 0.0355 | Prec 0.9123 | Rec 0.8849 | P@R0.9 0.8961
+Epoch 0937 | Time: 92.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9352 | Rec 0.9090 | P@R0.9 0.9421
+  Val  : Loss 0.0354 | Prec 0.9150 | Rec 0.8839 | P@R0.9 0.8965
+Epoch 0938 | Time: 101.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9351 | Rec 0.9070 | P@R0.9 0.9411
+  Val  : Loss 0.0354 | Prec 0.9149 | Rec 0.8841 | P@R0.9 0.8976
+Epoch 0939 | Time: 102.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9373 | Rec 0.9053 | P@R0.9 0.9418
+  Val  : Loss 0.0355 | Prec 0.9170 | Rec 0.8808 | P@R0.9 0.8945
+Epoch 0940 | Time: 105.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9389 | Rec 0.9066 | P@R0.9 0.9440
+  Val  : Loss 0.0356 | Prec 0.9202 | Rec 0.8773 | P@R0.9 0.8942
+Epoch 0941 | Time: 93.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0306 | Prec 0.9351 | Rec 0.9062 | P@R0.9 0.9406
+  Val  : Loss 0.0359 | Prec 0.9151 | Rec 0.8818 | P@R0.9 0.8931
+Epoch 0942 | Time: 116.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9385 | Rec 0.9094 | P@R0.9 0.9458
+  Val  : Loss 0.0355 | Prec 0.9178 | Rec 0.8807 | P@R0.9 0.8959
+Epoch 0943 | Time: 96.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9374 | Rec 0.9097 | P@R0.9 0.9448
+  Val  : Loss 0.0351 | Prec 0.9146 | Rec 0.8848 | P@R0.9 0.8978
+Epoch 0944 | Time: 96.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0301 | Prec 0.9413 | Rec 0.9114 | P@R0.9 0.9493
+  Val  : Loss 0.0352 | Prec 0.9165 | Rec 0.8820 | P@R0.9 0.8975
+Epoch 0945 | Time: 109.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9333 | Rec 0.9087 | P@R0.9 0.9409
+  Val  : Loss 0.0353 | Prec 0.9144 | Rec 0.8848 | P@R0.9 0.8972
+Epoch 0946 | Time: 99.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9410 | Rec 0.9035 | P@R0.9 0.9439
+  Val  : Loss 0.0352 | Prec 0.9224 | Rec 0.8773 | P@R0.9 0.8974
+Epoch 0947 | Time: 98.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0323 | Prec 0.9350 | Rec 0.9069 | P@R0.9 0.9408
+  Val  : Loss 0.0355 | Prec 0.9136 | Rec 0.8838 | P@R0.9 0.8956
+Epoch 0948 | Time: 97.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9372 | Rec 0.8989 | P@R0.9 0.9362
+  Val  : Loss 0.0353 | Prec 0.9192 | Rec 0.8800 | P@R0.9 0.8963
+Epoch 0949 | Time: 102.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9359 | Rec 0.9111 | P@R0.9 0.9457
+  Val  : Loss 0.0355 | Prec 0.9161 | Rec 0.8821 | P@R0.9 0.8955
+Epoch 0950 | Time: 92.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9422 | Rec 0.9087 | P@R0.9 0.9494
+  Val  : Loss 0.0351 | Prec 0.9184 | Rec 0.8805 | P@R0.9 0.8976
+Epoch 0951 | Time: 100.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9357 | Rec 0.9097 | P@R0.9 0.9432
+  Val  : Loss 0.0356 | Prec 0.9134 | Rec 0.8846 | P@R0.9 0.8946
+Epoch 0952 | Time: 102.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0299 | Prec 0.9352 | Rec 0.9110 | P@R0.9 0.9447
+  Val  : Loss 0.0354 | Prec 0.9158 | Rec 0.8830 | P@R0.9 0.8961
+Epoch 0953 | Time: 108.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9399 | Rec 0.9071 | P@R0.9 0.9453
+  Val  : Loss 0.0352 | Prec 0.9172 | Rec 0.8817 | P@R0.9 0.8965
+Epoch 0954 | Time: 100.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9351 | Rec 0.9075 | P@R0.9 0.9410
+  Val  : Loss 0.0355 | Prec 0.9152 | Rec 0.8847 | P@R0.9 0.8953
+Epoch 0955 | Time: 94.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0318 | Prec 0.9364 | Rec 0.9091 | P@R0.9 0.9436
+  Val  : Loss 0.0357 | Prec 0.9162 | Rec 0.8817 | P@R0.9 0.8947
+Epoch 0956 | Time: 96.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9422 | Rec 0.9073 | P@R0.9 0.9471
+  Val  : Loss 0.0353 | Prec 0.9211 | Rec 0.8796 | P@R0.9 0.8975
+Epoch 0957 | Time: 95.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0325 | Prec 0.9342 | Rec 0.9125 | P@R0.9 0.9434
+  Val  : Loss 0.0351 | Prec 0.9140 | Rec 0.8866 | P@R0.9 0.8988
+Epoch 0958 | Time: 98.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9356 | Rec 0.9054 | P@R0.9 0.9404
+  Val  : Loss 0.0354 | Prec 0.9192 | Rec 0.8793 | P@R0.9 0.8977
+Epoch 0959 | Time: 114.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9390 | Rec 0.9085 | P@R0.9 0.9454
+  Val  : Loss 0.0352 | Prec 0.9179 | Rec 0.8815 | P@R0.9 0.8971
+Epoch 0960 | Time: 102.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0297 | Prec 0.9380 | Rec 0.9129 | P@R0.9 0.9483
+  Val  : Loss 0.0353 | Prec 0.9153 | Rec 0.8836 | P@R0.9 0.8964
+Epoch 0961 | Time: 100.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9412 | Rec 0.9105 | P@R0.9 0.9492
+  Val  : Loss 0.0357 | Prec 0.9185 | Rec 0.8794 | P@R0.9 0.8945
+Epoch 0962 | Time: 96.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0298 | Prec 0.9386 | Rec 0.9123 | P@R0.9 0.9481
+  Val  : Loss 0.0357 | Prec 0.9153 | Rec 0.8828 | P@R0.9 0.8958
+Epoch 0963 | Time: 99.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0313 | Prec 0.9387 | Rec 0.9021 | P@R0.9 0.9403
+  Val  : Loss 0.0355 | Prec 0.9193 | Rec 0.8786 | P@R0.9 0.8953
+Epoch 0964 | Time: 97.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9417 | Rec 0.9085 | P@R0.9 0.9487
+  Val  : Loss 0.0352 | Prec 0.9189 | Rec 0.8808 | P@R0.9 0.8971
+Epoch 0965 | Time: 104.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9374 | Rec 0.9036 | P@R0.9 0.9406
+  Val  : Loss 0.0354 | Prec 0.9192 | Rec 0.8794 | P@R0.9 0.8950
+Epoch 0966 | Time: 94.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0305 | Prec 0.9382 | Rec 0.9093 | P@R0.9 0.9454
+  Val  : Loss 0.0353 | Prec 0.9193 | Rec 0.8791 | P@R0.9 0.8968
+Epoch 0967 | Time: 104.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9360 | Rec 0.9043 | P@R0.9 0.9399
+  Val  : Loss 0.0352 | Prec 0.9190 | Rec 0.8816 | P@R0.9 0.8991
+Epoch 0968 | Time: 101.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9404 | Rec 0.9154 | P@R0.9 0.9523
+  Val  : Loss 0.0352 | Prec 0.9159 | Rec 0.8842 | P@R0.9 0.8985
+Epoch 0969 | Time: 94.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0295 | Prec 0.9434 | Rec 0.9075 | P@R0.9 0.9491
+  Val  : Loss 0.0355 | Prec 0.9208 | Rec 0.8782 | P@R0.9 0.8965
+Epoch 0970 | Time: 96.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9349 | Rec 0.9112 | P@R0.9 0.9439
+  Val  : Loss 0.0353 | Prec 0.9127 | Rec 0.8870 | P@R0.9 0.8978
+Epoch 0971 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9407 | Rec 0.9085 | P@R0.9 0.9474
+  Val  : Loss 0.0353 | Prec 0.9183 | Rec 0.8817 | P@R0.9 0.8973
+Epoch 0972 | Time: 103.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0311 | Prec 0.9365 | Rec 0.9101 | P@R0.9 0.9450
+  Val  : Loss 0.0354 | Prec 0.9134 | Rec 0.8854 | P@R0.9 0.8963
+Epoch 0973 | Time: 90.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9411 | Rec 0.9086 | P@R0.9 0.9479
+  Val  : Loss 0.0356 | Prec 0.9195 | Rec 0.8786 | P@R0.9 0.8943
+Epoch 0974 | Time: 88.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9382 | Rec 0.9154 | P@R0.9 0.9492
+  Val  : Loss 0.0357 | Prec 0.9137 | Rec 0.8832 | P@R0.9 0.8947
+Epoch 0975 | Time: 91.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0320 | Prec 0.9395 | Rec 0.9057 | P@R0.9 0.9435
+  Val  : Loss 0.0352 | Prec 0.9188 | Rec 0.8809 | P@R0.9 0.8967
+Epoch 0976 | Time: 86.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0299 | Prec 0.9433 | Rec 0.9089 | P@R0.9 0.9505
+  Val  : Loss 0.0354 | Prec 0.9188 | Rec 0.8801 | P@R0.9 0.8965
+Epoch 0977 | Time: 94.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9376 | Rec 0.9098 | P@R0.9 0.9452
+  Val  : Loss 0.0356 | Prec 0.9150 | Rec 0.8834 | P@R0.9 0.8962
+Epoch 0978 | Time: 93.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0295 | Prec 0.9423 | Rec 0.9100 | P@R0.9 0.9502
+  Val  : Loss 0.0349 | Prec 0.9208 | Rec 0.8808 | P@R0.9 0.9007
+Epoch 0979 | Time: 102.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9406 | Rec 0.9107 | P@R0.9 0.9486
+  Val  : Loss 0.0353 | Prec 0.9170 | Rec 0.8821 | P@R0.9 0.8973
+Epoch 0980 | Time: 88.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9366 | Rec 0.9093 | P@R0.9 0.9436
+  Val  : Loss 0.0349 | Prec 0.9156 | Rec 0.8862 | P@R0.9 0.9003
+Epoch 0981 | Time: 88.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9410 | Rec 0.9096 | P@R0.9 0.9482
+  Val  : Loss 0.0355 | Prec 0.9195 | Rec 0.8783 | P@R0.9 0.8951
+Epoch 0982 | Time: 85.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9405 | Rec 0.9093 | P@R0.9 0.9478
+  Val  : Loss 0.0351 | Prec 0.9184 | Rec 0.8822 | P@R0.9 0.8985
+Epoch 0983 | Time: 95.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0303 | Prec 0.9362 | Rec 0.9126 | P@R0.9 0.9460
+  Val  : Loss 0.0354 | Prec 0.9133 | Rec 0.8857 | P@R0.9 0.8966
+Epoch 0984 | Time: 95.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0296 | Prec 0.9395 | Rec 0.9105 | P@R0.9 0.9487
+  Val  : Loss 0.0353 | Prec 0.9179 | Rec 0.8812 | P@R0.9 0.8969
+Epoch 0985 | Time: 98.4s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0308 | Prec 0.9395 | Rec 0.9054 | P@R0.9 0.9433
+  Val  : Loss 0.0352 | Prec 0.9194 | Rec 0.8804 | P@R0.9 0.8979
+Epoch 0986 | Time: 90.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0309 | Prec 0.9370 | Rec 0.9098 | P@R0.9 0.9450
+  Val  : Loss 0.0355 | Prec 0.9161 | Rec 0.8820 | P@R0.9 0.8948
+Epoch 0987 | Time: 106.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9356 | Rec 0.9103 | P@R0.9 0.9441
+  Val  : Loss 0.0355 | Prec 0.9151 | Rec 0.8847 | P@R0.9 0.8971
+Epoch 0988 | Time: 85.2s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9413 | Rec 0.9099 | P@R0.9 0.9490
+  Val  : Loss 0.0353 | Prec 0.9175 | Rec 0.8814 | P@R0.9 0.8963
+Epoch 0989 | Time: 94.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0317 | Prec 0.9383 | Rec 0.9101 | P@R0.9 0.9462
+  Val  : Loss 0.0354 | Prec 0.9156 | Rec 0.8841 | P@R0.9 0.8973
+Epoch 0990 | Time: 91.7s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0299 | Prec 0.9391 | Rec 0.9073 | P@R0.9 0.9452
+  Val  : Loss 0.0355 | Prec 0.9172 | Rec 0.8804 | P@R0.9 0.8950
+Epoch 0991 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0310 | Prec 0.9379 | Rec 0.9079 | P@R0.9 0.9442
+  Val  : Loss 0.0354 | Prec 0.9177 | Rec 0.8808 | P@R0.9 0.8963
+Epoch 0992 | Time: 125.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0319 | Prec 0.9402 | Rec 0.9121 | P@R0.9 0.9491
+  Val  : Loss 0.0352 | Prec 0.9153 | Rec 0.8860 | P@R0.9 0.8990
+Epoch 0993 | Time: 116.9s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9406 | Rec 0.9087 | P@R0.9 0.9470
+  Val  : Loss 0.0351 | Prec 0.9171 | Rec 0.8833 | P@R0.9 0.8991
+Epoch 0994 | Time: 98.3s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9368 | Rec 0.9115 | P@R0.9 0.9464
+  Val  : Loss 0.0355 | Prec 0.9158 | Rec 0.8828 | P@R0.9 0.8941
+Epoch 0995 | Time: 94.1s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0304 | Prec 0.9411 | Rec 0.9109 | P@R0.9 0.9492
+  Val  : Loss 0.0351 | Prec 0.9180 | Rec 0.8841 | P@R0.9 0.8989
+Epoch 0996 | Time: 91.0s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0307 | Prec 0.9399 | Rec 0.9078 | P@R0.9 0.9455
+  Val  : Loss 0.0355 | Prec 0.9182 | Rec 0.8796 | P@R0.9 0.8952
+Epoch 0997 | Time: 90.6s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0312 | Prec 0.9376 | Rec 0.9108 | P@R0.9 0.9460
+  Val  : Loss 0.0355 | Prec 0.9147 | Rec 0.8843 | P@R0.9 0.8968
+Epoch 0998 | Time: 84.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0295 | Prec 0.9391 | Rec 0.9104 | P@R0.9 0.9473
+  Val  : Loss 0.0353 | Prec 0.9157 | Rec 0.8832 | P@R0.9 0.8971
+Epoch 0999 | Time: 93.5s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0299 | Prec 0.9387 | Rec 0.9112 | P@R0.9 0.9474
+  Val  : Loss 0.0356 | Prec 0.9172 | Rec 0.8809 | P@R0.9 0.8959
+Epoch 1000 | Time: 90.8s | Opt: Multiprocessing (n=4)
+  Train: Loss 0.0302 | Prec 0.9365 | Rec 0.9110 | P@R0.9 0.9451
+  Val  : Loss 0.0351 | Prec 0.9147 | Rec 0.8861 | P@R0.9 0.8976

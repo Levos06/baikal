@@ -1,0 +1,25 @@
+Starting Pure I/O Test...
+Processed 50048 events in 26.81s
+Throughput: 1866.83 events/s
+
+ERRORS:
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7c7747569240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7c7747569240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7c7747569240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7c7747569240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit

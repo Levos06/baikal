@@ -6,3 +6,4 @@ venv/
 data_processed/
 **/checkpoints/
 **/adj_matrices/
+data_processed_100k/

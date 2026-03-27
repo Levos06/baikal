@@ -1,0 +1,10 @@
+Starting ULTIMATE THROUGHPUT TEST (CPU Preprocessing, BS=512, Workers=8)
+Batch 00100 | Speed: 1635.34 events/s
+Batch 00200 | Speed: 1652.40 events/s
+Batch 00300 | Speed: 2140.19 events/s
+Batch 00400 | Speed: 2052.97 events/s
+Batch 00500 | Speed: 2041.27 events/s
+Batch 00600 | Speed: 2331.39 events/s
+Batch 00700 | Speed: 2161.20 events/s
+Batch 00800 | Speed: 2140.09 events/s
+Batch 00900 | Speed: 2292.36 events/s

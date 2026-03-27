@@ -1,0 +1,4 @@
+BS  128:  4898.91 events/s
+BS  256: 23702.94 events/s
+BS  512: 26156.21 events/s
+BS 1024: 28428.94 events/s

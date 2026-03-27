@@ -1,0 +1,92 @@
+Testing num_workers=0...
+  Throughput: 3022.60 events/s
+Testing num_workers=2...
+  Throughput: 3980.16 events/s
+Testing num_workers=4...
+  Throughput: 5031.09 events/s
+Testing num_workers=8...
+  Throughput: 1105.63 events/s
+
+Scaling Results:
+Workers  0:  3022.60 events/s
+Workers  2:  3980.16 events/s
+Workers  4:  5031.09 events/s
+Workers  8:  1105.63 events/s
+
+ERRORS:
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733878dc0>
+Traceback (most recent call last):
+  File "/home/levos/experiments/2026-03-26_gpu_bottleneck_study/test_3_worker_scaling.py", line 35, in run_test
+    if count >= 30000: break
+                       ^^^^^
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7297338795a0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7297338795a0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7297338795a0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x7297338795a0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879000>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879240>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879000>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879000>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879000>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
+Exception ignored in: <generator object ChunkedDataset.__iter__ at 0x729733879000>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+RuntimeError: generator ignored GeneratorExit
