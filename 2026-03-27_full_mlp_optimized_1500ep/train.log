@@ -1,0 +1,34 @@
+Starting SILENT MARATHON on cuda (1500 Epochs, BS=512)
+Epoch 0001 | Time: 26.2s
+  Train: Loss 0.1219 | Prec 0.8350 | Rec 0.4332 | P@R0.9 0.3745
+  Val  : Loss 0.1163 | Prec 0.7991 | Rec 0.3997 | P@R0.9 0.3319
+Epoch 0002 | Time: 12.4s
+  Train: Loss 0.1104 | Prec 0.7125 | Rec 0.6972 | P@R0.9 0.4065
+  Val  : Loss 0.1087 | Prec 0.7020 | Rec 0.6694 | P@R0.9 0.3728
+Epoch 0003 | Time: 12.8s
+  Train: Loss 0.1052 | Prec 0.7408 | Rec 0.7001 | P@R0.9 0.4317
+  Val  : Loss 0.1002 | Prec 0.7110 | Rec 0.6712 | P@R0.9 0.3708
+Epoch 0004 | Time: 12.7s
+  Train: Loss 0.0920 | Prec 0.8264 | Rec 0.6487 | P@R0.9 0.4509
+  Val  : Loss 0.0902 | Prec 0.8112 | Rec 0.6185 | P@R0.9 0.4091
+Epoch 0005 | Time: 12.8s
+  Train: Loss 0.0922 | Prec 0.7823 | Rec 0.7083 | P@R0.9 0.4652
+  Val  : Loss 0.0923 | Prec 0.7708 | Rec 0.6878 | P@R0.9 0.4383
+Epoch 0006 | Time: 12.8s
+  Train: Loss 0.0910 | Prec 0.8424 | Rec 0.6486 | P@R0.9 0.4716
+  Val  : Loss 0.0882 | Prec 0.8307 | Rec 0.6214 | P@R0.9 0.4258
+Epoch 0007 | Time: 12.7s
+  Train: Loss 0.0877 | Prec 0.8247 | Rec 0.6916 | P@R0.9 0.4991
+  Val  : Loss 0.0847 | Prec 0.8126 | Rec 0.6707 | P@R0.9 0.4573
+Epoch 0008 | Time: 12.6s
+  Train: Loss 0.0883 | Prec 0.8650 | Rec 0.6551 | P@R0.9 0.5145
+  Val  : Loss 0.0836 | Prec 0.8535 | Rec 0.6280 | P@R0.9 0.4665
+Epoch 0009 | Time: 12.8s
+  Train: Loss 0.0844 | Prec 0.8113 | Rec 0.7250 | P@R0.9 0.5205
+  Val  : Loss 0.0834 | Prec 0.8030 | Rec 0.7054 | P@R0.9 0.4805
+Epoch 0010 | Time: 12.8s
+  Train: Loss 0.0803 | Prec 0.8711 | Rec 0.6794 | P@R0.9 0.5574
+  Val  : Loss 0.0777 | Prec 0.8578 | Rec 0.6450 | P@R0.9 0.4837
+Epoch 0011 | Time: 12.5s
+  Train: Loss 0.0758 | Prec 0.8496 | Rec 0.7272 | P@R0.9 0.5784
+  Val  : Loss 0.0751 | Prec 0.8391 | Rec 0.6998 | P@R0.9 0.5163

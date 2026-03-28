@@ -1,0 +1,87 @@
+Starting HYPER-SPEED Training on cuda (BS=1024)
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [0,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [1,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [2,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [3,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [4,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [5,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [6,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [7,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [8,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [9,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [10,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [11,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [12,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [13,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [14,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [15,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [16,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [17,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [18,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [19,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [20,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [21,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [22,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [23,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [24,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [25,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [26,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [27,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [28,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [29,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [30,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+../aten/src/ATen/native/cuda/ScatterGatherKernel.cu:144: operator(): block: [292,0,0], thread: [31,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+Traceback (most recent call last):
+  File "/home/levos/experiments/2026-03-26_extreme_throughput_test/train_fused_v3.py", line 101, in <module>
+  File "/home/levos/experiments/2026-03-26_extreme_throughput_test/train_fused_v3.py", line 92, in train
+    loss = criterion(out, by)
+  File "/home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/levos/experiments/2026-03-26_extreme_throughput_test/train_fused_v3.py", line 43, in forward
+    h2 = F.gelu(self.conv2(h1, edge_index) + self.proj2(h1))
+  File "/home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch_geometric/nn/conv/gcn_conv.py", line 241, in forward
+    edge_index, edge_weight = gcn_norm(  # yapf: disable
+  File "/home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch_geometric/nn/conv/gcn_conv.py", line 99, in gcn_norm
+    edge_index, edge_weight = add_remaining_self_loops(
+  File "/home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch_geometric/utils/loop.py", line 650, in add_remaining_self_loops
+    edge_index = edge_index[:, mask]
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+terminate called after throwing an instance of 'c10::Error'
+  what():  CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:43 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x78ff69d6c446 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x78ff69d166e4 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x78ff6a17fa18 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #3: <unknown function> + 0x1055d1c (0x78ff1f455d1c in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x105ea65 (0x78ff1f45ea65 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0x5faf70 (0x78ff68dfaf70 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x6f69f (0x78ff69d4d69f in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #7: c10::TensorImpl::~TensorImpl() + 0x21b (0x78ff69d4637b in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #8: c10::TensorImpl::~TensorImpl() + 0x9 (0x78ff69d46529 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #9: <unknown function> + 0x8c1a98 (0x78ff690c1a98 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #10: THPVariable_subclass_dealloc(_object*) + 0x2c6 (0x78ff690c1de6 in /home/levos/miniconda3/envs/baikal/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #11: python3() [0x4eb0b8]
+frame #12: python3() [0x4f73e8]
+frame #13: python3() [0x507458]
+frame #14: python3() [0x5074ef]
+frame #15: python3() [0x4dfd82]
+<omitting python frames>
+frame #17: python3() [0x5c8744]
+frame #21: <unknown function> + 0x2a1ca (0x78ff6ae2a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #22: __libc_start_main + 0x8b (0x78ff6ae2a28b in /lib/x86_64-linux-gnu/libc.so.6)
+frame #23: python3() [0x588e5e]
+

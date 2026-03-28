@@ -7,3 +7,5 @@ data_processed/
 **/checkpoints/
 **/adj_matrices/
 data_processed_100k/
+data_processed_50k/
+data_processed_50k_v2/
