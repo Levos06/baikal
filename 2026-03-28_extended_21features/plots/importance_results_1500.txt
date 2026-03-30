@@ -1,0 +1,23 @@
+Baseline P@R0.9: 0.9138
+
+Feature 0: Charge       | Drop: 0.3668
+Feature 1: Time         | Drop: 0.7335
+Feature 2: X            | Drop: 0.1903
+Feature 3: Y            | Drop: 0.2299
+Feature 4: Z            | Drop: 0.6603
+Feature 5: Minkowski s2 | Drop: 0.0013
+Feature 6: dt           | Drop: 0.8457
+Feature 7: dr           | Drop: 0.2463
+Feature 8: r_xy         | Drop: 0.4400
+Feature 9: phi          | Drop: 0.0435
+Feature 10: rho         | Drop: 0.6044
+Feature 11: cosTheta    | Drop: 0.2259
+Feature 12: ToF Res     | Drop: 0.2492
+Feature 13: NeighDist   | Drop: 0.6160
+Feature 14: NeighQ      | Drop: 0.2028
+Feature 15: Q/Mean      | Drop: 0.0000
+Feature 16: cosAlpha    | Drop: 0.0001
+Feature 17: StrHits     | Drop: 0.0053
+Feature 18: StrZSpan    | Drop: 0.0017
+Feature 19: EventNhits  | Drop: 0.0147
+Feature 20: Duration    | Drop: 0.0381
