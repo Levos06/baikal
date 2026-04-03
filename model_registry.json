@@ -1,0 +1,386 @@
+[
+  {
+    "id": "GCN_20260303_REPRO",
+    "date": "2026-03-03",
+    "name": "Baikal GCN Reproduction",
+    "params": 17538,
+    "architecture": "3 GCN layers (128 units), GELU",
+    "description": "Reproduction of the initial GCN model on Baikal data.",
+    "metrics": {
+      "best": {"val_loss": 0.2314, "val_precision": 0.4889, "val_recall": 0.0985},
+      "final": {"val_loss": 0.1884, "val_precision": 0.4262, "val_recall": 0.4410}
+    },
+    "epochs": 15,
+    "path": "2026-03-03_baikal_gcn_reproduction",
+    "input_features": 5,
+    "cheating_tres": false
+  },
+  {
+    "id": "GCN_20260307_FINAL_K2",
+    "date": "2026-03-07",
+    "name": "GCN k=2 (No LayerNorm)",
+    "params": 17538,
+    "architecture": "3 GCN layers (128 units), GELU, No LayerNorm",
+    "description": "First successful GCN training after removing LayerNorm layers. Temporal window k=2.",
+    "metrics": {
+      "best": {"val_loss": 0.2071, "val_precision": 0.4980, "val_recall": 0.6853},
+      "final": {"val_loss": 0.2071, "val_precision": 0.4980, "val_recall": 0.6853}
+    },
+    "epochs": 15,
+    "path": "2026-03-07_investigation_of_2026-02-28_results",
+    "input_features": 5,
+    "cheating_tres": false
+  },
+  {
+    "id": "GCN_20260307_K4",
+    "date": "2026-03-07",
+    "name": "GCN k=4 (No LayerNorm)",
+    "params": 17538,
+    "architecture": "3 GCN layers (128 units), GELU, No LayerNorm",
+    "description": "Test with a wider temporal window k=4.",
+    "metrics": {
+      "best": {"val_loss": 0.1612, "val_precision": 0.4716, "val_recall": 0.6183},
+      "final": {"val_loss": 0.1617, "val_precision": 0.4688, "val_recall": 0.6324}
+    },
+    "epochs": 15,
+    "path": "2026-03-07_investigation_of_2026-02-28_results",
+    "input_features": 5,
+    "cheating_tres": false
+  },
+  {
+    "id": "GCN_20260308_CAPACITY_512",
+    "date": "2026-03-08",
+    "name": "Capacity Expanded GCN",
+    "params": 266754,
+    "architecture": "3 GCN layers (512 units), GELU",
+    "description": "Increased model capacity to 512 hidden units.",
+    "metrics": {
+      "best": {"val_loss": 0.1283, "val_precision": 0.6600, "val_recall": 0.4490, "val_p_at_r09": 0.3537},
+      "final": {"val_loss": 0.1286, "val_precision": 0.6634, "val_recall": 0.4410, "val_p_at_r09": 0.3529}
+    },
+    "epochs": 100,
+    "path": "2026-03-08_capacity_expansion",
+    "input_features": 5,
+    "cheating_tres": false
+  },
+  {
+    "id": "GCN_20260308_DEEP_WIDE_V3",
+    "date": "2026-03-08",
+    "name": "Deep & Wide GCN v3",
+    "params": 791810,
+    "architecture": "4 GCN layers (512-768-512 units), GELU",
+    "description": "Deeper architecture with varying hidden layer widths.",
+    "metrics": {
+      "best": {"val_loss": 0.1139, "val_precision": 0.7252, "val_recall": 0.5519, "val_p_at_r09": 0.3837},
+      "final": {"val_loss": 0.1143, "val_precision": 0.7108, "val_recall": 0.5715, "val_p_at_r09": 0.3815}
+    },
+    "epochs": 800,
+    "path": "2026-03-08_deep_wide_model",
+    "input_features": 5,
+    "cheating_tres": false
+  },
+  {
+    "id": "GCN_20260311_EXTENDED_9F",
+    "date": "2026-03-11",
+    "name": "Extended 9-Feature GCN",
+    "params": 793858,
+    "architecture": "4 GCN layers (512-768-512 units), GELU",
+    "description": "First experiment with extended features including t_res, R, Phi, and Degree.",
+    "metrics": {
+      "best": {"val_loss": 0.1050, "val_p_at_r09": 0.4536},
+      "final": {"val_loss": 0.1050, "val_p_at_r09": 0.4530}
+    },
+    "epochs": 300,
+    "path": "2026-03-11_extended_features",
+    "input_features": 9,
+    "cheating_tres": true
+  },
+  {
+    "id": "GCN_20260311_TRES_6F",
+    "date": "2026-03-11",
+    "name": "T_res Only Extended GCN",
+    "params": 792322,
+    "architecture": "4 GCN layers (512-768-512 units), GELU",
+    "description": "Isolating the effect of the t_res feature.",
+    "metrics": {
+      "best": {"val_loss": 0.1068, "val_p_at_r09": 0.4473},
+      "final": {"val_loss": 0.1077, "val_p_at_r09": 0.4432}
+    },
+    "epochs": 300,
+    "path": "2026-03-11_tres_feature",
+    "input_features": 6,
+    "cheating_tres": true
+  },
+  {
+    "id": "GCN_20260312_13F",
+    "date": "2026-03-12",
+    "name": "13-Feature GCN",
+    "params": 795906,
+    "architecture": "4 GCN layers (512-768-512 units), GELU",
+    "description": "Extended 13-feature set including ToF residuals and neighborhood charge.",
+    "metrics": {
+      "best": {"val_loss": 0.1008, "val_p_at_r09": 0.4731},
+      "final": {"val_loss": 0.1009, "val_p_at_r09": 0.4719}
+    },
+    "epochs": 300,
+    "path": "2026-03-12_12_features",
+    "input_features": 13,
+    "cheating_tres": true
+  },
+  {
+    "id": "GCN_20260312_CAUSAL_13F",
+    "date": "2026-03-12",
+    "name": "Causal Graph GCN",
+    "params": 795906,
+    "architecture": "4 GCN layers (512-768-512 units), GELU, Causal Topology",
+    "description": "Experiment with causal graph topology instead of k-neighbors.",
+    "metrics": {
+      "best": {"val_loss": 0.2398, "val_p_at_r09": 0.0813},
+      "final": {"val_loss": 0.2398, "val_p_at_r09": 0.0813}
+    },
+    "epochs": 300,
+    "path": "2026-03-12_causal_graph",
+    "input_features": 13,
+    "cheating_tres": true
+  },
+  {
+    "id": "CNN_20260314_BASELINE",
+    "date": "2026-03-14",
+    "name": "1D-CNN Baseline",
+    "params": 328706,
+    "architecture": "1D CNN (128-256-128 channels), GELU",
+    "description": "Baseline 1D convolution model on hit sequences.",
+    "metrics": {
+      "best": {"val_loss": 0.0539, "val_p_at_r09": 0.7759},
+      "final": {"val_loss": 0.0553, "val_p_at_r09": 0.7706}
+    },
+    "epochs": 20,
+    "path": "2026-03-14_cnn_baseline",
+    "input_features": 5,
+    "cheating_tres": false
+  },
+  {
+    "id": "MLP_20260314_BASELINE_13F",
+    "date": "2026-03-14",
+    "name": "MLP Baseline (13 features)",
+    "params": 795906,
+    "architecture": "MLP (512-768-512 units), GELU",
+    "description": "Baseline MLP model using 13 features including t_res.",
+    "metrics": {
+      "best": {"val_loss": 0.0286, "val_p_at_r09": 0.9425},
+      "final": {"val_loss": 0.0305, "val_p_at_r09": 0.9304}
+    },
+    "epochs": 3,
+    "path": "2026-03-14_mlp_baseline",
+    "input_features": 13,
+    "cheating_tres": true
+  },
+  {
+    "id": "GCN_20260315_K2_5L",
+    "date": "2026-03-15",
+    "name": "GCN 5-Layer k=2",
+    "params": 543106,
+    "architecture": "5 GCN layers (128-512-512-512-128 units), GELU",
+    "description": "Back to basics GCN with 5 layers and k=2.",
+    "metrics": {
+      "best": {"val_loss": 0.1961, "val_p_at_r09": 0.5346},
+      "final": {"val_loss": 0.2051, "val_p_at_r09": 0.5316}
+    },
+    "epochs": 150,
+    "path": "2026-03-15_gcn_k2_back_to_basics",
+    "input_features": 5,
+    "cheating_tres": false
+  },
+  {
+    "id": "JKResGCN_20260327_13F",
+    "date": "2026-03-27",
+    "name": "Optimized JK-ResGCN (13 features)",
+    "params": 4826114,
+    "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
+    "description": "Optimized GCN with 13 features and complex architecture, 1500 epochs.",
+    "metrics": {
+      "best": {"val_loss": 0.0365, "val_p_at_r09": 0.9029},
+      "final": {"val_loss": 0.0368, "val_p_at_r09": 0.9005}
+    },
+    "epochs": 1500,
+    "path": "2026-03-27_full_mlp_optimized_1500ep",
+    "input_features": 13,
+    "cheating_tres": false
+  },
+  {
+    "id": "JKResGCN_20260328_21F",
+    "date": "2026-03-28",
+    "name": "Best JK-ResGCN (21 features)",
+    "params": 5088258,
+    "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
+    "description": "The best performing GCN model with 21 features and extensive training.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9311},
+      "final": {"val_p_at_r09": 0.9243}
+    },
+    "epochs": 2500,
+    "path": "2026-03-28_extended_21features",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "JKResGATv2_20260331_MARATHON",
+    "date": "2026-03-31",
+    "name": "GATv2 Marathon",
+    "params": 6250000,
+    "architecture": "4 GATv2 layers (4 heads, 128 channels each), JK + Res",
+    "description": "Long-running GATv2 experiment with dynamic attention.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9276},
+      "final": {"val_p_at_r09": 0.9212}
+    },
+    "epochs": 788,
+    "path": "2026-03-31_gat_marathon",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260331_DEEP_6L",
+    "date": "2026-03-31",
+    "name": "Deep GATv2 (6 Layers)",
+    "params": 4500000,
+    "architecture": "6 GATv2 layers (4 heads, 64 channels each), JK + Res",
+    "description": "Comparison experiment focusing on depth.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9238},
+      "final": {"val_p_at_r09": 0.9175}
+    },
+    "epochs": 1000,
+    "path": "2026-03-31_gat_comparison",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260331_WIDE_3L",
+    "date": "2026-03-31",
+    "name": "Wide GATv2 (3 Layers)",
+    "params": 8500000,
+    "architecture": "3 GATv2 layers (8 heads, 128 channels each), JK + Res",
+    "description": "Comparison experiment focusing on width.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9005},
+      "final": {"val_p_at_r09": 0.8888}
+    },
+    "epochs": 1000,
+    "path": "2026-03-31_gat_comparison",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260401_RES_4L",
+    "date": "2026-04-01",
+    "name": "GATv2 Res Baseline",
+    "params": 2500000,
+    "architecture": "4 GATv2 layers (4 heads, 64 channels each), Residuals, No JK",
+    "description": "Study on the impact of Residual connections in GAT.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9049},
+      "final": {"val_p_at_r09": 0.9049}
+    },
+    "epochs": 1000,
+    "path": "2026-04-01_gat_baselines_res_study",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260401_NORES_4L",
+    "date": "2026-04-01",
+    "name": "GATv2 No-Res Baseline",
+    "params": 2500000,
+    "architecture": "4 GATv2 layers (4 heads, 64 channels each), No Residuals, No JK",
+    "description": "Study on the impact of Residual connections in GAT (control group).",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.8622},
+      "final": {"val_p_at_r09": 0.8622}
+    },
+    "epochs": 1000,
+    "path": "2026-04-01_gat_baselines_res_study",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv1_20260402_RES_4L",
+    "date": "2026-04-02",
+    "name": "GATv1 vs GATv2 Study (v1)",
+    "params": 2400000,
+    "architecture": "4 GATv1 layers (4 heads, 64 channels each), Residuals, No JK",
+    "description": "Mechanism study: testing GATv1 attention.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.8923},
+      "final": {"val_p_at_r09": 0.8827}
+    },
+    "epochs": 1000,
+    "path": "2026-04-02_gat_mechanisms_study",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260402_RES_4L",
+    "date": "2026-04-02",
+    "name": "GATv1 vs GATv2 Study (v2)",
+    "params": 2500000,
+    "architecture": "4 GATv2 layers (4 heads, 64 channels each), Residuals, No JK",
+    "description": "Mechanism study: testing GATv2 attention.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9021},
+      "final": {"val_p_at_r09": 0.8953}
+    },
+    "epochs": 1000,
+    "path": "2026-04-02_gat_mechanisms_study",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "JKResGCN_20260325_FULLMLP_1000",
+    "date": "2026-03-25",
+    "name": "Full MLP (JK-ResGCN 1000ep)",
+    "params": 4826114,
+    "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
+    "description": "Base model for optimized training marathon, uses 13 features.",
+    "metrics": {
+      "best": {"val_loss": 0.0351, "val_p_at_r09": 0.8976},
+      "final": {"val_loss": 0.0351, "val_p_at_r09": 0.8976}
+    },
+    "epochs": 1000,
+    "path": "2026-03-25_full_mlp_training_1000ep",
+    "input_features": 13,
+    "cheating_tres": false
+  },
+  {
+    "id": "JKResGCN_20260325_LEARNABLE_C",
+    "date": "2026-03-25",
+    "name": "Learnable C_Water GCN",
+    "params": 4826115,
+    "architecture": "5 GCN layers with JK and Residuals, Learnable Parameter for C_Water",
+    "description": "Used to discover the optimal effective speed of light in water (0.2264 m/ns).",
+    "metrics": {
+      "best": {"val_loss": 0.0350, "val_p_at_r09": 0.8989},
+      "final": {"val_loss": 0.0350, "val_p_at_r09": 0.8989}
+    },
+    "epochs": 1000,
+    "path": "2026-03-25_learnable_c_water",
+    "input_features": 13,
+    "cheating_tres": false
+  },
+  {
+    "id": "GCN_20260403_WIDELAST_4L",
+    "date": "2026-04-03",
+    "name": "Wide Last Layer GATv2",
+    "params": 3800000,
+    "architecture": "4 GATv2 layers (Layer 4: 1536 channels), Residuals, No JK",
+    "description": "Testing if a wide last layer can substitute for JK.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.8143},
+      "final": {"val_p_at_r09": 0.8143}
+    },
+    "epochs": 105,
+    "path": "2026-04-03_gat_wide_last_layer",
+    "input_features": 21,
+    "cheating_tres": false
+  }
+]
