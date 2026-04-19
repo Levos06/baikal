@@ -195,7 +195,7 @@
     "id": "JKResGCN_20260327_13F",
     "date": "2026-03-27",
     "name": "Optimized JK-ResGCN (13 features)",
-    "params": 4826114,
+    "params": 5001218,
     "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
     "description": "Optimized GCN with 13 features and complex architecture, 1500 epochs.",
     "metrics": {
@@ -211,7 +211,7 @@
     "id": "JKResGCN_20260328_21F",
     "date": "2026-03-28",
     "name": "Best JK-ResGCN (21 features)",
-    "params": 5088258,
+    "params": 5009410,
     "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
     "description": "The best performing GCN model with 21 features and extensive training.",
     "metrics": {
@@ -227,7 +227,7 @@
     "id": "JKResGATv2_20260331_MARATHON",
     "date": "2026-03-31",
     "name": "GATv2 Marathon",
-    "params": 6250000,
+    "params": 4237826,
     "architecture": "4 GATv2 layers (4 heads, 128 channels each), JK + Res",
     "description": "Long-running GATv2 experiment with dynamic attention.",
     "metrics": {
@@ -243,7 +243,7 @@
     "id": "GATv2_20260331_DEEP_6L",
     "date": "2026-03-31",
     "name": "Deep GATv2 (6 Layers)",
-    "params": 4500000,
+    "params": 2777602,
     "architecture": "6 GATv2 layers (4 heads, 64 channels each), JK + Res",
     "description": "Comparison experiment focusing on depth.",
     "metrics": {
@@ -259,7 +259,7 @@
     "id": "GATv2_20260331_WIDE_3L",
     "date": "2026-03-31",
     "name": "Wide GATv2 (3 Layers)",
-    "params": 8500000,
+    "params": 7944706,
     "architecture": "3 GATv2 layers (8 heads, 128 channels each), JK + Res",
     "description": "Comparison experiment focusing on width.",
     "metrics": {
@@ -275,7 +275,7 @@
     "id": "GATv2_20260401_RES_4L",
     "date": "2026-04-01",
     "name": "GATv2 Res Baseline",
-    "params": 2500000,
+    "params": 677122,
     "architecture": "4 GATv2 layers (4 heads, 64 channels each), Residuals, No JK",
     "description": "Study on the impact of Residual connections in GAT.",
     "metrics": {
@@ -291,7 +291,7 @@
     "id": "GATv2_20260401_NORES_4L",
     "date": "2026-04-01",
     "name": "GATv2 No-Res Baseline",
-    "params": 2500000,
+    "params": 677122,
     "architecture": "4 GATv2 layers (4 heads, 64 channels each), No Residuals, No JK",
     "description": "Study on the impact of Residual connections in GAT (control group).",
     "metrics": {
@@ -307,7 +307,7 @@
     "id": "GATv1_20260402_RES_4L",
     "date": "2026-04-02",
     "name": "GATv1 vs GATv2 Study (v1)",
-    "params": 2400000,
+    "params": 474114,
     "architecture": "4 GATv1 layers (4 heads, 64 channels each), Residuals, No JK",
     "description": "Mechanism study: testing GATv1 attention.",
     "metrics": {
@@ -323,7 +323,7 @@
     "id": "GATv2_20260402_RES_4L",
     "date": "2026-04-02",
     "name": "GATv1 vs GATv2 Study (v2)",
-    "params": 2500000,
+    "params": 677122,
     "architecture": "4 GATv2 layers (4 heads, 64 channels each), Residuals, No JK",
     "description": "Mechanism study: testing GATv2 attention.",
     "metrics": {
@@ -339,7 +339,7 @@
     "id": "JKResGCN_20260325_FULLMLP_1000",
     "date": "2026-03-25",
     "name": "Full MLP (JK-ResGCN 1000ep)",
-    "params": 4826114,
+    "params": 5001218,
     "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
     "description": "Base model for optimized training marathon, uses 13 features.",
     "metrics": {
@@ -355,7 +355,7 @@
     "id": "JKResGCN_20260325_LEARNABLE_C",
     "date": "2026-03-25",
     "name": "Learnable C_Water GCN",
-    "params": 4826115,
+    "params": 5001218,
     "architecture": "5 GCN layers with JK and Residuals, Learnable Parameter for C_Water",
     "description": "Used to discover the optimal effective speed of light in water (0.2264 m/ns).",
     "metrics": {
@@ -368,18 +368,128 @@
     "cheating_tres": false
   },
   {
-    "id": "GCN_20260403_WIDELAST_4L",
+    "id": "GATv2_20260403_WIDELAST_4L",
     "date": "2026-04-03",
     "name": "Wide Last Layer GATv2",
-    "params": 3800000,
+    "params": 3568642,
     "architecture": "4 GATv2 layers (Layer 4: 1536 channels), Residuals, No JK",
     "description": "Testing if a wide last layer can substitute for JK.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.8143},
-      "final": {"val_p_at_r09": 0.8143}
+      "best": {"val_p_at_r09": 0.9097},
+      "final": {"val_loss": 0.0347, "val_precision": 0.9255, "val_recall": 0.8843, "val_p_at_r09": 0.9097}
     },
-    "epochs": 105,
+    "epochs": 1000,
     "path": "2026-04-03_gat_wide_last_layer",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260403_FC_LAST_4L",
+    "date": "2026-04-03",
+    "name": "Fully Connected Last Layer GATv2",
+    "params": 677122,
+    "architecture": "4 GATv2 layers. Layer 4 uses a complete graph (all-to-all). Residuals, No JK",
+    "description": "Experiment using global attention mechanism in the final layer to aggregate event-wide information.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9528},
+      "final": {"val_loss": 0.0251, "val_precision": 0.9324, "val_recall": 0.9213, "val_p_at_r09": 0.9479}
+    },
+    "epochs": 1000,
+    "path": "2026-04-03_gat_fully_connected_last_layer",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260404_K4_FLY",
+    "date": "2026-04-04",
+    "name": "GATv2 k=4 On-The-Fly",
+    "params": 677122,
+    "architecture": "4 GATv2 layers, Residuals, No JK. Graph built on-the-fly with k=4.",
+    "description": "Testing the impact of increased graph density (k=4 vs k=2) on standard GATv2 performance.",
+    "metrics": {
+      "status": "Training (Restarted with BS=128)"
+    },
+    "epochs": 2000,
+    "path": "2026-04-04_gat_k4_on_the_fly",
+    "input_features": 21,
+    "cheating_tres": false
+  }
+  },
+  {
+    "id": "GATv2_20260415_FC_SECOND_4L",
+    "date": "2026-04-15",
+    "name": "Fully Connected Second Layer GATv2",
+    "params": 677122,
+    "architecture": "4 GATv2 layers. Layer 2 uses a complete graph (all-to-all). Residuals, No JK",
+    "description": "Experiment using global attention mechanism in the second layer to aggregate event-wide information early.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9524},
+      "final": {"val_loss": 0.0268, "val_precision": 0.9318, "val_recall": 0.9177, "val_p_at_r09": 0.9449}
+    },
+    "epochs": 1000,
+    "path": "2026-04-15_gat_fc_second_layer",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260415_FC_SECOND_JK_4L",
+    "date": "2026-04-15",
+    "name": "Fully Connected Second Layer + JK",
+    "params": 808194,
+    "architecture": "4 GATv2 layers. Layer 2 complete graph. Jumping Knowledge concat (Layer 2 + Layer 4).",
+    "description": "Combines global attention in the second layer with JK to bypass oversmoothing in subsequent local layers.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9486},
+      "final": {"val_loss": 0.0267, "val_precision": 0.9163, "val_recall": 0.9325, "val_p_at_r09": 0.9437}
+    },
+    "epochs": 1000,
+    "path": "2026-04-15_gat_fc_second_layer_jk",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260416_FC_LAST_K4",
+    "date": "2026-04-16",
+    "name": "Fully Connected Last Layer (k=4)",
+    "params": 677122,
+    "architecture": "4 GATv2 layers. Layer 4 uses complete graph. Local graphs built on-the-fly with k=4.",
+    "description": "Replicating the best performing architecture (FC on last layer) but increasing local graph density to k=4.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9575},
+      "final": {"val_loss": 0.0251, "val_precision": 0.9225, "val_recall": 0.9353, "val_p_at_r09": 0.9474}
+    },
+    "epochs": 1000,
+    "path": "2026-04-15_gat_fc_last_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_DYNAMIC_K2",
+    "date": "2026-04-19",
+    "name": "Dynamic Edge Rewiring (k=2)",
+    "params": 718338,
+    "architecture": "4 GATv2 layers. Dynamic rewiring before the last layer using Q @ K^T. Alpha=0.1.",
+    "description": "Uses metric learning via Q and K projections to dynamically delete worst edges and add best edges in the event.",
+    "metrics": {
+      "status": "Training"
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_dynamic_edges_k2",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_DYNAMIC_INPUT",
+    "date": "2026-04-19",
+    "name": "Dynamic Input Edge Rewiring",
+    "params": 688194,
+    "architecture": "4 GATv2 layers. Input graph rewired dynamically on raw features (from epoch 2). Layer 4 complete graph.",
+    "description": "Tests metric learning on raw features to dynamically restructure local neighborhood graphs while keeping the final layer fully connected.",
+    "metrics": {
+      "status": "Training"
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_dynamic_input_k2",
     "input_features": 21,
     "cheating_tres": false
   }

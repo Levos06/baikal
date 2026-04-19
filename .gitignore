@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .gemini/
+.cursor/
 venv/
 data_processed/
 **/checkpoints/
@@ -9,3 +10,8 @@ data_processed/
 data_processed_100k/
 data_processed_50k/
 data_processed_50k_v2/
+*.h5
+
+# Large runtime logs (local only)
+logs/highres_gpu_debug.csv
+marathon_gpu.csv
