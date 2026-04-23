@@ -471,7 +471,8 @@
     "architecture": "4 GATv2 layers. Dynamic rewiring before the last layer using Q @ K^T. Alpha=0.1.",
     "description": "Uses metric learning via Q and K projections to dynamically delete worst edges and add best edges in the event.",
     "metrics": {
-      "status": "Training"
+      "best": {"val_p_at_r09": 0.8952},
+      "final": {"val_loss": 0.0387, "val_precision": 0.9088, "val_recall": 0.8794, "val_p_at_r09": 0.8813}
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_dynamic_edges_k2",
@@ -486,10 +487,183 @@
     "architecture": "4 GATv2 layers. Input graph rewired dynamically on raw features (from epoch 2). Layer 4 complete graph.",
     "description": "Tests metric learning on raw features to dynamically restructure local neighborhood graphs while keeping the final layer fully connected.",
     "metrics": {
-      "status": "Training"
+      "best": {"val_p_at_r09": 0.9535},
+      "final": {"val_loss": 0.0265, "val_precision": 0.9187, "val_recall": 0.9361, "val_p_at_r09": 0.9438}
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_dynamic_input_k2",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_DIFF_WEIGHTS",
+    "date": "2026-04-19",
+    "name": "Differentiable Rewiring: Edge Weights",
+    "params": 688194,
+    "architecture": "4 GATv2 layers. Input graph rewired dynamically. edge_weight = sigmoid(S).",
+    "description": "Experiment 1: Gradient flows through edge_attr using sigmoid of Q@K^T similarity.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9536},
+      "final": {"val_loss": 0.0258, "val_precision": 0.9135, "val_recall": 0.9384, "val_p_at_r09": 0.9452}
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_differentiable_rewiring",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_DIFF_STE",
+    "date": "2026-04-19",
+    "name": "Differentiable Rewiring: STE",
+    "params": 688194,
+    "architecture": "4 GATv2 layers. Input graph rewired dynamically. Straight-Through Estimator.",
+    "description": "Experiment 2: Forward pass uses hard edges (1.0). Backward pass flows through soft similarity.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9570},
+      "final": {"val_loss": 0.0252, "val_precision": 0.9376, "val_recall": 0.9244, "val_p_at_r09": 0.9523}
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_differentiable_rewiring",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_DIFF_GUMBEL",
+    "date": "2026-04-19",
+    "name": "Differentiable Rewiring: Gumbel-Softmax",
+    "params": 688194,
+    "architecture": "4 GATv2 layers. Input graph rewired dynamically with Gumbel noise and temperature annealing.",
+    "description": "Experiment 3: Stochastic rewiring with Gumbel noise. Temperature decays from 5.0 to 0.1.",
+    "metrics": {
+      "status": "Failed (Hung)"
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_differentiable_rewiring",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_CUSTOM_WEIGHTS",
+    "date": "2026-04-19",
+    "name": "Custom GATv2: Edge Weights",
+    "params": 688194,
+    "architecture": "4 Custom GATv2 layers (first 3). e_ij = a^T LeakyReLU(W[hi||hj]) + W_ij. W_ij = S_ij.",
+    "description": "Experiment 1: Custom GATv2Conv with direct scalar addition to attention logits. Uses raw Q@K^T similarity.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9518},
+      "final": {"val_loss": 0.0260, "val_precision": 0.9308, "val_recall": 0.9226, "val_p_at_r09": 0.9453}
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_custom_rewiring",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_CUSTOM_STE",
+    "date": "2026-04-19",
+    "name": "Custom GATv2: STE",
+    "params": 688194,
+    "architecture": "4 Custom GATv2 layers (first 3). e_ij = a^T LeakyReLU(W[hi||hj]) + W_ij. W_ij = (0-soft)+soft.",
+    "description": "Experiment 2: Forward pass W_ij = 0 (standard GAT). Backward pass gradients flow through soft similarity.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9544},
+      "final": {"val_loss": 0.0252, "val_precision": 0.9249, "val_recall": 0.9335, "val_p_at_r09": 0.9468}
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_custom_rewiring",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260419_CUSTOM_GUMBEL",
+    "date": "2026-04-19",
+    "name": "Custom GATv2: Gumbel-Softmax",
+    "params": 688194,
+    "architecture": "4 Custom GATv2 layers (first 3). e_ij = a^T LeakyReLU(W[hi||hj]) + W_ij. W_ij = S_noisy / tau.",
+    "description": "Experiment 3: Stochastic rewiring with Gumbel noise. W_ij directly scales attention logits. Temperature decays 5.0 -> 0.1.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9460},
+      "final": {"val_loss": 0.0278, "val_precision": 0.9194, "val_recall": 0.9198, "val_p_at_r09": 0.9371}
+    },
+    "epochs": 1000,
+    "path": "2026-04-19_gat_custom_rewiring",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260421_AUXILIARY",
+    "date": "2026-04-21",
+    "name": "GATv2 Auxiliary Task Rewiring",
+    "params": 688194,
+    "architecture": "4 GATv2 layers. Input features used for Q and K projections. Hard top-k rewiring. Auxiliary BCE Loss on S=QK^T.",
+    "description": "Explicitly trains Q and K to cluster signal hits. Target for S_ij is y_i * y_j. lambda=1.0.",
+    "metrics": {
+      "status": "Training"
+    },
+    "epochs": 1000,
+    "path": "2026-04-21_gat_auxiliary_task",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260421_AUXILIARY_V2",
+    "date": "2026-04-21",
+    "name": "GATv2 Auxiliary Task V2 (Similarity)",
+    "params": 688194,
+    "architecture": "4 GATv2 layers. Input features used for Q and K projections. Hard top-k rewiring. Auxiliary BCE Loss on S=QK^T.",
+    "description": "Explicitly trains Q and K to cluster signal-signal and noise-noise. Target for S_ij is 1 if y_i==y_j else 0. lambda=1.0.",
+    "metrics": {
+      "status": "Training"
+    },
+    "epochs": 1000,
+    "path": "2026-04-21_gat_auxiliary_task",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260422_FC_LAST_K8",
+    "date": "2026-04-22",
+    "name": "GATv2 FC-Last-Layer + k=8",
+    "params": 718338,
+    "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=8 on the fly.",
+    "description": "Scaling up k-NN graph from k=4 to k=8.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9619},
+      "final": {"val_loss": 0.0235, "val_precision": 0.9335, "val_recall": 0.9328, "val_p_at_r09": 0.9558}
+    },
+    "epochs": 1000,
+    "path": "2026-04-22_gat_fc_last_k_scaling",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260422_FC_LAST_K12",
+    "date": "2026-04-22",
+    "name": "GATv2 FC-Last-Layer + k=12",
+    "params": 718338,
+    "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=12 on the fly.",
+    "description": "Scaling up k-NN graph from k=4 to k=12.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9623},
+      "final": {"val_loss": 0.0226, "val_precision": 0.9389, "val_recall": 0.9324, "val_p_at_r09": 0.9574}
+    },
+    "epochs": 1000,
+    "path": "2026-04-22_gat_fc_last_k_scaling",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260423_FC_LAST_K16",
+    "date": "2026-04-23",
+    "name": "GATv2 FC-Last-Layer + k=16",
+    "params": 718338,
+    "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=16 on the fly.",
+    "description": "Scaling up k-NN graph from k=12 to k=16.",
+    "metrics": {
+      "status": "Training"
+    },
+    "epochs": 1000,
+    "path": "2026-04-22_gat_fc_last_k_scaling",
     "input_features": 21,
     "cheating_tres": false
   }
