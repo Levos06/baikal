@@ -660,10 +660,27 @@
     "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=16 on the fly.",
     "description": "Scaling up k-NN graph from k=12 to k=16.",
     "metrics": {
-      "status": "Training"
+      "best": {"val_p_at_r09": 0.9622},
+      "final": {"val_loss": 0.0243, "val_precision": 0.9302, "val_recall": 0.9371, "val_p_at_r09": 0.9554}
     },
     "epochs": 1000,
     "path": "2026-04-22_gat_fc_last_k_scaling",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260423_COS_SIM_BETA07",
+    "date": "2026-04-23",
+    "name": "GATv2 CosSim beta=0.7",
+    "params": 718338,
+    "architecture": "4 GATv2 layers. Base k=1 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
+    "description": "Dynamic graph rewiring using explicit cosine similarity. Replaces previous learnable attention edges.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9590},
+      "final": {"val_loss": 0.0244, "val_precision": 0.9387, "val_recall": 0.9226, "val_p_at_r09": 0.9527}
+    },
+    "epochs": 1000,
+    "path": "2026-04-23_gat_cos_sim_beta07",
     "input_features": 21,
     "cheating_tres": false
   }
