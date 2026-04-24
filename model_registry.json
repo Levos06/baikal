@@ -683,5 +683,20 @@
     "path": "2026-04-23_gat_cos_sim_beta07",
     "input_features": 21,
     "cheating_tres": false
+  },
+  {
+    "id": "GATv2_20260424_COS_SIM_BETA07_K4",
+    "date": "2026-04-24",
+    "name": "GATv2 CosSim beta=0.7 + k=4",
+    "params": 718338,
+    "architecture": "4 GATv2 layers. Base k=4 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
+    "description": "Dynamic graph rewiring using explicit cosine similarity on top of a denser k=4 base graph.",
+    "metrics": {
+      "status": "Training"
+    },
+    "epochs": 1000,
+    "path": "2026-04-24_gat_cos_sim_beta07_k4",
+    "input_features": 21,
+    "cheating_tres": false
   }
 ]
