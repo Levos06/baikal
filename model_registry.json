@@ -692,7 +692,8 @@
     "architecture": "4 GATv2 layers. Base k=4 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
     "description": "Dynamic graph rewiring using explicit cosine similarity on top of a denser k=4 base graph.",
     "metrics": {
-      "status": "Training"
+      "best": {"val_p_at_r09": 0.9588},
+      "final": {"val_loss": 0.0236, "val_precision": 0.9341, "val_recall": 0.9345, "val_p_at_r09": 0.9572}
     },
     "epochs": 1000,
     "path": "2026-04-24_gat_cos_sim_beta07_k4",
