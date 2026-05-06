@@ -699,5 +699,21 @@
     "path": "2026-04-24_gat_cos_sim_beta07_k4",
     "input_features": 21,
     "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260505_GENERAL_K4",
+    "date": "2026-05-06",
+    "name": "General MPNN (Mean Aggr) + k=4",
+    "params": 527362,
+    "architecture": "4 General MPNN layers (MLP message/update). Base k=4 KNN. Layer 4 fully connected.",
+    "description": "Replaced GATv2 with custom General MPNN layers using mean aggregation and MLPs for message and update functions.",
+    "metrics": {
+      "best": {"val_p_at_r09": 0.9705},
+      "final": {"val_loss": 0.0207, "val_precision": 0.9411, "val_recall": 0.9449, "val_p_at_r09": 0.9671}
+    },
+    "epochs": 1000,
+    "path": "2026-05-05_general_mpnn_k4",
+    "input_features": 21,
+    "cheating_tres": false
   }
 ]
