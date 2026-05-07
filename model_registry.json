@@ -455,7 +455,7 @@
     "architecture": "4 GATv2 layers. Layer 4 uses complete graph. Local graphs built on-the-fly with k=4.",
     "description": "Replicating the best performing architecture (FC on last layer) but increasing local graph density to k=4.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9575},
+      "best": {"val_p_at_r09": 0.9575, "val_p_at_r095": 0.9116},
       "final": {"val_loss": 0.0251, "val_precision": 0.9225, "val_recall": 0.9353, "val_p_at_r09": 0.9474}
     },
     "epochs": 1000,
@@ -660,7 +660,7 @@
     "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=16 on the fly.",
     "description": "Scaling up k-NN graph from k=12 to k=16.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9622},
+      "best": {"val_p_at_r09": 0.9622, "val_p_at_r095": 0.9146},
       "final": {"val_loss": 0.0243, "val_precision": 0.9302, "val_recall": 0.9371, "val_p_at_r09": 0.9554}
     },
     "epochs": 1000,
@@ -676,7 +676,7 @@
     "architecture": "4 GATv2 layers. Base k=1 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
     "description": "Dynamic graph rewiring using explicit cosine similarity. Replaces previous learnable attention edges.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9590},
+      "best": {"val_p_at_r09": 0.9590, "val_p_at_r095": 0.9124},
       "final": {"val_loss": 0.0244, "val_precision": 0.9387, "val_recall": 0.9226, "val_p_at_r09": 0.9527}
     },
     "epochs": 1000,
@@ -692,7 +692,7 @@
     "architecture": "4 GATv2 layers. Base k=4 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
     "description": "Dynamic graph rewiring using explicit cosine similarity on top of a denser k=4 base graph.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9588},
+      "best": {"val_p_at_r09": 0.9588, "val_p_at_r095": 0.9143},
       "final": {"val_loss": 0.0236, "val_precision": 0.9341, "val_recall": 0.9345, "val_p_at_r09": 0.9572}
     },
     "epochs": 1000,
@@ -708,7 +708,7 @@
     "architecture": "4 General MPNN layers (MLP message/update). Base k=4 KNN. Layer 4 fully connected.",
     "description": "Replaced GATv2 with custom General MPNN layers using mean aggregation and MLPs for message and update functions.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9705},
+      "best": {"val_p_at_r09": 0.9705, "val_p_at_r095": 0.9383},
       "final": {"val_loss": 0.0207, "val_precision": 0.9411, "val_recall": 0.9449, "val_p_at_r09": 0.9671}
     },
     "epochs": 1000,
