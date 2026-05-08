@@ -715,5 +715,21 @@
     "path": "2026-05-05_general_mpnn_k4",
     "input_features": 21,
     "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260507_COSSIM_BETA07_K4",
+    "date": "2026-05-08",
+    "name": "General MPNN CosSim beta=0.7 + k=4",
+    "params": 527362,
+    "architecture": "4 General MPNN layers. Base k=4 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
+    "description": "Combined General MPNN with dynamic cosine similarity rewiring.",
+    "metrics": {
+      "best": {"val_p_at_r095": 0.9364},
+      "final": {"val_loss": 0.0218, "val_precision": 0.9456, "val_recall": 0.9307, "val_p_at_r095": 0.9234}
+    },
+    "epochs": 1000,
+    "path": "2026-05-07_general_mpnn_cos_sim_beta07_k4",
+    "input_features": 21,
+    "cheating_tres": false
   }
 ]
