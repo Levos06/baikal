@@ -731,5 +731,21 @@
     "path": "2026-05-07_general_mpnn_cos_sim_beta07_k4",
     "input_features": 21,
     "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260508_COSSIM_TOP8_K4",
+    "date": "2026-05-08",
+    "name": "General MPNN CosSim Top-8 + k=4",
+    "params": 527362,
+    "architecture": "4 General MPNN layers. Base k=4 temporal graph. Layers 2 & 3 add top-8 cosine-similarity neighbors per node (no fixed threshold). Layer 4 fully connected.",
+    "description": "Dynamic edges by top-k cosine similarity on hidden states instead of cosine > 0.7.",
+    "metrics": {
+      "best": {"val_p_at_r095": 0.9337},
+      "final": {"val_loss": 0.0217, "val_precision": 0.9360, "val_recall": 0.9396, "val_p_at_r095": 0.9228}
+    },
+    "epochs": 1000,
+    "path": "2026-05-08_general_mpnn_cos_sim_top8_k4",
+    "input_features": 21,
+    "cheating_tres": false
   }
 ]
