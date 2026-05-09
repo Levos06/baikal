@@ -7,8 +7,16 @@
     "architecture": "3 GCN layers (128 units), GELU",
     "description": "Reproduction of the initial GCN model on Baikal data.",
     "metrics": {
-      "best": {"val_loss": 0.2314, "val_precision": 0.4889, "val_recall": 0.0985},
-      "final": {"val_loss": 0.1884, "val_precision": 0.4262, "val_recall": 0.4410}
+      "best": {
+        "val_loss": 0.2314,
+        "val_precision": 0.4889,
+        "val_recall": 0.0985
+      },
+      "final": {
+        "val_loss": 0.1884,
+        "val_precision": 0.4262,
+        "val_recall": 0.441
+      }
     },
     "epochs": 15,
     "path": "2026-03-03_baikal_gcn_reproduction",
@@ -23,8 +31,16 @@
     "architecture": "3 GCN layers (128 units), GELU, No LayerNorm",
     "description": "First successful GCN training after removing LayerNorm layers. Temporal window k=2.",
     "metrics": {
-      "best": {"val_loss": 0.2071, "val_precision": 0.4980, "val_recall": 0.6853},
-      "final": {"val_loss": 0.2071, "val_precision": 0.4980, "val_recall": 0.6853}
+      "best": {
+        "val_loss": 0.2071,
+        "val_precision": 0.498,
+        "val_recall": 0.6853
+      },
+      "final": {
+        "val_loss": 0.2071,
+        "val_precision": 0.498,
+        "val_recall": 0.6853
+      }
     },
     "epochs": 15,
     "path": "2026-03-07_investigation_of_2026-02-28_results",
@@ -39,8 +55,16 @@
     "architecture": "3 GCN layers (128 units), GELU, No LayerNorm",
     "description": "Test with a wider temporal window k=4.",
     "metrics": {
-      "best": {"val_loss": 0.1612, "val_precision": 0.4716, "val_recall": 0.6183},
-      "final": {"val_loss": 0.1617, "val_precision": 0.4688, "val_recall": 0.6324}
+      "best": {
+        "val_loss": 0.1612,
+        "val_precision": 0.4716,
+        "val_recall": 0.6183
+      },
+      "final": {
+        "val_loss": 0.1617,
+        "val_precision": 0.4688,
+        "val_recall": 0.6324
+      }
     },
     "epochs": 15,
     "path": "2026-03-07_investigation_of_2026-02-28_results",
@@ -55,8 +79,18 @@
     "architecture": "3 GCN layers (512 units), GELU",
     "description": "Increased model capacity to 512 hidden units.",
     "metrics": {
-      "best": {"val_loss": 0.1283, "val_precision": 0.6600, "val_recall": 0.4490, "val_p_at_r09": 0.3537},
-      "final": {"val_loss": 0.1286, "val_precision": 0.6634, "val_recall": 0.4410, "val_p_at_r09": 0.3529}
+      "best": {
+        "val_loss": 0.1283,
+        "val_precision": 0.66,
+        "val_recall": 0.449,
+        "val_p_at_r09": 0.3537
+      },
+      "final": {
+        "val_loss": 0.1286,
+        "val_precision": 0.6634,
+        "val_recall": 0.441,
+        "val_p_at_r09": 0.3529
+      }
     },
     "epochs": 100,
     "path": "2026-03-08_capacity_expansion",
@@ -71,8 +105,18 @@
     "architecture": "4 GCN layers (512-768-512 units), GELU",
     "description": "Deeper architecture with varying hidden layer widths.",
     "metrics": {
-      "best": {"val_loss": 0.1139, "val_precision": 0.7252, "val_recall": 0.5519, "val_p_at_r09": 0.3837},
-      "final": {"val_loss": 0.1143, "val_precision": 0.7108, "val_recall": 0.5715, "val_p_at_r09": 0.3815}
+      "best": {
+        "val_loss": 0.1139,
+        "val_precision": 0.7252,
+        "val_recall": 0.5519,
+        "val_p_at_r09": 0.3837
+      },
+      "final": {
+        "val_loss": 0.1143,
+        "val_precision": 0.7108,
+        "val_recall": 0.5715,
+        "val_p_at_r09": 0.3815
+      }
     },
     "epochs": 800,
     "path": "2026-03-08_deep_wide_model",
@@ -87,8 +131,14 @@
     "architecture": "4 GCN layers (512-768-512 units), GELU",
     "description": "First experiment with extended features including t_res, R, Phi, and Degree.",
     "metrics": {
-      "best": {"val_loss": 0.1050, "val_p_at_r09": 0.4536},
-      "final": {"val_loss": 0.1050, "val_p_at_r09": 0.4530}
+      "best": {
+        "val_loss": 0.105,
+        "val_p_at_r09": 0.4536
+      },
+      "final": {
+        "val_loss": 0.105,
+        "val_p_at_r09": 0.453
+      }
     },
     "epochs": 300,
     "path": "2026-03-11_extended_features",
@@ -103,8 +153,14 @@
     "architecture": "4 GCN layers (512-768-512 units), GELU",
     "description": "Isolating the effect of the t_res feature.",
     "metrics": {
-      "best": {"val_loss": 0.1068, "val_p_at_r09": 0.4473},
-      "final": {"val_loss": 0.1077, "val_p_at_r09": 0.4432}
+      "best": {
+        "val_loss": 0.1068,
+        "val_p_at_r09": 0.4473
+      },
+      "final": {
+        "val_loss": 0.1077,
+        "val_p_at_r09": 0.4432
+      }
     },
     "epochs": 300,
     "path": "2026-03-11_tres_feature",
@@ -119,8 +175,14 @@
     "architecture": "4 GCN layers (512-768-512 units), GELU",
     "description": "Extended 13-feature set including ToF residuals and neighborhood charge.",
     "metrics": {
-      "best": {"val_loss": 0.1008, "val_p_at_r09": 0.4731},
-      "final": {"val_loss": 0.1009, "val_p_at_r09": 0.4719}
+      "best": {
+        "val_loss": 0.1008,
+        "val_p_at_r09": 0.4731
+      },
+      "final": {
+        "val_loss": 0.1009,
+        "val_p_at_r09": 0.4719
+      }
     },
     "epochs": 300,
     "path": "2026-03-12_12_features",
@@ -135,8 +197,14 @@
     "architecture": "4 GCN layers (512-768-512 units), GELU, Causal Topology",
     "description": "Experiment with causal graph topology instead of k-neighbors.",
     "metrics": {
-      "best": {"val_loss": 0.2398, "val_p_at_r09": 0.0813},
-      "final": {"val_loss": 0.2398, "val_p_at_r09": 0.0813}
+      "best": {
+        "val_loss": 0.2398,
+        "val_p_at_r09": 0.0813
+      },
+      "final": {
+        "val_loss": 0.2398,
+        "val_p_at_r09": 0.0813
+      }
     },
     "epochs": 300,
     "path": "2026-03-12_causal_graph",
@@ -147,12 +215,18 @@
     "id": "CNN_20260314_BASELINE",
     "date": "2026-03-14",
     "name": "1D-CNN Baseline",
-    "params": 328706,
+    "params": 264834,
     "architecture": "1D CNN (128-256-128 channels), GELU",
     "description": "Baseline 1D convolution model on hit sequences.",
     "metrics": {
-      "best": {"val_loss": 0.0539, "val_p_at_r09": 0.7759},
-      "final": {"val_loss": 0.0553, "val_p_at_r09": 0.7706}
+      "best": {
+        "val_loss": 0.0539,
+        "val_p_at_r09": 0.7759
+      },
+      "final": {
+        "val_loss": 0.0553,
+        "val_p_at_r09": 0.7706
+      }
     },
     "epochs": 20,
     "path": "2026-03-14_cnn_baseline",
@@ -167,8 +241,14 @@
     "architecture": "MLP (512-768-512 units), GELU",
     "description": "Baseline MLP model using 13 features including t_res.",
     "metrics": {
-      "best": {"val_loss": 0.0286, "val_p_at_r09": 0.9425},
-      "final": {"val_loss": 0.0305, "val_p_at_r09": 0.9304}
+      "best": {
+        "val_loss": 0.0286,
+        "val_p_at_r09": 0.9425
+      },
+      "final": {
+        "val_loss": 0.0305,
+        "val_p_at_r09": 0.9304
+      }
     },
     "epochs": 3,
     "path": "2026-03-14_mlp_baseline",
@@ -179,12 +259,18 @@
     "id": "GCN_20260315_K2_5L",
     "date": "2026-03-15",
     "name": "GCN 5-Layer k=2",
-    "params": 543106,
+    "params": 4206594,
     "architecture": "5 GCN layers (128-512-512-512-128 units), GELU",
     "description": "Back to basics GCN with 5 layers and k=2.",
     "metrics": {
-      "best": {"val_loss": 0.1961, "val_p_at_r09": 0.5346},
-      "final": {"val_loss": 0.2051, "val_p_at_r09": 0.5316}
+      "best": {
+        "val_loss": 0.1961,
+        "val_p_at_r09": 0.5346
+      },
+      "final": {
+        "val_loss": 0.2051,
+        "val_p_at_r09": 0.5316
+      }
     },
     "epochs": 150,
     "path": "2026-03-15_gcn_k2_back_to_basics",
@@ -199,8 +285,14 @@
     "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
     "description": "Optimized GCN with 13 features and complex architecture, 1500 epochs.",
     "metrics": {
-      "best": {"val_loss": 0.0365, "val_p_at_r09": 0.9029},
-      "final": {"val_loss": 0.0368, "val_p_at_r09": 0.9005}
+      "best": {
+        "val_loss": 0.0365,
+        "val_p_at_r09": 0.9029
+      },
+      "final": {
+        "val_loss": 0.0368,
+        "val_p_at_r09": 0.9005
+      }
     },
     "epochs": 1500,
     "path": "2026-03-27_full_mlp_optimized_1500ep",
@@ -215,8 +307,12 @@
     "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
     "description": "The best performing GCN model with 21 features and extensive training.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9311},
-      "final": {"val_p_at_r09": 0.9243}
+      "best": {
+        "val_p_at_r09": 0.9311
+      },
+      "final": {
+        "val_p_at_r09": 0.9243
+      }
     },
     "epochs": 2500,
     "path": "2026-03-28_extended_21features",
@@ -227,12 +323,16 @@
     "id": "JKResGATv2_20260331_MARATHON",
     "date": "2026-03-31",
     "name": "GATv2 Marathon",
-    "params": 4237826,
+    "params": 4763138,
     "architecture": "4 GATv2 layers (4 heads, 128 channels each), JK + Res",
     "description": "Long-running GATv2 experiment with dynamic attention.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9276},
-      "final": {"val_p_at_r09": 0.9212}
+      "best": {
+        "val_p_at_r09": 0.9276
+      },
+      "final": {
+        "val_p_at_r09": 0.9212
+      }
     },
     "epochs": 788,
     "path": "2026-03-31_gat_marathon",
@@ -247,8 +347,12 @@
     "architecture": "6 GATv2 layers (4 heads, 64 channels each), JK + Res",
     "description": "Comparison experiment focusing on depth.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9238},
-      "final": {"val_p_at_r09": 0.9175}
+      "best": {
+        "val_p_at_r09": 0.9238
+      },
+      "final": {
+        "val_p_at_r09": 0.9175
+      }
     },
     "epochs": 1000,
     "path": "2026-03-31_gat_comparison",
@@ -263,8 +367,12 @@
     "architecture": "3 GATv2 layers (8 heads, 128 channels each), JK + Res",
     "description": "Comparison experiment focusing on width.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9005},
-      "final": {"val_p_at_r09": 0.8888}
+      "best": {
+        "val_p_at_r09": 0.9005
+      },
+      "final": {
+        "val_p_at_r09": 0.8888
+      }
     },
     "epochs": 1000,
     "path": "2026-03-31_gat_comparison",
@@ -279,8 +387,12 @@
     "architecture": "4 GATv2 layers (4 heads, 64 channels each), Residuals, No JK",
     "description": "Study on the impact of Residual connections in GAT.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9049},
-      "final": {"val_p_at_r09": 0.9049}
+      "best": {
+        "val_p_at_r09": 0.9049
+      },
+      "final": {
+        "val_p_at_r09": 0.9049
+      }
     },
     "epochs": 1000,
     "path": "2026-04-01_gat_baselines_res_study",
@@ -295,8 +407,12 @@
     "architecture": "4 GATv2 layers (4 heads, 64 channels each), No Residuals, No JK",
     "description": "Study on the impact of Residual connections in GAT (control group).",
     "metrics": {
-      "best": {"val_p_at_r09": 0.8622},
-      "final": {"val_p_at_r09": 0.8622}
+      "best": {
+        "val_p_at_r09": 0.8622
+      },
+      "final": {
+        "val_p_at_r09": 0.8622
+      }
     },
     "epochs": 1000,
     "path": "2026-04-01_gat_baselines_res_study",
@@ -311,8 +427,12 @@
     "architecture": "4 GATv1 layers (4 heads, 64 channels each), Residuals, No JK",
     "description": "Mechanism study: testing GATv1 attention.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.8923},
-      "final": {"val_p_at_r09": 0.8827}
+      "best": {
+        "val_p_at_r09": 0.8923
+      },
+      "final": {
+        "val_p_at_r09": 0.8827
+      }
     },
     "epochs": 1000,
     "path": "2026-04-02_gat_mechanisms_study",
@@ -327,8 +447,12 @@
     "architecture": "4 GATv2 layers (4 heads, 64 channels each), Residuals, No JK",
     "description": "Mechanism study: testing GATv2 attention.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9021},
-      "final": {"val_p_at_r09": 0.8953}
+      "best": {
+        "val_p_at_r09": 0.9021
+      },
+      "final": {
+        "val_p_at_r09": 0.8953
+      }
     },
     "epochs": 1000,
     "path": "2026-04-02_gat_mechanisms_study",
@@ -343,8 +467,14 @@
     "architecture": "5 GCN layers with Jumping Knowledge and Residuals, GELU",
     "description": "Base model for optimized training marathon, uses 13 features.",
     "metrics": {
-      "best": {"val_loss": 0.0351, "val_p_at_r09": 0.8976},
-      "final": {"val_loss": 0.0351, "val_p_at_r09": 0.8976}
+      "best": {
+        "val_loss": 0.0351,
+        "val_p_at_r09": 0.8976
+      },
+      "final": {
+        "val_loss": 0.0351,
+        "val_p_at_r09": 0.8976
+      }
     },
     "epochs": 1000,
     "path": "2026-03-25_full_mlp_training_1000ep",
@@ -355,12 +485,18 @@
     "id": "JKResGCN_20260325_LEARNABLE_C",
     "date": "2026-03-25",
     "name": "Learnable C_Water GCN",
-    "params": 5001218,
+    "params": 5001219,
     "architecture": "5 GCN layers with JK and Residuals, Learnable Parameter for C_Water",
     "description": "Used to discover the optimal effective speed of light in water (0.2264 m/ns).",
     "metrics": {
-      "best": {"val_loss": 0.0350, "val_p_at_r09": 0.8989},
-      "final": {"val_loss": 0.0350, "val_p_at_r09": 0.8989}
+      "best": {
+        "val_loss": 0.035,
+        "val_p_at_r09": 0.8989
+      },
+      "final": {
+        "val_loss": 0.035,
+        "val_p_at_r09": 0.8989
+      }
     },
     "epochs": 1000,
     "path": "2026-03-25_learnable_c_water",
@@ -375,8 +511,15 @@
     "architecture": "4 GATv2 layers (Layer 4: 1536 channels), Residuals, No JK",
     "description": "Testing if a wide last layer can substitute for JK.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9097},
-      "final": {"val_loss": 0.0347, "val_precision": 0.9255, "val_recall": 0.8843, "val_p_at_r09": 0.9097}
+      "best": {
+        "val_p_at_r09": 0.9097
+      },
+      "final": {
+        "val_loss": 0.0347,
+        "val_precision": 0.9255,
+        "val_recall": 0.8843,
+        "val_p_at_r09": 0.9097
+      }
     },
     "epochs": 1000,
     "path": "2026-04-03_gat_wide_last_layer",
@@ -391,8 +534,15 @@
     "architecture": "4 GATv2 layers. Layer 4 uses a complete graph (all-to-all). Residuals, No JK",
     "description": "Experiment using global attention mechanism in the final layer to aggregate event-wide information.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9528},
-      "final": {"val_loss": 0.0251, "val_precision": 0.9324, "val_recall": 0.9213, "val_p_at_r09": 0.9479}
+      "best": {
+        "val_p_at_r09": 0.9528
+      },
+      "final": {
+        "val_loss": 0.0251,
+        "val_precision": 0.9324,
+        "val_recall": 0.9213,
+        "val_p_at_r09": 0.9479
+      }
     },
     "epochs": 1000,
     "path": "2026-04-03_gat_fully_connected_last_layer",
@@ -413,7 +563,6 @@
     "path": "2026-04-04_gat_k4_on_the_fly",
     "input_features": 21,
     "cheating_tres": false
-  }
   },
   {
     "id": "GATv2_20260415_FC_SECOND_4L",
@@ -423,8 +572,15 @@
     "architecture": "4 GATv2 layers. Layer 2 uses a complete graph (all-to-all). Residuals, No JK",
     "description": "Experiment using global attention mechanism in the second layer to aggregate event-wide information early.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9524},
-      "final": {"val_loss": 0.0268, "val_precision": 0.9318, "val_recall": 0.9177, "val_p_at_r09": 0.9449}
+      "best": {
+        "val_p_at_r09": 0.9524
+      },
+      "final": {
+        "val_loss": 0.0268,
+        "val_precision": 0.9318,
+        "val_recall": 0.9177,
+        "val_p_at_r09": 0.9449
+      }
     },
     "epochs": 1000,
     "path": "2026-04-15_gat_fc_second_layer",
@@ -439,8 +595,15 @@
     "architecture": "4 GATv2 layers. Layer 2 complete graph. Jumping Knowledge concat (Layer 2 + Layer 4).",
     "description": "Combines global attention in the second layer with JK to bypass oversmoothing in subsequent local layers.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9486},
-      "final": {"val_loss": 0.0267, "val_precision": 0.9163, "val_recall": 0.9325, "val_p_at_r09": 0.9437}
+      "best": {
+        "val_p_at_r09": 0.9486
+      },
+      "final": {
+        "val_loss": 0.0267,
+        "val_precision": 0.9163,
+        "val_recall": 0.9325,
+        "val_p_at_r09": 0.9437
+      }
     },
     "epochs": 1000,
     "path": "2026-04-15_gat_fc_second_layer_jk",
@@ -455,8 +618,16 @@
     "architecture": "4 GATv2 layers. Layer 4 uses complete graph. Local graphs built on-the-fly with k=4.",
     "description": "Replicating the best performing architecture (FC on last layer) but increasing local graph density to k=4.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9575, "val_p_at_r095": 0.9116},
-      "final": {"val_loss": 0.0251, "val_precision": 0.9225, "val_recall": 0.9353, "val_p_at_r09": 0.9474}
+      "best": {
+        "val_p_at_r09": 0.9575,
+        "val_p_at_r095": 0.9116
+      },
+      "final": {
+        "val_loss": 0.0251,
+        "val_precision": 0.9225,
+        "val_recall": 0.9353,
+        "val_p_at_r09": 0.9474
+      }
     },
     "epochs": 1000,
     "path": "2026-04-15_gat_fc_last_k4",
@@ -467,12 +638,19 @@
     "id": "GATv2_20260419_DYNAMIC_K2",
     "date": "2026-04-19",
     "name": "Dynamic Edge Rewiring (k=2)",
-    "params": 718338,
+    "params": 710018,
     "architecture": "4 GATv2 layers. Dynamic rewiring before the last layer using Q @ K^T. Alpha=0.1.",
     "description": "Uses metric learning via Q and K projections to dynamically delete worst edges and add best edges in the event.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.8952},
-      "final": {"val_loss": 0.0387, "val_precision": 0.9088, "val_recall": 0.8794, "val_p_at_r09": 0.8813}
+      "best": {
+        "val_p_at_r09": 0.8952
+      },
+      "final": {
+        "val_loss": 0.0387,
+        "val_precision": 0.9088,
+        "val_recall": 0.8794,
+        "val_p_at_r09": 0.8813
+      }
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_dynamic_edges_k2",
@@ -483,12 +661,19 @@
     "id": "GATv2_20260419_DYNAMIC_INPUT",
     "date": "2026-04-19",
     "name": "Dynamic Input Edge Rewiring",
-    "params": 688194,
+    "params": 679938,
     "architecture": "4 GATv2 layers. Input graph rewired dynamically on raw features (from epoch 2). Layer 4 complete graph.",
     "description": "Tests metric learning on raw features to dynamically restructure local neighborhood graphs while keeping the final layer fully connected.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9535},
-      "final": {"val_loss": 0.0265, "val_precision": 0.9187, "val_recall": 0.9361, "val_p_at_r09": 0.9438}
+      "best": {
+        "val_p_at_r09": 0.9535
+      },
+      "final": {
+        "val_loss": 0.0265,
+        "val_precision": 0.9187,
+        "val_recall": 0.9361,
+        "val_p_at_r09": 0.9438
+      }
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_dynamic_input_k2",
@@ -499,12 +684,19 @@
     "id": "GATv2_20260419_DIFF_WEIGHTS",
     "date": "2026-04-19",
     "name": "Differentiable Rewiring: Edge Weights",
-    "params": 688194,
+    "params": 680706,
     "architecture": "4 GATv2 layers. Input graph rewired dynamically. edge_weight = sigmoid(S).",
     "description": "Experiment 1: Gradient flows through edge_attr using sigmoid of Q@K^T similarity.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9536},
-      "final": {"val_loss": 0.0258, "val_precision": 0.9135, "val_recall": 0.9384, "val_p_at_r09": 0.9452}
+      "best": {
+        "val_p_at_r09": 0.9536
+      },
+      "final": {
+        "val_loss": 0.0258,
+        "val_precision": 0.9135,
+        "val_recall": 0.9384,
+        "val_p_at_r09": 0.9452
+      }
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_differentiable_rewiring",
@@ -515,12 +707,19 @@
     "id": "GATv2_20260419_DIFF_STE",
     "date": "2026-04-19",
     "name": "Differentiable Rewiring: STE",
-    "params": 688194,
+    "params": 680706,
     "architecture": "4 GATv2 layers. Input graph rewired dynamically. Straight-Through Estimator.",
     "description": "Experiment 2: Forward pass uses hard edges (1.0). Backward pass flows through soft similarity.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9570},
-      "final": {"val_loss": 0.0252, "val_precision": 0.9376, "val_recall": 0.9244, "val_p_at_r09": 0.9523}
+      "best": {
+        "val_p_at_r09": 0.957
+      },
+      "final": {
+        "val_loss": 0.0252,
+        "val_precision": 0.9376,
+        "val_recall": 0.9244,
+        "val_p_at_r09": 0.9523
+      }
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_differentiable_rewiring",
@@ -531,7 +730,7 @@
     "id": "GATv2_20260419_DIFF_GUMBEL",
     "date": "2026-04-19",
     "name": "Differentiable Rewiring: Gumbel-Softmax",
-    "params": 688194,
+    "params": 680706,
     "architecture": "4 GATv2 layers. Input graph rewired dynamically with Gumbel noise and temperature annealing.",
     "description": "Experiment 3: Stochastic rewiring with Gumbel noise. Temperature decays from 5.0 to 0.1.",
     "metrics": {
@@ -546,12 +745,19 @@
     "id": "GATv2_20260419_CUSTOM_WEIGHTS",
     "date": "2026-04-19",
     "name": "Custom GATv2: Edge Weights",
-    "params": 688194,
+    "params": 679938,
     "architecture": "4 Custom GATv2 layers (first 3). e_ij = a^T LeakyReLU(W[hi||hj]) + W_ij. W_ij = S_ij.",
     "description": "Experiment 1: Custom GATv2Conv with direct scalar addition to attention logits. Uses raw Q@K^T similarity.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9518},
-      "final": {"val_loss": 0.0260, "val_precision": 0.9308, "val_recall": 0.9226, "val_p_at_r09": 0.9453}
+      "best": {
+        "val_p_at_r09": 0.9518
+      },
+      "final": {
+        "val_loss": 0.026,
+        "val_precision": 0.9308,
+        "val_recall": 0.9226,
+        "val_p_at_r09": 0.9453
+      }
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_custom_rewiring",
@@ -562,12 +768,19 @@
     "id": "GATv2_20260419_CUSTOM_STE",
     "date": "2026-04-19",
     "name": "Custom GATv2: STE",
-    "params": 688194,
+    "params": 679938,
     "architecture": "4 Custom GATv2 layers (first 3). e_ij = a^T LeakyReLU(W[hi||hj]) + W_ij. W_ij = (0-soft)+soft.",
     "description": "Experiment 2: Forward pass W_ij = 0 (standard GAT). Backward pass gradients flow through soft similarity.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9544},
-      "final": {"val_loss": 0.0252, "val_precision": 0.9249, "val_recall": 0.9335, "val_p_at_r09": 0.9468}
+      "best": {
+        "val_p_at_r09": 0.9544
+      },
+      "final": {
+        "val_loss": 0.0252,
+        "val_precision": 0.9249,
+        "val_recall": 0.9335,
+        "val_p_at_r09": 0.9468
+      }
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_custom_rewiring",
@@ -578,12 +791,19 @@
     "id": "GATv2_20260419_CUSTOM_GUMBEL",
     "date": "2026-04-19",
     "name": "Custom GATv2: Gumbel-Softmax",
-    "params": 688194,
+    "params": 679938,
     "architecture": "4 Custom GATv2 layers (first 3). e_ij = a^T LeakyReLU(W[hi||hj]) + W_ij. W_ij = S_noisy / tau.",
     "description": "Experiment 3: Stochastic rewiring with Gumbel noise. W_ij directly scales attention logits. Temperature decays 5.0 -> 0.1.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9460},
-      "final": {"val_loss": 0.0278, "val_precision": 0.9194, "val_recall": 0.9198, "val_p_at_r09": 0.9371}
+      "best": {
+        "val_p_at_r09": 0.946
+      },
+      "final": {
+        "val_loss": 0.0278,
+        "val_precision": 0.9194,
+        "val_recall": 0.9198,
+        "val_p_at_r09": 0.9371
+      }
     },
     "epochs": 1000,
     "path": "2026-04-19_gat_custom_rewiring",
@@ -594,7 +814,7 @@
     "id": "GATv2_20260421_AUXILIARY",
     "date": "2026-04-21",
     "name": "GATv2 Auxiliary Task Rewiring",
-    "params": 688194,
+    "params": 679938,
     "architecture": "4 GATv2 layers. Input features used for Q and K projections. Hard top-k rewiring. Auxiliary BCE Loss on S=QK^T.",
     "description": "Explicitly trains Q and K to cluster signal hits. Target for S_ij is y_i * y_j. lambda=1.0.",
     "metrics": {
@@ -609,7 +829,7 @@
     "id": "GATv2_20260421_AUXILIARY_V2",
     "date": "2026-04-21",
     "name": "GATv2 Auxiliary Task V2 (Similarity)",
-    "params": 688194,
+    "params": 679938,
     "architecture": "4 GATv2 layers. Input features used for Q and K projections. Hard top-k rewiring. Auxiliary BCE Loss on S=QK^T.",
     "description": "Explicitly trains Q and K to cluster signal-signal and noise-noise. Target for S_ij is 1 if y_i==y_j else 0. lambda=1.0.",
     "metrics": {
@@ -624,12 +844,19 @@
     "id": "GATv2_20260422_FC_LAST_K8",
     "date": "2026-04-22",
     "name": "GATv2 FC-Last-Layer + k=8",
-    "params": 718338,
+    "params": 677122,
     "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=8 on the fly.",
     "description": "Scaling up k-NN graph from k=4 to k=8.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9619},
-      "final": {"val_loss": 0.0235, "val_precision": 0.9335, "val_recall": 0.9328, "val_p_at_r09": 0.9558}
+      "best": {
+        "val_p_at_r09": 0.9619
+      },
+      "final": {
+        "val_loss": 0.0235,
+        "val_precision": 0.9335,
+        "val_recall": 0.9328,
+        "val_p_at_r09": 0.9558
+      }
     },
     "epochs": 1000,
     "path": "2026-04-22_gat_fc_last_k_scaling",
@@ -640,12 +867,19 @@
     "id": "GATv2_20260422_FC_LAST_K12",
     "date": "2026-04-22",
     "name": "GATv2 FC-Last-Layer + k=12",
-    "params": 718338,
+    "params": 677122,
     "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=12 on the fly.",
     "description": "Scaling up k-NN graph from k=4 to k=12.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9623},
-      "final": {"val_loss": 0.0226, "val_precision": 0.9389, "val_recall": 0.9324, "val_p_at_r09": 0.9574}
+      "best": {
+        "val_p_at_r09": 0.9623
+      },
+      "final": {
+        "val_loss": 0.0226,
+        "val_precision": 0.9389,
+        "val_recall": 0.9324,
+        "val_p_at_r09": 0.9574
+      }
     },
     "epochs": 1000,
     "path": "2026-04-22_gat_fc_last_k_scaling",
@@ -656,12 +890,20 @@
     "id": "GATv2_20260423_FC_LAST_K16",
     "date": "2026-04-23",
     "name": "GATv2 FC-Last-Layer + k=16",
-    "params": 718338,
+    "params": 677122,
     "architecture": "4 GATv2 layers. Last layer is a fully connected graph. Initial graph k=16 on the fly.",
     "description": "Scaling up k-NN graph from k=12 to k=16.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9622, "val_p_at_r095": 0.9146},
-      "final": {"val_loss": 0.0243, "val_precision": 0.9302, "val_recall": 0.9371, "val_p_at_r09": 0.9554}
+      "best": {
+        "val_p_at_r09": 0.9622,
+        "val_p_at_r095": 0.9146
+      },
+      "final": {
+        "val_loss": 0.0243,
+        "val_precision": 0.9302,
+        "val_recall": 0.9371,
+        "val_p_at_r09": 0.9554
+      }
     },
     "epochs": 1000,
     "path": "2026-04-22_gat_fc_last_k_scaling",
@@ -672,12 +914,20 @@
     "id": "GATv2_20260423_COS_SIM_BETA07",
     "date": "2026-04-23",
     "name": "GATv2 CosSim beta=0.7",
-    "params": 718338,
+    "params": 677122,
     "architecture": "4 GATv2 layers. Base k=1 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
     "description": "Dynamic graph rewiring using explicit cosine similarity. Replaces previous learnable attention edges.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9590, "val_p_at_r095": 0.9124},
-      "final": {"val_loss": 0.0244, "val_precision": 0.9387, "val_recall": 0.9226, "val_p_at_r09": 0.9527}
+      "best": {
+        "val_p_at_r09": 0.959,
+        "val_p_at_r095": 0.9124
+      },
+      "final": {
+        "val_loss": 0.0244,
+        "val_precision": 0.9387,
+        "val_recall": 0.9226,
+        "val_p_at_r09": 0.9527
+      }
     },
     "epochs": 1000,
     "path": "2026-04-23_gat_cos_sim_beta07",
@@ -688,12 +938,20 @@
     "id": "GATv2_20260424_COS_SIM_BETA07_K4",
     "date": "2026-04-24",
     "name": "GATv2 CosSim beta=0.7 + k=4",
-    "params": 718338,
+    "params": 677122,
     "architecture": "4 GATv2 layers. Base k=4 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
     "description": "Dynamic graph rewiring using explicit cosine similarity on top of a denser k=4 base graph.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9588, "val_p_at_r095": 0.9143},
-      "final": {"val_loss": 0.0236, "val_precision": 0.9341, "val_recall": 0.9345, "val_p_at_r09": 0.9572}
+      "best": {
+        "val_p_at_r09": 0.9588,
+        "val_p_at_r095": 0.9143
+      },
+      "final": {
+        "val_loss": 0.0236,
+        "val_precision": 0.9341,
+        "val_recall": 0.9345,
+        "val_p_at_r09": 0.9572
+      }
     },
     "epochs": 1000,
     "path": "2026-04-24_gat_cos_sim_beta07_k4",
@@ -704,12 +962,20 @@
     "id": "MPNN_20260505_GENERAL_K4",
     "date": "2026-05-06",
     "name": "General MPNN (Mean Aggr) + k=4",
-    "params": 527362,
+    "params": 3072258,
     "architecture": "4 General MPNN layers (MLP message/update). Base k=4 KNN. Layer 4 fully connected.",
     "description": "Replaced GATv2 with custom General MPNN layers using mean aggregation and MLPs for message and update functions.",
     "metrics": {
-      "best": {"val_p_at_r09": 0.9705, "val_p_at_r095": 0.9383},
-      "final": {"val_loss": 0.0207, "val_precision": 0.9411, "val_recall": 0.9449, "val_p_at_r09": 0.9671}
+      "best": {
+        "val_p_at_r09": 0.9705,
+        "val_p_at_r095": 0.9383
+      },
+      "final": {
+        "val_loss": 0.0207,
+        "val_precision": 0.9411,
+        "val_recall": 0.9449,
+        "val_p_at_r09": 0.9671
+      }
     },
     "epochs": 1000,
     "path": "2026-05-05_general_mpnn_k4",
@@ -720,12 +986,19 @@
     "id": "MPNN_20260507_COSSIM_BETA07_K4",
     "date": "2026-05-08",
     "name": "General MPNN CosSim beta=0.7 + k=4",
-    "params": 527362,
+    "params": 3072258,
     "architecture": "4 General MPNN layers. Base k=4 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.7 of hidden states. Layer 4 fully connected.",
     "description": "Combined General MPNN with dynamic cosine similarity rewiring.",
     "metrics": {
-      "best": {"val_p_at_r095": 0.9364},
-      "final": {"val_loss": 0.0218, "val_precision": 0.9456, "val_recall": 0.9307, "val_p_at_r095": 0.9234}
+      "best": {
+        "val_p_at_r095": 0.9364
+      },
+      "final": {
+        "val_loss": 0.0218,
+        "val_precision": 0.9456,
+        "val_recall": 0.9307,
+        "val_p_at_r095": 0.9234
+      }
     },
     "epochs": 1000,
     "path": "2026-05-07_general_mpnn_cos_sim_beta07_k4",
@@ -736,15 +1009,74 @@
     "id": "MPNN_20260508_COSSIM_TOP8_K4",
     "date": "2026-05-08",
     "name": "General MPNN CosSim Top-8 + k=4",
-    "params": 527362,
+    "params": 3072258,
     "architecture": "4 General MPNN layers. Base k=4 temporal graph. Layers 2 & 3 add top-8 cosine-similarity neighbors per node (no fixed threshold). Layer 4 fully connected.",
     "description": "Dynamic edges by top-k cosine similarity on hidden states instead of cosine > 0.7.",
     "metrics": {
-      "best": {"val_p_at_r095": 0.9337},
-      "final": {"val_loss": 0.0217, "val_precision": 0.9360, "val_recall": 0.9396, "val_p_at_r095": 0.9228}
+      "best": {
+        "val_p_at_r095": 0.9337
+      },
+      "final": {
+        "val_loss": 0.0217,
+        "val_precision": 0.936,
+        "val_recall": 0.9396,
+        "val_p_at_r095": 0.9228
+      }
     },
     "epochs": 1000,
     "path": "2026-05-08_general_mpnn_cos_sim_top8_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260509_MASTER_VERTEX_K4",
+    "date": "2026-05-09",
+    "name": "General MPNN + master vertex + k=4",
+    "params": 3072258,
+    "architecture": "4 General MPNN layers. Base k=4 plus bidirectional star master<->hits in layers 1-3; layer 4 fully connected on hits only, master dropped.",
+    "description": "One synthetic master node per event (mean of normalized 21-d features); same message MLP as baseline General MPNN. Training batch 128.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0204,
+        "val_precision": 0.9449,
+        "val_recall": 0.9478,
+        "val_p_at_r095": 0.9431
+      },
+      "final": {
+        "val_loss": 0.0196,
+        "val_precision": 0.9445,
+        "val_recall": 0.9447,
+        "val_p_at_r095": 0.9385
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-09_mpnn_master_vertex_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260510_EDGE_GEOM_K4",
+    "date": "2026-05-10",
+    "name": "General MPNN + edge geometry (dt, dr, s2) + k=4",
+    "params": 3078402,
+    "architecture": "4 GeneralMPNNConvEdge layers: message MLP on [h_i, h_j, e_ij] with e_ij from Z-scored t,x,y,z (same 0.225 as nodes). Layers 1-3 k=4; layer 4 fully connected with same edge encoding.",
+    "description": "Explicit pair geometry on edges without removing node features. BATCH_SIZE=48 on 16GB GPU (128 OOM on FC layer).",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0211,
+        "val_precision": 0.9445,
+        "val_recall": 0.9468,
+        "val_p_at_r095": 0.9411
+      },
+      "final": {
+        "val_loss": 0.021,
+        "val_precision": 0.9434,
+        "val_recall": 0.941,
+        "val_p_at_r095": 0.9337
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-10_mpnn_edge_geom_k4",
     "input_features": 21,
     "cheating_tres": false
   }
