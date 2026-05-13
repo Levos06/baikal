@@ -1006,6 +1006,29 @@
     "cheating_tres": false
   },
   {
+    "id": "MPNN_20260511_COSSIM_BETA05_K4",
+    "date": "2026-05-12",
+    "name": "General MPNN CosSim beta=0.5 + k=4",
+    "params": 3072258,
+    "architecture": "4 General MPNN layers. Base k=4 KNN. Layers 2 & 3 dynamically add edges based on cosine similarity > 0.5 of hidden states. Layer 4 fully connected.",
+    "description": "Analog of CosSim beta=0.7 + k=4 with a lower cosine threshold (0.5) for dynamic edges on layers 2–3.",
+    "metrics": {
+      "best": {
+        "val_p_at_r095": 0.9387
+      },
+      "final": {
+        "val_loss": 0.0221,
+        "val_precision": 0.9447,
+        "val_recall": 0.9314,
+        "val_p_at_r095": 0.9252
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-11_general_mpnn_cos_sim_beta05_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
     "id": "MPNN_20260508_COSSIM_TOP8_K4",
     "date": "2026-05-08",
     "name": "General MPNN CosSim Top-8 + k=4",
@@ -1055,6 +1078,32 @@
     "cheating_tres": false
   },
   {
+    "id": "MPNN_20260513_MASTER_ATTN_TOKEN_K4",
+    "date": "2026-05-13",
+    "name": "General MPNN + learnable master token + softmax attention + k=4",
+    "params": 3116716,
+    "architecture": "4 General MPNN layers. Master node: learnable R^{21} embedding plus delta from MLP( sum_i softmax_i(q·W_k x_i / sqrt d) W_v x_i ) per event; bidirectional master<->hits star in layers 1-3. Layer 4 fully connected on hits only.",
+    "description": "Replaces mean-of-features master init with a ViT-like CLS token and attention pooling over hits; rest matches MPNN_20260509_MASTER_VERTEX_K4. ATTN_DIM=128, batch 128.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.020,
+        "val_precision": 0.9511,
+        "val_recall": 0.9388,
+        "val_p_at_r095": 0.9423
+      },
+      "final": {
+        "val_loss": 0.0207,
+        "val_precision": 0.944,
+        "val_recall": 0.9421,
+        "val_p_at_r095": 0.9363
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-13_mpnn_master_attn_token_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
     "id": "MPNN_20260510_EDGE_GEOM_K4",
     "date": "2026-05-10",
     "name": "General MPNN + edge geometry (dt, dr, s2) + k=4",
@@ -1077,6 +1126,84 @@
     },
     "epochs": 1000,
     "path": "2026-05-10_mpnn_edge_geom_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260511_MASTER_VERTEX_EDGE12_FC_K4",
+    "date": "2026-05-11",
+    "name": "General MPNN + master (all layers) + 12-D edge geom + k=4",
+    "params": 3096834,
+    "architecture": "4 GeneralMPNNConvEdge layers. Layers 1-3: k=4 + master<->hits star. Layer 4: fully connected on hits plus same master star (master not dropped). Message MLP on [h_i,h_j,e_ij] with 12-D e_ij from Z-scored t,x,y,z endpoints.",
+    "description": "Combines master vertex with rich edge geometry; FC layer keeps master in the graph. BATCH_SIZE=48. See train_mpnn_master_edge12.py for e_ij definition.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0197,
+        "val_precision": 0.951,
+        "val_recall": 0.9404,
+        "val_p_at_r095": 0.943
+      },
+      "final": {
+        "val_loss": 0.0202,
+        "val_precision": 0.9436,
+        "val_recall": 0.9424,
+        "val_p_at_r095": 0.9364
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-11_mpnn_master_vertex_edge12_fc_master_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260511_EDGE3_LEARNABLE8_K4",
+    "date": "2026-05-11",
+    "name": "General MPNN + edge (dt,dr,s2) scaled by learnable 3×8 vectors + k=4",
+    "params": 3121506,
+    "architecture": "4 message-passing layers: edge embedding is concat_k (e_k * w_k) in R^24 per edge, w_k in R^8 per layer. Raw scalars dt,dr,s2 from Z-score tzxy. Same FC last as edge_geom.",
+    "description": "Each of 3 geometric scalars multiplies its own learnable 8-D vector per layer; message MLP input 2*h+24. BATCH_SIZE=48.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0214,
+        "val_precision": 0.9325,
+        "val_recall": 0.9614,
+        "val_p_at_r095": 0.9446
+      },
+      "final": {
+        "val_loss": 0.0208,
+        "val_precision": 0.9443,
+        "val_recall": 0.9371,
+        "val_p_at_r095": 0.9298
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-11_mpnn_edge3_learnable8_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260511_EDGE3_LEARNABLE32_K4",
+    "date": "2026-05-11",
+    "name": "General MPNN + edge (dt,dr,s2) scaled by learnable 3×32 vectors + k=4",
+    "params": 3269250,
+    "architecture": "Same as edge3_learnable8 but w_k in R^32: edge message concat in R^96 per edge, per layer. FC last unchanged.",
+    "description": "Wider learnable scaling of the three geometric scalars. BATCH_SIZE=48.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0202,
+        "val_precision": 0.9369,
+        "val_recall": 0.956,
+        "val_p_at_r095": 0.9441
+      },
+      "final": {
+        "val_loss": 0.0207,
+        "val_precision": 0.9395,
+        "val_recall": 0.9461,
+        "val_p_at_r095": 0.9346
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-11_mpnn_edge3_learnable32_k4",
     "input_features": 21,
     "cheating_tres": false
   }
