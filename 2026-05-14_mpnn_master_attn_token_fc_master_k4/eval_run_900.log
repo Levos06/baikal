@@ -1,0 +1,7 @@
+ckpt: checkpoints/model_mpnn_master_attn_token_fc_master_k4_900.pt
+split: val (full), n_samples=8230545, graphs_in_dataset=100000
+mean_loss: 0.0202
+prec@0.5: 0.9380
+rec@0.5: 0.9494
+P@R0.9: 0.9676
+P@R0.95: 0.9375

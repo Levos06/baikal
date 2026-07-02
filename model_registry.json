@@ -1104,6 +1104,32 @@
     "cheating_tres": false
   },
   {
+    "id": "MPNN_20260514_MASTER_ATTN_TOKEN_FC_MASTER_K4",
+    "date": "2026-05-14",
+    "name": "General MPNN + master attn token + FC layer keeps master + k=4",
+    "params": 3116716,
+    "architecture": "Same master init as MPNN_20260513_MASTER_ATTN_TOKEN_K4. Layers 1-3: k=4 + master<->hits star. Layer 4: fully connected among hits plus bidirectional master<->hits star (master not dropped); same GeneralMPNNConv as layers 1-3. Classification head on hit nodes only.",
+    "description": "Ablation: extend attention-token master to participate in the last MPNN layer via hit FC + star, vs hits-only FC in the prior run. ATTN_DIM=128, batch 128.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0186,
+        "val_precision": 0.9423,
+        "val_recall": 0.9524,
+        "val_p_at_r095": 0.9445
+      },
+      "final": {
+        "val_loss": 0.0201,
+        "val_precision": 0.9488,
+        "val_recall": 0.941,
+        "val_p_at_r095": 0.9419
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-05-14_mpnn_master_attn_token_fc_master_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
     "id": "MPNN_20260510_EDGE_GEOM_K4",
     "date": "2026-05-10",
     "name": "General MPNN + edge geometry (dt, dr, s2) + k=4",
@@ -1204,6 +1230,162 @@
     },
     "epochs": 1000,
     "path": "2026-05-11_mpnn_edge3_learnable32_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260623_FC2_MASTER_K4",
+    "date": "2026-06-23",
+    "name": "General MPNN + attention master + FC at layer 2 (k=4)",
+    "params": 3116716,
+    "architecture": "Attention-token master on all 4 layers (same master as MPNN_20260514_MASTER_ATTN_TOKEN_FC_MASTER_K4). Graph per layer: k=4+star -> FC+star -> k=4+star -> k=4+star. Classification head on hit nodes only.",
+    "description": "Ablation: move the fully-connected layer earlier (layer 2 instead of layer 4) so hits get global context before two more local refinement steps. ATTN_DIM=128, batch 48.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0217,
+        "val_precision": 0.9398,
+        "val_recall": 0.9514,
+        "val_p_at_r095": 0.9413
+      },
+      "final": {
+        "val_loss": 0.0219,
+        "val_precision": 0.9355,
+        "val_recall": 0.9428,
+        "val_p_at_r095": 0.9297
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-06-23_mpnn_fc2_master_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260624_EDGE_LEARN8_MASTER_K4",
+    "date": "2026-06-24",
+    "name": "General MPNN + learnable edge 3x8 + attention master (k=4)",
+    "params": 3165964,
+    "architecture": "Combine learnable outer-product edge embeddings (3 scalar dt,dr,s2 x 8-D vector -> 24D, all 4 layers, as MPNN_20260511_EDGE3_LEARNABLE8_K4) with attention-token master on all 4 layers (as MPNN_20260514_MASTER_ATTN_TOKEN_FC_MASTER_K4). Graph per layer: k=4+star -> k=4+star -> k=4+star -> FC+star. edge_attr: geometry for hit-hit edges, zeros for master-star edges. Head on hit nodes only.",
+    "description": "Cross of the two best variants (edge3_learn8 best 0.9446, attn_fc_master best 0.9445); no synergy (best 0.9406). ATTN_DIM=128, EDGE_VEC_DIM=8, batch 48.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0206,
+        "val_precision": 0.9401,
+        "val_recall": 0.9503,
+        "val_p_at_r095": 0.9406
+      },
+      "final": {
+        "val_loss": 0.0202,
+        "val_precision": 0.9307,
+        "val_recall": 0.9573,
+        "val_p_at_r095": 0.9405
+      }
+    },
+    "epochs": 1000,
+    "path": "2026-06-23_mpnn_edge_learn8_master_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260629_EDGE3_LEARN8_FULL_K4",
+    "date": "2026-06-29",
+    "name": "General MPNN + learnable edge 3x8 + k=4 (full 25.6M events)",
+    "params": 3121506,
+    "architecture": "Same as MPNN_20260511_EDGE3_LEARNABLE8_K4. 4 MPNN layers: 3x k=4 + 1x FC last. Edge embedding: 3 scalars (dt,dr,s2) x learnable 8-D vectors -> 24-D per layer. No master vertex.",
+    "description": "Rerun of edge3_learn8 with TOTAL_EPOCHS=2667 to match 25.6M training events (vs 9.6M in original). BATCH_SIZE=48, VIRTUAL_EPOCH_SIZE=200.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.019,
+        "val_precision": 0.9517,
+        "val_recall": 0.9492,
+        "val_p_at_r095": 0.9509
+      },
+      "final": {
+        "val_loss": 0.0197,
+        "val_precision": 0.9356,
+        "val_recall": 0.9522,
+        "val_p_at_r095": 0.9379
+      }
+    },
+    "epochs": 2667,
+    "path": "2026-06-29_mpnn_edge3_learn8_full_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260629_MASTER_EDGE12_FULL_K4",
+    "date": "2026-06-29",
+    "name": "General MPNN + master vertex + 12-D edge geom + k=4 (full 25.6M events)",
+    "params": null,
+    "architecture": "Same as MPNN_20260511_MASTER_VERTEX_EDGE12_FC_K4. Layers 1-3: k=4 + master star. Layer 4: FC hits + master star. Edge attr: 12-D geometric (dt,dr,s2,|dt|,tof,ux,uy,uz,cos_origin,log_dr,dr_xy,|dz|). Master=mean of hits.",
+    "description": "Rerun of master_edge12 with TOTAL_EPOCHS=2667 to match 25.6M training events. New record: best V_P@R0.95=0.9558 at epoch 2660 (peak near end — model not saturated). BATCH_SIZE=48.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0179,
+        "val_precision": 0.9491,
+        "val_recall": 0.9549,
+        "val_p_at_r095": 0.9558
+      },
+      "final": {
+        "val_loss": 0.019,
+        "val_precision": 0.9389,
+        "val_recall": 0.9514,
+        "val_p_at_r095": 0.9406
+      }
+    },
+    "epochs": 2667,
+    "path": "2026-06-29_mpnn_master_edge12_full_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260629_EDGE_GEOM_FULL_K4",
+    "date": "2026-07-02",
+    "name": "General MPNN + edge geometry (dt,dr,s2) + k=4 (full 25.6M events)",
+    "params": 3078402,
+    "architecture": "Same as MPNN_20260510_EDGE_GEOM_K4. 4 message-passing layers (3x k=4 + FC last); edge message MLP sees raw geometric scalars dt, dr, s2. No master vertex.",
+    "description": "Rerun of edge_geom with TOTAL_EPOCHS=2667 to match 25.6M training events (vs 9.6M). BATCH_SIZE=48.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0194,
+        "val_precision": 0.9434,
+        "val_recall": 0.9552,
+        "val_p_at_r095": 0.9502
+      },
+      "final": {
+        "val_loss": 0.0196,
+        "val_precision": 0.9434,
+        "val_recall": 0.9492,
+        "val_p_at_r095": 0.9426
+      }
+    },
+    "epochs": 2667,
+    "path": "2026-06-29_mpnn_edge_geom_full_k4",
+    "input_features": 21,
+    "cheating_tres": false
+  },
+  {
+    "id": "MPNN_20260629_MASTER_EDGE3_LEARN8_K4",
+    "date": "2026-07-02",
+    "name": "General MPNN + mean master vertex + learnable edge 3x8 + k=4 (full 25.6M events)",
+    "params": 3121506,
+    "architecture": "Cross of MPNN_20260511_MASTER_VERTEX_EDGE12_FC_K4 (mean master vertex on all 4 layers, star+FC last) with MPNN_20260511_EDGE3_LEARNABLE8_K4 (edge embedding = concat_k(e_k * w_k) in R^24, w_k in R^8 per layer, from dt,dr,s2). Master-star edges use zero geometry. Head on hit nodes only.",
+    "description": "Full-data (2667 ep, 25.6M events) cross of learnable edges + master. NB: the 9.6M attention-master cross (MPNN_20260624_EDGE_LEARN8_MASTER_K4) showed no synergy (0.9406); with enough data this mean-master cross reaches 0.9542, near the series leader.",
+    "metrics": {
+      "best": {
+        "val_loss": 0.0176,
+        "val_precision": 0.9474,
+        "val_recall": 0.9577,
+        "val_p_at_r095": 0.9542
+      },
+      "final": {
+        "val_loss": 0.0196,
+        "val_precision": 0.9492,
+        "val_recall": 0.9457,
+        "val_p_at_r095": 0.9451
+      }
+    },
+    "epochs": 2667,
+    "path": "2026-06-29_mpnn_master_edge3_learn8_k4",
     "input_features": 21,
     "cheating_tres": false
   }
